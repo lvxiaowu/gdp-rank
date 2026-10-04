@@ -9,6 +9,7 @@ import type {
   RankingResult,
   RegionResult,
   SortKey,
+  Stat,
   UserDoc,
 } from "@/types";
 import { CLOUD_ENV } from "@/config";
@@ -38,6 +39,8 @@ async function call<T>(action: string, data?: object): Promise<T> {
 export const api = {
   boot: (regionsVersion?: string) => call<BootResult>("boot", { regionsVersion }),
   home: (favorites: string[]) => call<HomeResult>("home", { favorites }),
+  /** 一组地区各自最新一期的数据 */
+  latest: (codes: string[]) => call<Stat[]>("latest", { codes }),
   ranking: (q: {
     level: Level;
     year: number;

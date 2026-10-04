@@ -177,12 +177,16 @@ const error = ref("");
 let loadedVersion = -1;
 let leftForDetail = false;
 
-/** 当前期次该层级没数据时，切到该层级最新一期 */
-function ensurePeriod() {
+/**
+ * 当前期次该层级没数据时，切到该层级最新一期。
+ * 切换层级时（strict）还要求数据量够：城市季度数据常常只有直辖市几条，不适合作为默认期次。
+ */
+function ensurePeriod(strict = false) {
   const doc = state.year ? findPeriod(state.year, state.period) : null;
   const count = doc ? (state.level === "province" ? doc.province_count : doc.city_count) : 0;
-  if (!count) {
-    const latest = latestPeriodFor(state.level);
+  const latest = latestPeriodFor(state.level);
+  const enough = !strict || state.level === "province" || count >= (latest?.city_count ?? 0) * 0.5;
+  if (!count || !enough) {
     if (latest) {
       state.year = latest.year;
       state.period = latest.period;
@@ -219,6 +223,8 @@ onShow(() => {
   if (loadedVersion !== state.version || !result.value) {
     loadedVersion = state.version;
     result.value = null;
+    // 从外部带层级进来但没指定期次时，按切换层级的规则选期次
+    if (!state.year) ensurePeriod(true);
     load();
   }
   if (leftForDetail) {
@@ -235,7 +241,8 @@ function changeLevel(level: string) {
   state.level = level as Level;
   state.sort = "gdp";
   state.order = "desc";
-  ensurePeriod();
+  result.value = null;
+  ensurePeriod(true);
   load();
 }
 function changePeriod(v: { year: number; period: PeriodKey }) {
@@ -366,14 +373,12 @@ onShareAppMessage(() =>
       ? {
           kind: "rank",
           title: `${periodLabel(state.year, state.period)} ${state.level === "province" ? "各省" : "城市"}GDP排名`,
-          rows: result.value.items
-            .slice(0, 5)
-            .map((s) => ({
-              rank: s.rank ?? null,
-              name: s.short_name,
-              gdp: s.gdp,
-              growth: s.real_growth,
-            })),
+          rows: result.value.items.slice(0, 5).map((s) => ({
+            rank: s.rank ?? null,
+            name: s.short_name,
+            gdp: s.gdp,
+            growth: s.real_growth,
+          })),
         }
       : undefined
   )

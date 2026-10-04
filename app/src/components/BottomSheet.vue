@@ -64,7 +64,8 @@ const close = () => emit("close");
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  /* H5 的 TabBar 在页面内，需要让出高度；小程序里该变量为 0 */
+  bottom: var(--window-bottom, 0);
   max-height: 85vh;
   display: flex;
   flex-direction: column;

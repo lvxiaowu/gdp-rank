@@ -46,6 +46,7 @@ const emit = defineEmits<{ (e: "action"): void }>();
     width: 160rpx;
     height: 160rpx;
     left: 0;
+    top: 0;
     background: $color-primary-light;
   }
   .c2 {

@@ -113,6 +113,12 @@ async function home(src, { favorites = [] } = {}) {
   return { latest, provinceTop, growthTop, favorites: favStats };
 }
 
+// 一组地区各自最新一期的数据（收藏列表用）
+async function latest(src, { codes = [] } = {}) {
+  const list = await Promise.all(codes.slice(0, 50).map((c) => latestStatOf(src, c)));
+  return list.filter(Boolean);
+}
+
 async function ranking(
   src,
   { level = "province", year, period, scope = "all", sort = "gdp", order = "desc" }
@@ -295,7 +301,7 @@ async function user(src, { op, key, value } = {}) {
   return doc;
 }
 
-const actions = { boot, home, ranking, region, compare, user };
+const actions = { boot, home, latest, ranking, region, compare, user };
 
 export async function handle(src, action, data) {
   const fn = actions[action];

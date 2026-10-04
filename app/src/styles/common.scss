@@ -1,4 +1,13 @@
 /* 全局通用样式，App.vue 引入 */
+view,
+text,
+scroll-view,
+input,
+button,
+image {
+  box-sizing: border-box;
+}
+
 page {
   background: $color-bg;
   color: $color-text;

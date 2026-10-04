@@ -1,0 +1,16 @@
+{
+  "description": "微信开发者工具请导入 gdp-rank 根目录：小程序代码来自 uni-app 编译产物，云函数在 cloudfunctions/",
+  "miniprogramRoot": "app/dist/mp-weixin/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "compileType": "miniprogram",
+  "appid": "touristappid",
+  "projectname": "gdp-rank",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "minified": true,
+    "postcss": false
+  },
+  "packOptions": { "ignore": [] },
+  "libVersion": ""
+}

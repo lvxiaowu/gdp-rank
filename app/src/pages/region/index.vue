@@ -280,7 +280,7 @@ const metrics = computed(() => {
     {
       label: "全国排名",
       value: `第 ${s.rank_national}${s.rank_change ? ` ${fmtRankChange(s.rank_change)}` : ""}`,
-      cls: trendClass(s.rank_change),
+      cls: s.rank_change ? trendClass(s.rank_change) : "",
     },
   ];
   if (isCity.value) {
