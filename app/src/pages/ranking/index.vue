@@ -82,10 +82,10 @@
       <EmptyState
         v-if="error"
         type="error"
-        title="网络不太好"
-        desc="请检查网络后重试"
+        title="加载失败"
+        :desc="error || '请检查网络后重试'"
         action-text="重新加载"
-        @action="load"
+        @action="retryLoad"
       />
       <view v-else-if="state.metric === 'population' && loading && !populationResult" class="card">
         <SkeletonList :rows="10" />
@@ -297,14 +297,32 @@ async function loadPopulation() {
   loading.value = true;
   error.value = "";
   try {
-    await boot();
-    const res = await api.populationRanking({ scope: state.scope });
+    const request = async () => {
+      await boot();
+      // 兼容尚未更新的云函数版本；新版服务端会忽略此参数并自动选择最新年份。
+      return api.populationRanking({ scope: state.scope, year: 2020 });
+    };
+    let res: PopulationRankingResult;
+    try {
+      res = await request();
+    } catch (firstError) {
+      if (my !== seq) return;
+      // 小程序云函数首次唤醒偶尔会失败，稍候重试一次，避免用户手动重载。
+      await new Promise((resolve) => setTimeout(resolve, 350));
+      if (my !== seq) return;
+      res = await request();
+    }
     if (my === seq) populationResult.value = res;
   } catch (err) {
     if (my === seq) error.value = (err as Error).message;
   } finally {
     if (my === seq) loading.value = false;
   }
+}
+
+function retryLoad() {
+  if (state.metric === "population") loadPopulation();
+  else load();
 }
 
 onShow(() => {

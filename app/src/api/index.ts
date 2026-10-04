@@ -51,7 +51,7 @@ export const api = {
     sort: SortKey;
     order: "asc" | "desc";
   }) => call<RankingResult>("ranking", q),
-  populationRanking: (q: { scope: string }) =>
+  populationRanking: (q: { scope: string; year?: number }) =>
     call<PopulationRankingResult>("populationRanking", q),
   region: (code: string, year?: number, period?: PeriodKey) =>
     call<RegionResult>("region", { code, year, period }),
