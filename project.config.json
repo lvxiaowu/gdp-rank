@@ -1,5 +1,5 @@
 {
-  "description": "微信开发者工具请导入 gdp-rank 根目录：小程序代码来自 uni-app 编译产物，云函数在 cloudfunctions/",
+  "description": "开发源码在此仓库；预览/编译小程序请导入 app/dist/mp-weixin/，该目录内配置了云函数路径。",
   "miniprogramRoot": "app/dist/mp-weixin/",
   "cloudfunctionRoot": "cloudfunctions/",
   "compileType": "miniprogram",
