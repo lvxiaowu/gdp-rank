@@ -53,7 +53,9 @@ function createSource(openid) {
       await db
         .collection("user_data")
         .doc(openid)
-        .set({ ...rest, updated_at: db.serverDate() });
+        // wx-server-sdk 的 Document.set 参数必须包在 data 字段中。
+        // 直接传文档内容会触发 `parameter.data should be object instead of undefined`。
+        .set({ data: { ...rest, updated_at: db.serverDate() } });
     },
   };
 }
