@@ -34,7 +34,7 @@
       </view>
 
       <!-- ② 期次 -->
-      <view class="period-row">
+      <view v-if="data.year && data.period" class="period-row">
         <PeriodPicker
           :level="data.region.level"
           :year="data.year"
@@ -43,7 +43,12 @@
           @change="(v) => load(v.year, v.period)"
         />
         <text v-if="cur?.source === 'manual'" class="source-hint">地方统计部门数据</text>
+        <text v-else-if="cur?.source === 'city-yearbook'" class="source-hint"
+          >城市统计年鉴数据</text
+        >
+        <text v-else-if="cur?.source === 'city-ranking'" class="source-hint">各地公布数据汇总</text>
       </view>
+      <view v-else class="period-row muted small">暂无已收录数据</view>
 
       <!-- ③ 核心数据 -->
       <view class="card core">
@@ -62,8 +67,12 @@
           </view>
         </template>
         <view v-else class="core-pending">
-          <text class="pending-title">{{ periodLabel(data.year, data.period) }}数据待公布</text>
-          <view class="btn plain" @tap="load()">查看最近一期</view>
+          <text class="pending-title">{{
+            data.year && data.period
+              ? `${periodLabel(data.year, data.period)}数据暂无收录`
+              : "暂无已收录数据"
+          }}</text>
+          <view v-if="data.history.length" class="btn plain" @tap="load()">查看最近一期</view>
         </view>
       </view>
 
@@ -145,12 +154,28 @@
             class="child-seg"
           />
         </view>
-        <view v-if="!data.children.length" class="muted small">本期城市数据待公布</view>
+        <view v-if="!data.children.length" class="muted small">暂无已收录的城市 GDP 数据</view>
+        <view
+          v-else-if="data.childrenYear !== data.year || data.childrenPeriod !== data.period"
+          class="muted small pad"
+        >
+          当前期次暂无城市数据，以下为 {{ data.childrenYear }} 年全年数据（{{
+            data.children.length
+          }}
+          / {{ data.childrenTotal }} 个城市）
+        </view>
+        <view v-if="data.children.length" class="child child-head" aria-hidden="true">
+          <text class="c-rank">排名</text>
+          <text class="c-name">城市</text>
+          <text class="c-gdp">GDP 总量</text>
+          <text class="c-growth">实际增速</text>
+          <text class="c-share">全国占比</text>
+        </view>
         <view
           v-for="(s, i) in shownChildren"
           :key="s.code"
           class="child"
-          @tap="goRegion(s.code, data.year, data.period)"
+          @tap="goRegion(s.code, data.childrenYear, data.childrenPeriod)"
         >
           <text class="c-rank num">{{ i + 1 }}</text>
           <text class="c-name">{{ s.short_name }}</text>
@@ -161,10 +186,15 @@
           <text class="c-share num">{{ fmtShare(s.share) }}</text>
         </view>
         <view
-          v-if="data.children.length < data.childrenTotal && data.children.length"
+          v-if="
+            data.children.length < data.childrenTotal &&
+            data.children.length &&
+            data.childrenYear === data.year &&
+            data.childrenPeriod === data.period
+          "
           class="muted small pad"
         >
-          另有 {{ data.childrenTotal - data.children.length }} 个城市本期待公布
+          另有 {{ data.childrenTotal - data.children.length }} 个城市本期数据暂无收录
         </view>
         <view
           v-if="sortedChildren.length > 10"
@@ -306,9 +336,12 @@ const shownChildren = computed(() =>
   childrenExpanded.value ? sortedChildren.value : sortedChildren.value.slice(0, 10)
 );
 
-const sourceText = computed(() =>
-  cur.value?.source === "manual" ? "数据来源：地方统计部门公开数据" : "数据来源：国家统计局"
-);
+const sourceText = computed(() => {
+  if (cur.value?.source === "manual") return "数据来源：地方统计部门公开数据";
+  if (cur.value?.source === "city-yearbook") return "数据来源：中国城市统计年鉴";
+  if (cur.value?.source === "city-ranking") return "数据来源：聚汇数据整理（各地统计局公开数据）";
+  return "数据来源：国家统计局";
+});
 
 async function load(year?: number, period?: PeriodKey) {
   error.value = "";
@@ -554,6 +587,19 @@ onShareTimeline(() => ({
     margin: 0 -16rpx;
     padding: 0 16rpx;
     border-radius: 12rpx;
+  }
+}
+.child-head {
+  height: 64rpx;
+  color: $color-text-3;
+  font-size: 22rpx;
+  font-weight: 400;
+  .c-rank,
+  .c-name,
+  .c-share {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
   }
 }
 .c-rank {

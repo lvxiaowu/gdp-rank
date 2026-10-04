@@ -1,5 +1,6 @@
 // 所有数据请求的唯一出口。
-// 小程序：调用云函数 api；H5（本地预览）：直接用 ../data/output 的数据跑同一份 core.mjs 逻辑。
+// 已配置 CLOUD_ENV：微信端调用云函数 api。
+// 未配置：H5 / 微信开发者工具都读 ../data/output，跑同一份 core.mjs。
 import type {
   BootResult,
   CompareResult,
@@ -13,18 +14,14 @@ import type {
   UserDoc,
 } from "@/types";
 import { CLOUD_ENV } from "@/config";
-// #ifdef H5
 import { mockCall } from "./mock";
-// #endif
 
 let cloudInited = false;
 
 async function call<T>(action: string, data?: object): Promise<T> {
-  // #ifdef H5
-  return (await mockCall(action, data)) as T;
-  // #endif
+  // H5 始终走本地数据；微信端未填云环境 ID 时同样走本地，方便开发者工具预览
+  if (!CLOUD_ENV) return (await mockCall(action, data)) as T;
   // #ifdef MP-WEIXIN
-  if (!CLOUD_ENV) throw new Error("未配置云开发环境 ID，请修改 src/config.ts");
   if (!cloudInited) {
     wx.cloud.init({ env: CLOUD_ENV, traceUser: false });
     cloudInited = true;
@@ -34,6 +31,10 @@ async function call<T>(action: string, data?: object): Promise<T> {
   if (!result?.ok) throw new Error(result?.message || "服务异常，请稍后再试");
   return result.data;
   // #endif
+  // #ifdef H5
+  return (await mockCall(action, data)) as T;
+  // #endif
+  throw new Error("当前环境不支持该请求");
 }
 
 export const api = {

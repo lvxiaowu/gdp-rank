@@ -43,7 +43,7 @@ export interface Stat {
   rank_province: number | null;
   rank_change: number | null;
   share: number | null;
-  source: "nbs" | "manual";
+  source: "nbs" | "manual" | "city-yearbook" | "city-ranking";
   source_url: string;
   published_at: string | null;
   /** 榜单按当前排序方式计算的名次 */
@@ -88,6 +88,8 @@ export interface RegionResult {
   history: Stat[];
   children: Stat[];
   childrenTotal: number;
+  childrenYear: number;
+  childrenPeriod: PeriodKey;
   nearby: Stat[];
   municipalityCity: { code: string; rank_national: number | null } | null;
 }

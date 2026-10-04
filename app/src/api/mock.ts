@@ -1,6 +1,9 @@
-// 仅 H5 本地预览使用：读取数据脚本生成的 ../data/output/*.json，用与云函数相同的 core.mjs 处理请求。
-// 用户数据存在 localStorage。小程序构建通过条件编译剔除本文件。
+// 本地预览：读取 data/output/*.json，用与云函数相同的 core.mjs 处理请求。
+// 未配置云环境 ID 时，H5 和微信开发者工具都走这里；用户数据存在本地 storage。
 import { handle } from "@core";
+import regionsData from "@data/regions.json";
+import statsData from "@data/gdp_stats.json";
+import periodsData from "@data/periods.json";
 import type { AppConfig, Period, Region, Stat, UserDoc } from "@/types";
 
 interface MockData {
@@ -9,19 +12,11 @@ interface MockData {
   periods: Period[];
 }
 
-let loading: Promise<MockData> | null = null;
-function load() {
-  loading ??= Promise.all([
-    import("@data/regions.json"),
-    import("@data/gdp_stats.json"),
-    import("@data/periods.json"),
-  ]).then(([r, s, p]) => ({
-    regions: r.default as unknown as Region[],
-    stats: s.default as unknown as MockData["stats"],
-    periods: p.default as unknown as Period[],
-  }));
-  return loading;
-}
+const mockData: MockData = {
+  regions: regionsData as unknown as Region[],
+  stats: statsData as unknown as MockData["stats"],
+  periods: periodsData as unknown as Period[],
+};
 
 // 本地预览用的运营配置，线上在云数据库 app_config 集合里维护
 const MOCK_CONFIG: AppConfig = {
@@ -41,7 +36,7 @@ const MOCK_CONFIG: AppConfig = {
 const USER_KEY = "mock_user";
 
 export async function mockCall(action: string, data?: object) {
-  const db = await load();
+  const db = mockData;
   const src = {
     regions: async () => db.regions,
     periods: async () => db.periods,
@@ -49,8 +44,8 @@ export async function mockCall(action: string, data?: object) {
     statsByPeriod: async (level: string, year: number, period: string) =>
       db.stats.filter((s) => s.level === level && s.year === year && s.period === period),
     statsByRegion: async (code: string) => db.stats.filter((s) => s.region_code === code),
-    getUser: async () => JSON.parse(localStorage.getItem(USER_KEY) || "null") as UserDoc | null,
-    saveUser: async (doc: UserDoc) => localStorage.setItem(USER_KEY, JSON.stringify(doc)),
+    getUser: async () => (uni.getStorageSync(USER_KEY) || null) as UserDoc | null,
+    saveUser: async (doc: UserDoc) => uni.setStorageSync(USER_KEY, doc),
   };
   // 模拟网络延迟，方便看到加载态
   await new Promise((r) => setTimeout(r, 200));

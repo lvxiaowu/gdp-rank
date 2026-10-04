@@ -11,7 +11,7 @@
       v-if="error && !data"
       type="error"
       title="网络不太好"
-      desc="请检查网络后重试"
+      :desc="error || '请检查网络后重试'"
       action-text="重新加载"
       @action="load"
     />

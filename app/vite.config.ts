@@ -2,10 +2,15 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import uni from "@dcloudio/vite-plugin-uni";
 
-// H5 本地预览时直接读取 ../data/output 和 ../cloudfunctions/api/core.mjs（见 src/api/mock.ts）。
-// 小程序构建通过条件编译剔除这些引用，不会打进包里。
+// 本地预览读取 ../data/output 和 ../cloudfunctions/api/core.mjs（见 src/api/mock.ts）。
+// 配置了 CLOUD_ENV 后线上走云函数；未配置时微信包会带上这份本地数据。
 export default defineConfig({
   plugins: [uni()],
+  build: {
+    rollupOptions: {
+      output: {},
+    },
+  },
   resolve: {
     alias: {
       "@data": fileURLToPath(new URL("../data/output", import.meta.url)),

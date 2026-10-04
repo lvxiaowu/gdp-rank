@@ -86,13 +86,13 @@
         </template>
 
         <view v-if="result.pending.length" class="pending">
-          <view class="pending-title">待公布（{{ result.pending.length }}）</view>
+          <view class="pending-title">本期暂无数据（{{ result.pending.length }}）</view>
           <view v-for="p in result.pending" :key="p.code" class="pending-row" @tap="open(p.code)">
             <text>{{ p.short_name }}</text>
             <text class="pending-sub">{{
               state.level === "city" ? parentName(p.parent_code) : ""
             }}</text>
-            <text class="tag">待公布</text>
+            <text class="tag">暂无数据</text>
           </view>
         </view>
       </view>
@@ -279,7 +279,7 @@ const overview = computed(() => {
   const unit = state.level === "province" ? "省" : "城";
   const scope =
     state.level === "city" && state.scope !== "all" ? `${scopeLabel(state.scope)} · ` : "";
-  return `${scope}共 ${result.value.total} ${unit} · 已公布 ${result.value.published}`;
+  return `${scope}共 ${result.value.total} ${unit} · 已收录 ${result.value.published}`;
 });
 
 function subText(s: Stat) {

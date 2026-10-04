@@ -6,10 +6,10 @@
     "label": "2026年上半年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 4,
+    "city_count": 173,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2026_Q1",
@@ -20,8 +20,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2025_FY",
@@ -30,10 +30,10 @@
     "label": "2025年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 4,
+    "city_count": 201,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2025_Q3",
@@ -44,8 +44,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2025_H1",
@@ -56,8 +56,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2025_Q1",
@@ -68,8 +68,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2024_FY",
@@ -80,8 +80,8 @@
     "province_total": 31,
     "city_count": 36,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2024_Q3",
@@ -92,8 +92,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2024_H1",
@@ -104,8 +104,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2024_Q1",
@@ -116,8 +116,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2023_FY",
@@ -126,10 +126,10 @@
     "label": "2023年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 36,
+    "city_count": 296,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2023_Q3",
@@ -140,8 +140,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2023_H1",
@@ -152,8 +152,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2023_Q1",
@@ -164,8 +164,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2022_FY",
@@ -174,10 +174,10 @@
     "label": "2022年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 36,
+    "city_count": 296,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2022_Q3",
@@ -188,8 +188,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2022_H1",
@@ -200,8 +200,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2022_Q1",
@@ -212,8 +212,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2021_FY",
@@ -222,10 +222,10 @@
     "label": "2021年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 36,
+    "city_count": 295,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2021_Q3",
@@ -236,8 +236,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2021_H1",
@@ -248,8 +248,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2021_Q1",
@@ -260,8 +260,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2020_FY",
@@ -270,10 +270,10 @@
     "label": "2020年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 36,
+    "city_count": 296,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2020_Q3",
@@ -284,8 +284,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2020_H1",
@@ -296,8 +296,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2020_Q1",
@@ -308,8 +308,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2019_FY",
@@ -318,10 +318,10 @@
     "label": "2019年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 36,
+    "city_count": 296,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2019_Q3",
@@ -332,8 +332,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2019_H1",
@@ -344,8 +344,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2019_Q1",
@@ -356,8 +356,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2018_FY",
@@ -366,10 +366,10 @@
     "label": "2018年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 36,
+    "city_count": 295,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2018_Q3",
@@ -380,8 +380,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2018_H1",
@@ -392,8 +392,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2018_Q1",
@@ -404,8 +404,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2017_FY",
@@ -416,8 +416,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2017_Q3",
@@ -428,8 +428,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2017_H1",
@@ -440,8 +440,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2017_Q1",
@@ -452,8 +452,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2016_FY",
@@ -462,10 +462,10 @@
     "label": "2016年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 4,
+    "city_count": 290,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2016_Q3",
@@ -476,8 +476,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2016_H1",
@@ -488,8 +488,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2016_Q1",
@@ -500,8 +500,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2015_FY",
@@ -510,10 +510,10 @@
     "label": "2015年全年",
     "province_count": 31,
     "province_total": 31,
-    "city_count": 4,
+    "city_count": 290,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2015_Q3",
@@ -524,8 +524,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2015_H1",
@@ -536,8 +536,8 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   },
   {
     "_id": "2015_Q1",
@@ -548,7 +548,7 @@
     "province_total": 31,
     "city_count": 4,
     "city_total": 336,
-    "status": "complete",
-    "updated_at": "2026-10-04T01:57:58.879Z"
+    "status": "partial",
+    "updated_at": "2026-10-04T04:50:52.152Z"
   }
 ]

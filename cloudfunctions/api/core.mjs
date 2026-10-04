@@ -170,6 +170,8 @@ async function region(src, { code, year, period }) {
     history,
     children: [],
     childrenTotal: 0,
+    childrenYear: year,
+    childrenPeriod: period,
     nearby: [],
     municipalityCity: null,
   };
@@ -189,6 +191,23 @@ async function region(src, { code, year, period }) {
       .filter((s) => s.parent_code === code)
       .map(pickStat)
       .sort((a, b) => b.gdp - a.gdp);
+    if (result.children.length === 0) {
+      // 当前期次没有城市数据时，选择该省覆盖最多的最近年度供参考，并在页面标明年份。
+      const candidates = (await src.periods())
+        .filter((p) => p.period === "FY" && p.year <= year && p.city_count > 0)
+        .sort((a, b) => b.city_count - a.city_count || b.year - a.year);
+      for (const candidate of candidates) {
+        const children = (await src.statsByPeriod("city", candidate.year, "FY"))
+          .filter((s) => s.parent_code === code)
+          .map(pickStat)
+          .sort((a, b) => b.gdp - a.gdp);
+        if (!children.length) continue;
+        result.children = children;
+        result.childrenYear = candidate.year;
+        result.childrenPeriod = "FY";
+        break;
+      }
+    }
   } else if (current) {
     const all = (await src.statsByPeriod("city", year, period))
       .map(pickStat)

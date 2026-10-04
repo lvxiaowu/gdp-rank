@@ -52,7 +52,62 @@ for (const r of raw("city-year")) {
   put(r.code, r.year, "FY", r.gdp, null, nbs);
 }
 
-// 3. 人工录入（覆盖接口数据）
+// 3. 全市年度历史值：城市统计年鉴快照补充国家统计局 36 个主要城市范围外的数据。
+// 只补缺口；优先保留 NBS 城市年度接口已有记录。
+const cityYearbook = readJson(p("raw/city-yearbook.json"), { rows: [] });
+const yearbookSource = {
+  type: "city-yearbook",
+  url: cityYearbook.source_url,
+  note: "中国城市统计年鉴全市年度 GDP；实际增速取年鉴 GDP 增长率，未公布年份留空",
+};
+for (const row of cityYearbook.rows) {
+  const region = regions.find(
+    (r) => r.level === "city" && (r.name === row.name || r.short_name === row.name)
+  );
+  if (!region || records.has(keyOf(region.code, row.year, row.period))) continue;
+  put(region.code, row.year, row.period, row.gdp, row.real_growth, yearbookSource);
+}
+
+// 4. 2025 年地方已发布 GDP 汇总：仅补国家统计局 36 城接口缺失记录。
+// 汇总页只提供 GDP 总量和名义同比；名义增速由本地年度序列计算，绝不当作实际增速。
+const cityRanking = readJson(p("raw/city-gdp-ranking-2025.json"), { rows: [] });
+const rankingSource = {
+  type: "city-ranking",
+  url: cityRanking.source_url,
+  note: cityRanking.note,
+};
+let rankingImported = 0;
+for (const row of cityRanking.rows) {
+  const region = regions.find(
+    (r) => r.level === "city" && (r.name === row.name || r.short_name === row.name)
+  );
+  if (!region || records.has(keyOf(region.code, cityRanking.year, cityRanking.period))) continue;
+  put(region.code, cityRanking.year, cityRanking.period, row.gdp, null, rankingSource);
+  rankingImported += 1;
+}
+console.log(`2025 城市汇总补充：${rankingImported} 条`);
+
+// 5. 2026 年上半年城市 GDP 汇总：多地已发布，但国家接口未提供完整地级市半年值。
+// 汇总快照只纳入可核实的 GDP 和明确标注的实际增速；缺失增速保持 null。
+const cityHalfYear = readJson(p("raw/city-gdp-ranking-2026-h1.json"), { rows: [] });
+let halfYearImported = 0;
+for (const row of cityHalfYear.rows) {
+  const region = regions.find(
+    (r) =>
+      r.level === "city" &&
+      (r.code === row.code || r.name === row.name || r.short_name === row.name)
+  );
+  if (!region || records.has(keyOf(region.code, cityHalfYear.year, cityHalfYear.period))) continue;
+  put(region.code, cityHalfYear.year, cityHalfYear.period, row.gdp, row.real_growth, {
+    type: "city-ranking",
+    url: row.source_url,
+    note: cityHalfYear.note,
+  });
+  halfYearImported += 1;
+}
+console.log(`2026 上半年城市汇总补充：${halfYearImported} 条`);
+
+// 6. 人工录入（覆盖接口数据、年鉴和汇总数据）
 const manualErrors = [];
 const findRegion = (level, name, province) => {
   const clean = (s) => String(s ?? "").trim();
@@ -95,13 +150,13 @@ if (manualErrors.length) {
   process.exit(1);
 }
 
-// 4. 全国总量（算省份占全国比重）
+// 5. 全国总量（算省份占全国比重）
 const national = new Map();
 for (const r of [...raw("national-quarter"), ...raw("national-year")]) {
   if (r.gdp != null) national.set(`${r.year}_${r.period}`, r.gdp);
 }
 
-// 5. 计算统计值
+// 6. 计算统计值
 const visible = (code) => !regionByCode.get(code)?.tags.includes("hidden");
 const allRecords = [...records.values()].filter((r) => r.gdp != null && visible(r.region_code));
 
@@ -168,7 +223,7 @@ const stats = allRecords.map((r) => {
   };
 });
 
-// 6. 期次发布状态
+// 7. 期次发布状态
 const provinceTotal = regions.filter((r) => r.level === "province").length;
 const cityTotal = regions.filter((r) => r.level === "city" && visible(r.code)).length;
 const periods = [...Map.groupBy(stats, (s) => `${s.year}_${s.period}`)]
@@ -186,7 +241,11 @@ const periods = [...Map.groupBy(stats, (s) => `${s.year}_${s.period}`)]
       city_count: cityCount,
       city_total: cityTotal,
       status:
-        provinceCount >= provinceTotal ? "complete" : provinceCount > 0 ? "partial" : "unpublished",
+        provinceCount >= provinceTotal && cityCount >= cityTotal
+          ? "complete"
+          : provinceCount > 0 || cityCount > 0
+            ? "partial"
+            : "unpublished",
       updated_at: updatedAt,
     };
   })

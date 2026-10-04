@@ -1,5 +1,5 @@
 // 云开发环境 ID：微信开发者工具 → 云开发 → 设置 → 环境 ID。
-// 留空时小程序无法读取数据；H5 本地预览不受影响（直接读 ../data/output）。
+// 留空时走本地 data/output（H5 和微信开发者工具都能预览）；填了才会调用云函数。
 export const CLOUD_ENV = "";
 
 export const APP_NAME = "省市GDP排行";

@@ -25,6 +25,15 @@
     </view>
 
     <view class="card">
+      <view class="card-title"><text>城市年度数据覆盖</text></view>
+      <text class="p"
+        >城市年度 GDP 优先采用国家统计局数据，历史缺口以《中国城市统计年鉴》全市口径补充；2025
+        年再以聚汇数据整理的各地统计局公开值补充，目前覆盖 201 个城市。该汇总只收录前 200
+        名，其他城市仍待补。实际增速只展示有明确来源的数据，不把名义同比当作实际增速；缺失年份不使用市辖区数据或估算值补齐。</text
+      >
+    </view>
+
+    <view class="card">
       <view class="card-title"><text>发布时间</text></view>
       <view v-for="r in releases" :key="r.period" class="release">
         <text class="r-period">{{ r.period }}</text>
