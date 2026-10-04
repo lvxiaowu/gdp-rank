@@ -14,7 +14,8 @@
     "validate": "node scripts/validate.mjs",
     "upload": "node scripts/upload.mjs",
     "upload:dry": "node scripts/upload.mjs --dry-run",
-    "all": "npm run regions && npm run fetch && npm run build && npm run validate"
+    "all": "npm run regions && npm run fetch && npm run build && npm run validate",
+    "audit": "node scripts/audit-coverage.mjs"
   },
   "dependencies": {
     "@cloudbase/node-sdk": "^3.18.3",

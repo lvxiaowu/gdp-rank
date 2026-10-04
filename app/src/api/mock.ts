@@ -2,9 +2,9 @@
 // 未配置云环境 ID 时，H5 和微信开发者工具都走这里；用户数据存在本地 storage。
 import { handle } from "@core";
 import regionsData from "@data/regions.json";
-import statsData from "@data/gdp_stats.json";
+import compactStatsData from "@data/gdp_mock_compact.json";
 import periodsData from "@data/periods.json";
-import type { AppConfig, Period, Region, Stat, UserDoc } from "@/types";
+import type { AppConfig, Period, PeriodKey, Region, Stat, UserDoc } from "@/types";
 
 interface MockData {
   regions: Region[];
@@ -12,9 +12,57 @@ interface MockData {
   periods: Period[];
 }
 
+type CompactStatRow = [
+  number,
+  number,
+  PeriodKey,
+  number,
+  number | null,
+  number | null,
+  number | null,
+  number,
+  number | null,
+  number | null,
+  number | null,
+  number,
+  number,
+  string | null,
+];
+const compactStats = compactStatsData as {
+  sources: MockData["stats"][number]["source"][];
+  urls: string[];
+  rows: CompactStatRow[];
+};
+const regions = regionsData as unknown as Region[];
+const regionByIndex = regions;
+const stats = compactStats.rows.map((row) => {
+  const region = regionByIndex[row[0]];
+  return {
+    region_code: region.code,
+    level: region.level,
+    name: region.name,
+    short_name: region.short_name,
+    parent_code: region.parent_code,
+    tags: region.tags,
+    year: row[1],
+    period: row[2],
+    gdp: row[3],
+    real_growth: row[4],
+    increment: row[5],
+    nominal_growth: row[6],
+    rank_national: row[7],
+    rank_province: row[8],
+    rank_change: row[9],
+    share: row[10],
+    source: compactStats.sources[row[11]],
+    source_url: compactStats.urls[row[12]],
+    published_at: row[13],
+  };
+});
+
 const mockData: MockData = {
-  regions: regionsData as unknown as Region[],
-  stats: statsData as unknown as MockData["stats"],
+  regions,
+  stats: stats as unknown as MockData["stats"],
   periods: periodsData as unknown as Period[],
 };
 

@@ -226,7 +226,7 @@
       <!-- ⑧ AD-03 / AD-04 -->
       <AdSlot :slot-id="isCity ? 'AD-04' : 'AD-03'" type="banner" />
       <!-- ⑨ 来源 -->
-      <SourceFooter :text="sourceText" :updated-at="cur?.published_at" />
+      <SourceFooter :text="sourceText" />
     </template>
   </view>
 </template>

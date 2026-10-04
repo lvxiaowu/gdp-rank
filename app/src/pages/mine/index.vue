@@ -44,7 +44,6 @@
 
     <view class="about">
       <text>{{ APP_NAME }} v{{ version }}</text>
-      <text>数据整理自公开资料，如有出入以统计部门发布为准</text>
     </view>
   </view>
 </template>

@@ -1,0 +1,1700 @@
+{
+  "source_name": "聚汇数据全国各地级市GDP排行榜（2024年前200名）",
+  "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+  "coverage": "仅2024年前200名，不是全量城市；GDP总量用于补充项目内没有记录的城市；不采信该榜单的增速列",
+  "note": "第三方汇总榜单，页面标注数据来源为各市统计局。仅在缺少国家统计局及城市统计年鉴记录时补入2024年总量。历史榜单抽查存在与官方历史资料不一致的数值，因此不用于2015-2023补录。未找到同一可比来源的同期总量时，不计算增量和名义增速；不将榜单增速作为实际增速。",
+  "rows": [
+    {
+      "name": "深圳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 36801.8699,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 1,
+      "real_growth": 5.8,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "广州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 30903.42,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 2,
+      "real_growth": 2.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "苏州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 26726.98,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 3,
+      "real_growth": 6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "成都",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 23519.46,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 4,
+      "real_growth": 5.7,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "杭州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 21860.3156,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 5,
+      "real_growth": 4.7,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "武汉",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 21106.23,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 6,
+      "real_growth": 5.2,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "南京",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 18593.77,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 7,
+      "real_growth": 4.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "宁波",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 18147.6959,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 8,
+      "real_growth": 5.4,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "青岛",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 16719.39,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 9,
+      "real_growth": 5.7,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "无锡",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 16222.79,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 10,
+      "real_growth": 5.8,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "长沙",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 15268.78,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 11,
+      "real_growth": 5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "郑州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 14569.6,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 12,
+      "real_growth": 5.7,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "福州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 14236.76,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 13,
+      "real_growth": 6.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "济南",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 13527.55,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 14,
+      "real_growth": 5.4,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "合肥",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 13507.69,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 15,
+      "real_growth": 6.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "西安",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 13369.14,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 16,
+      "real_growth": 4.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "佛山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 13230.18,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 17,
+      "real_growth": 1.3,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "泉州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 13094.87,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 18,
+      "real_growth": 6.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "南通",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 12421.8944,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 19,
+      "real_growth": 6.2,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "东莞",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 12348.61,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 20,
+      "real_growth": 4.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "常州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 10789.7,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 21,
+      "real_growth": 6.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "烟台",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 10762.87,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 22,
+      "real_growth": 6.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "唐山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 10002.9,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 23,
+      "real_growth": 5.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "温州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 9718.846,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 24,
+      "real_growth": 6.3,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "大连",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 9540.2,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 25,
+      "real_growth": 5.2,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "徐州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 9537.12,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 26,
+      "real_growth": 6.4,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "沈阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 9032.5,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 27,
+      "real_growth": 5.2,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "厦门",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 8589.01,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 28,
+      "real_growth": 5.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "绍兴",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 8368.6047,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 29,
+      "real_growth": 6.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "昆明",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 8257.64,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 30,
+      "real_growth": 4,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "石家庄",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 8203.5,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 31,
+      "real_growth": 5.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "潍坊",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 8203.2,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 32,
+      "real_growth": 5.9,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "扬州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 7809.64,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 33,
+      "real_growth": 6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "南昌",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 7800.37,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 34,
+      "real_growth": 4.9,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "盐城",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 7738.16,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 35,
+      "real_growth": 5.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "长春",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 7605.61,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 36,
+      "real_growth": 4.8,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "嘉兴",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 7569.53,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 37,
+      "real_growth": 5.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "榆林",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 7548.68,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 38,
+      "real_growth": 6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "泰州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 7020.95,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 39,
+      "real_growth": 5.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "金华",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6890.43,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 40,
+      "real_growth": 6.3,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "台州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6651.2,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 41,
+      "real_growth": 6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "临沂",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6555.79,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 42,
+      "real_growth": 5.7,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "鄂尔多斯",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6363.0292,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 43,
+      "real_growth": 6.4,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "宜昌",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6191.12,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 44,
+      "real_growth": 6.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "惠州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6183.02,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 45,
+      "real_growth": 4.2,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "襄阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6102.41,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 46,
+      "real_growth": 5.9,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-4621"
+    },
+    {
+      "name": "漳州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6063.71,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 47
+    },
+    {
+      "name": "哈尔滨",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 6016.33,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 48
+    },
+    {
+      "name": "南宁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5991.47,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 49
+    },
+    {
+      "name": "济宁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5844,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 50
+    },
+    {
+      "name": "洛阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5825.86,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 51
+    },
+    {
+      "name": "贵阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5777.41,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 52
+    },
+    {
+      "name": "镇江",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5540.01,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 53
+    },
+    {
+      "name": "太原",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5418.87,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 54
+    },
+    {
+      "name": "淮安",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5413.02,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 55
+    },
+    {
+      "name": "保定",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5265.7,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 56
+    },
+    {
+      "name": "芜湖",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5120.47,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 57
+    },
+    {
+      "name": "岳阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5113.83,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 58
+    },
+    {
+      "name": "遵义",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5027.61,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 59
+    },
+    {
+      "name": "赣州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4940.47,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 60
+    },
+    {
+      "name": "南阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4888.74,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 61
+    },
+    {
+      "name": "淄博",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4884.08,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 62
+    },
+    {
+      "name": "菏泽",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4802.58,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 63
+    },
+    {
+      "name": "宿迁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4801.85,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 64
+    },
+    {
+      "name": "沧州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4722.4,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 65
+    },
+    {
+      "name": "邯郸",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4703.8,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 66
+    },
+    {
+      "name": "连云港",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4663.13,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 67
+    },
+    {
+      "name": "包头",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4575.2,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 68
+    },
+    {
+      "name": "常德",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4532.75,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 69
+    },
+    {
+      "name": "乌鲁木齐",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4502.16,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 70
+    },
+    {
+      "name": "珠海",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4501.31,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 71
+    },
+    {
+      "name": "衡阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4480.98,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 72
+    },
+    {
+      "name": "绵阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4344.03,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 73
+    },
+    {
+      "name": "东营",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4307.99,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 74
+    },
+    {
+      "name": "湖州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4213.42,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 75
+    },
+    {
+      "name": "江门",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4202.68,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 76
+    },
+    {
+      "name": "中山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4132.93,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 77
+    },
+    {
+      "name": "呼和浩特",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4107.08,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 78
+    },
+    {
+      "name": "茂名",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4043.55,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 79
+    },
+    {
+      "name": "德州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4035.99,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 80
+    },
+    {
+      "name": "滁州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4034.39,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 81
+    },
+    {
+      "name": "九江",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4024.83,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 82
+    },
+    {
+      "name": "宜宾",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 4008.01,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 83
+    },
+    {
+      "name": "廊坊",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3904.6,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 84
+    },
+    {
+      "name": "宁德",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3901.99,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 85
+    },
+    {
+      "name": "株洲",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3876.18,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 86
+    },
+    {
+      "name": "湛江",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3830.14,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 87
+    },
+    {
+      "name": "兰州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3742.25,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 88
+    },
+    {
+      "name": "威海",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3724.77,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 89
+    },
+    {
+      "name": "上饶",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3723.7,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 90
+    },
+    {
+      "name": "宜春",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3713.67,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 91
+    },
+    {
+      "name": "曲靖",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3666.4,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 92
+    },
+    {
+      "name": "周口",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3635.62,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 93
+    },
+    {
+      "name": "泰安",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3622.11,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 94
+    },
+    {
+      "name": "阜阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3609.8278,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 95
+    },
+    {
+      "name": "新乡",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3552.92,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 96
+    },
+    {
+      "name": "荆州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3505.99,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 97
+    },
+    {
+      "name": "龙岩",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3418.68,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 98
+    },
+    {
+      "name": "许昌",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3413.92,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 99
+    },
+    {
+      "name": "滨州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3404.74,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 100
+    },
+    {
+      "name": "莆田",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3383.6,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 101
+    },
+    {
+      "name": "驻马店",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3352.55,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 102
+    },
+    {
+      "name": "郴州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3323.39,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 103
+    },
+    {
+      "name": "商丘",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3272.2672,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 104
+    },
+    {
+      "name": "伊犁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3270.38,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 105
+    },
+    {
+      "name": "德阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3256.07,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 106
+    },
+    {
+      "name": "孝感",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3246.61,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 107
+    },
+    {
+      "name": "黄冈",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3216.65,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 108
+    },
+    {
+      "name": "汕头",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3167.97,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 109
+    },
+    {
+      "name": "聊城",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3161.63,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 110
+    },
+    {
+      "name": "安庆",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3156.05,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 111
+    },
+    {
+      "name": "信阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3058.23,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 112
+    },
+    {
+      "name": "咸阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3000.36,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 113
+    },
+    {
+      "name": "红河",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2979.13,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 114
+    },
+    {
+      "name": "柳州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2955.08,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 115
+    },
+    {
+      "name": "湘潭",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2952.52,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 116
+    },
+    {
+      "name": "银川",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2946.65,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 117
+    },
+    {
+      "name": "邵阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2926.25,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 118
+    },
+    {
+      "name": "肇庆",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2917.85,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 119
+    },
+    {
+      "name": "吉安",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2917.27,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 120
+    },
+    {
+      "name": "泸州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2836.52,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 121
+    },
+    {
+      "name": "南充",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2835.8,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 122
+    },
+    {
+      "name": "平顶山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2827.28,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 123
+    },
+    {
+      "name": "达州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2821.3,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 124
+    },
+    {
+      "name": "大庆",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2798.8,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 125
+    },
+    {
+      "name": "马鞍山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2780.3,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 126
+    },
+    {
+      "name": "邢台",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2765.9,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 127
+    },
+    {
+      "name": "开封",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2751.32,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 128
+    },
+    {
+      "name": "永州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2692.38,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 129
+    },
+    {
+      "name": "安阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2657.5,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 130
+    },
+    {
+      "name": "三明",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2651.61,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 131
+    },
+    {
+      "name": "吕梁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2643.2412,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 132
+    },
+    {
+      "name": "玉溪",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2582.05,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 133
+    },
+    {
+      "name": "长治",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2579,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 134
+    },
+    {
+      "name": "桂林",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2566.3900000000003,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 135
+    },
+    {
+      "name": "十堰",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2565.8368,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 136
+    },
+    {
+      "name": "日照",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2548.51,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 137
+    },
+    {
+      "name": "乐山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2532.5347,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 138
+    },
+    {
+      "name": "宝鸡",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2525.48,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 139
+    },
+    {
+      "name": "亳州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2521.63,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 140
+    },
+    {
+      "name": "昌吉",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2509.23,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 141
+    },
+    {
+      "name": "揭阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2501,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 142
+    },
+    {
+      "name": "凉山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2480.73,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 143
+    },
+    {
+      "name": "海口",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2470.6254,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 144
+    },
+    {
+      "name": "荆门",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2459.68,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 145
+    },
+    {
+      "name": "宿州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2457.26,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 146
+    },
+    {
+      "name": "毕节",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2451.72,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 147
+    },
+    {
+      "name": "晋中",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2445.5,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 148
+    },
+    {
+      "name": "临汾",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2425.1,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 149
+    },
+    {
+      "name": "晋城",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2409.78,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 150
+    },
+    {
+      "name": "枣庄",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2380.26,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 151
+    },
+    {
+      "name": "延安",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2369.93,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 152
+    },
+    {
+      "name": "焦作",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2369.2157,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 153
+    },
+    {
+      "name": "玉林",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2343.45,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 154
+    },
+    {
+      "name": "赤峰",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2328.3,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 155
+    },
+    {
+      "name": "蚌埠",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2313.03,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 156
+    },
+    {
+      "name": "六安",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2310.1,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 157
+    },
+    {
+      "name": "黄石",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2305.81,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 158
+    },
+    {
+      "name": "益阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2268.18,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 159
+    },
+    {
+      "name": "衢州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2261.23,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 160
+    },
+    {
+      "name": "清远",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2253.07,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 161
+    },
+    {
+      "name": "舟山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2226.2363,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 162
+    },
+    {
+      "name": "丽水",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2181.18,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 163
+    },
+    {
+      "name": "运城",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2178.5,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 164
+    },
+    {
+      "name": "抚州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2175.02,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 165
+    },
+    {
+      "name": "鞍山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2156.32,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 166
+    },
+    {
+      "name": "渭南",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2154.56,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 167
+    },
+    {
+      "name": "娄底",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2128.85,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 168
+    },
+    {
+      "name": "秦皇岛",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2119.5236,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 169
+    },
+    {
+      "name": "怀化",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2093.82,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 170
+    },
+    {
+      "name": "南平",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2090.3,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 171
+    },
+    {
+      "name": "宣城",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2053.5,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 172
+    },
+    {
+      "name": "百色",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2030.22,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 173
+    },
+    {
+      "name": "濮阳",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2025.4,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 174
+    },
+    {
+      "name": "昭通",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2016.91,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 175
+    },
+    {
+      "name": "大理州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2004.7,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 176
+    },
+    {
+      "name": "楚雄",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2000.83,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 177
+    },
+    {
+      "name": "承德",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1962.6,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 178
+    },
+    {
+      "name": "衡水",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1956.9,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 179
+    },
+    {
+      "name": "阿克苏",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1953.98,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 180
+    },
+    {
+      "name": "黔南",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1947.16,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 181
+    },
+    {
+      "name": "内江",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1936.44,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 182
+    },
+    {
+      "name": "张家口",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1913.3,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 183
+    },
+    {
+      "name": "咸宁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1911.36,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 184
+    },
+    {
+      "name": "汉中",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1909.9,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 185
+    },
+    {
+      "name": "北海",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1907.73,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 186
+    },
+    {
+      "name": "眉山",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1880.1,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 187
+    },
+    {
+      "name": "自贡",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1875.36,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 188
+    },
+    {
+      "name": "遂宁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1865.39,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 189
+    },
+    {
+      "name": "西宁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1862.09,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 190
+    },
+    {
+      "name": "钦州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1858.81,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 191
+    },
+    {
+      "name": "漯河",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1853.6,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 192
+    },
+    {
+      "name": "大同",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1792.5,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 193
+    },
+    {
+      "name": "呼伦贝尔",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1730.67,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 194
+    },
+    {
+      "name": "淮南",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1716.03,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 195
+    },
+    {
+      "name": "六盘水",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1703.7,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 196
+    },
+    {
+      "name": "巴州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1692.45,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 197
+    },
+    {
+      "name": "通辽",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1689.6,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 198
+    },
+    {
+      "name": "恩施州",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1661.36,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 199
+    },
+    {
+      "name": "铜仁",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1648.6,
+      "source_url": "https://api.gotohui.com/ranking/gdp/city/2024",
+      "rank": 200
+    }
+  ]
+}

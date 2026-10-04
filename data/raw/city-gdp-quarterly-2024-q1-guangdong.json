@@ -1,0 +1,26 @@
+{
+  "note": "聚汇数据整理广东各市统计局发布的2024年一季度GDP及2023年同期值，覆盖广东省21个地级市。",
+  "rows": [
+    {"name":"深圳","year":2024,"period":"Q1","gdp":8314.98,"previous_gdp":7772.19,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"广州","year":2024,"period":"Q1","gdp":7161.14,"previous_gdp":6963.92,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"佛山","year":2024,"period":"Q1","gdp":2872.63,"previous_gdp":2872.9,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"东莞","year":2024,"period":"Q1","gdp":2752.68,"previous_gdp":2544.95,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"惠州","year":2024,"period":"Q1","gdp":1248.71,"previous_gdp":1201.21,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"珠海","year":2024,"period":"Q1","gdp":1046.64,"previous_gdp":968.19,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"茂名","year":2024,"period":"Q1","gdp":927.91,"previous_gdp":913.36,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"中山","year":2024,"period":"Q1","gdp":892.75,"previous_gdp":857.95,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"江门","year":2024,"period":"Q1","gdp":884.54,"previous_gdp":857.92,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"湛江","year":2024,"period":"Q1","gdp":835.26,"previous_gdp":830.54,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"汕头","year":2024,"period":"Q1","gdp":696.12,"previous_gdp":695.62,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"肇庆","year":2024,"period":"Q1","gdp":573.1,"previous_gdp":555.2,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"揭阳","year":2024,"period":"Q1","gdp":559.73,"previous_gdp":512.11,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"清远","year":2024,"period":"Q1","gdp":479.04,"previous_gdp":448.99,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"韶关","year":2024,"period":"Q1","gdp":378.42,"previous_gdp":370.43,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"阳江","year":2024,"period":"Q1","gdp":358.1,"previous_gdp":347.43,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"汕尾","year":2024,"period":"Q1","gdp":347.03,"previous_gdp":320.07,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"梅州","year":2024,"period":"Q1","gdp":314.04,"previous_gdp":302.11,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"河源","year":2024,"period":"Q1","gdp":308.16,"previous_gdp":303.09,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"潮州","year":2024,"period":"Q1","gdp":297.76,"previous_gdp":291.98,"source_url":"https://gdp.gotohui.com/topic-3601"},
+    {"name":"云浮","year":2024,"period":"Q1","gdp":261.02,"previous_gdp":248.07,"source_url":"https://gdp.gotohui.com/topic-3601"}
+  ]
+}

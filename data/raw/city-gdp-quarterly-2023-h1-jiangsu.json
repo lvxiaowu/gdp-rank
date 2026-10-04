@@ -1,0 +1,18 @@
+{
+  "note": "聚汇数据整理江苏省统计局发布的2023年上半年各市GDP及2022年同期值，覆盖江苏13个设区市。原页面未列实际增速，故留空。",
+  "rows": [
+    {"name":"苏州","year":2023,"period":"H1","gdp":11458.4,"previous_gdp":10962.4,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"南京","year":2023,"period":"H1","gdp":8316.9,"previous_gdp":7879.4,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"无锡","year":2023,"period":"H1","gdp":7105.7,"previous_gdp":6714.8,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"南通","year":2023,"period":"H1","gdp":6032.4,"previous_gdp":5663.6,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"常州","year":2023,"period":"H1","gdp":4525.4,"previous_gdp":4264.6,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"徐州","year":2023,"period":"H1","gdp":4009.1,"previous_gdp":3719.1,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"扬州","year":2023,"period":"H1","gdp":3417.4,"previous_gdp":3239.4,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"盐城","year":2023,"period":"H1","gdp":3413.4,"previous_gdp":3229.8,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"泰州","year":2023,"period":"H1","gdp":3208.8,"previous_gdp":3028.6,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"镇江","year":2023,"period":"H1","gdp":2635.1,"previous_gdp":2475.7,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"淮安","year":2023,"period":"H1","gdp":2432.1,"previous_gdp":2272.7,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"连云港","year":2023,"period":"H1","gdp":1955.9,"previous_gdp":1737.7,"source_url":"https://gdp.gotohui.com/topic-2523"},
+    {"name":"宿迁","year":2023,"period":"H1","gdp":1920.6,"previous_gdp":1749.6,"source_url":"https://gdp.gotohui.com/topic-2523"}
+  ]
+}

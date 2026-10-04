@@ -2,6 +2,7 @@
 // 输出云数据库要用的四个集合：regions / gdp_records / gdp_stats / periods（json + jsonl 两份）。
 import { PERIODS, PERIOD_LABEL, MUNICIPALITIES } from "../lib/config.mjs";
 import { p, readJson, readCsv, writeJson, writeJsonl, round } from "../lib/io.mjs";
+import fs from "node:fs";
 
 const updatedAt = new Date().toISOString();
 const regions = readJson(p("output/regions.json"));
@@ -25,6 +26,10 @@ function put(code, year, period, gdp, realGrowth, source) {
     period,
     gdp: gdp ?? prev?.gdp ?? null,
     real_growth: realGrowth ?? prev?.real_growth ?? null,
+    real_growth_source_url:
+      realGrowth != null
+        ? (source.real_growth_source_url ?? source.url)
+        : (prev?.real_growth_source_url ?? null),
     source: source.type,
     source_url: source.url,
     published_at: source.published_at ?? null,
@@ -68,27 +73,96 @@ for (const row of cityYearbook.rows) {
   put(region.code, row.year, row.period, row.gdp, row.real_growth, yearbookSource);
 }
 
-// 4. 2025 年地方已发布 GDP 汇总：仅补国家统计局 36 城接口缺失记录。
-// 汇总页只提供 GDP 总量和名义同比；名义增速由本地年度序列计算，绝不当作实际增速。
-const cityRanking = readJson(p("raw/city-gdp-ranking-2025.json"), { rows: [] });
-const rankingSource = {
-  type: "city-ranking",
-  url: cityRanking.source_url,
-  note: cityRanking.note,
+// 4. 城市年度排行榜补充：优先保留国家统计局和城市统计年鉴原始数据，
+// 榜单只补空缺。榜单没有可靠的实际增速口径，不能将其同比列写作实际增速。
+const cityAnnualRanking = readJson(p("raw/city-gdp-ranking-annual.json"), { rows: [] });
+const cityAliases = { 巴州: "巴音郭楞", 大理州: "大理", 恩施州: "恩施" };
+const findCity = (row) => {
+  const name = cityAliases[row.name] ?? row.name;
+  return regions.find(
+    (r) => r.level === "city" && (r.code === row.code || r.name === name || r.short_name === name)
+  );
 };
+let annualRankingImported = 0;
+for (const row of cityAnnualRanking.rows) {
+  const region = findCity(row);
+  if (!region) continue;
+  const key = keyOf(region.code, row.year, "FY");
+  if (records.has(key)) {
+    const existing = records.get(key);
+    if (existing.real_growth == null && row.real_growth != null) {
+      existing.real_growth = Number(row.real_growth);
+      existing.real_growth_source_url = row.real_growth_source_url ?? row.source_url;
+    }
+    continue;
+  }
+  put(region.code, row.year, "FY", row.gdp, row.real_growth, {
+    type: "city-ranking-annual",
+    url: row.source_url,
+    real_growth_source_url: row.real_growth_source_url,
+    note: cityAnnualRanking.note,
+  });
+  annualRankingImported += 1;
+}
+
+// 2025 年最新城市榜单；其上一年基数取同一榜单体系的 2024 年结果。
+const cityRanking = readJson(p("raw/city-gdp-ranking-2025.json"), { rows: [] });
 let rankingImported = 0;
 for (const row of cityRanking.rows) {
-  const region = regions.find(
-    (r) => r.level === "city" && (r.name === row.name || r.short_name === row.name)
-  );
-  if (!region || records.has(keyOf(region.code, cityRanking.year, cityRanking.period))) continue;
-  put(region.code, cityRanking.year, cityRanking.period, row.gdp, null, rankingSource);
+  const region = findCity(row);
+  if (!region) continue;
+  const key = keyOf(region.code, cityRanking.year, cityRanking.period);
+  if (records.has(key)) {
+    const existing = records.get(key);
+    if (existing.real_growth == null && row.real_growth != null) {
+      existing.real_growth = Number(row.real_growth);
+      existing.real_growth_source_url = row.real_growth_source_url ?? cityRanking.source_url;
+    }
+    continue;
+  }
+  put(region.code, cityRanking.year, cityRanking.period, row.gdp, row.real_growth, {
+    type: "city-ranking",
+    url: cityRanking.source_url,
+    real_growth_source_url: row.real_growth_source_url,
+    note: cityRanking.note,
+  });
   rankingImported += 1;
 }
-console.log(`2025 城市汇总补充：${rankingImported} 条`);
+console.log(`城市年度汇总补充：${annualRankingImported + rankingImported} 条（2024-2025）`);
 
-// 5. 2026 年上半年城市 GDP 汇总：多地已发布，但国家接口未提供完整地级市半年值。
-// 汇总快照只纳入可核实的 GDP 和明确标注的实际增速；缺失增速保持 null。
+// 5. 地级市季度/半年公开值快照。国家统计局城市库没有分市季度序列，
+// 因此用各市统计部门发布汇总页补缺；保留逐行来源和同期基数，未发布实际增速留空。
+const externalPreviousGdp = new Map();
+const cityQuarter = readJson(p("raw/city-gdp-ranking-2026-q1.json"), { rows: [] });
+let quarterImported = 0;
+for (const row of cityQuarter.rows) {
+  const region = findCity(row);
+  if (!region) continue;
+  if (row.previous_gdp != null) {
+    externalPreviousGdp.set(
+      keyOf(region.code, cityQuarter.year - 1, cityQuarter.period),
+      Number(row.previous_gdp)
+    );
+  }
+  const key = keyOf(region.code, cityQuarter.year, cityQuarter.period);
+  if (records.has(key)) {
+    const existing = records.get(key);
+    if (existing.real_growth == null && row.real_growth != null) {
+      existing.real_growth = Number(row.real_growth);
+      existing.real_growth_source_url = row.real_growth_source_url ?? row.source_url;
+    }
+    continue;
+  }
+  put(region.code, cityQuarter.year, cityQuarter.period, row.gdp, row.real_growth, {
+    type: "city-ranking-quarter",
+    url: row.source_url,
+    real_growth_source_url: row.real_growth_source_url,
+    note: cityQuarter.note,
+  });
+  quarterImported += 1;
+}
+console.log(`2026 一季度城市汇总补充：${quarterImported} 条`);
+
 const cityHalfYear = readJson(p("raw/city-gdp-ranking-2026-h1.json"), { rows: [] });
 let halfYearImported = 0;
 for (const row of cityHalfYear.rows) {
@@ -97,7 +171,14 @@ for (const row of cityHalfYear.rows) {
       r.level === "city" &&
       (r.code === row.code || r.name === row.name || r.short_name === row.name)
   );
-  if (!region || records.has(keyOf(region.code, cityHalfYear.year, cityHalfYear.period))) continue;
+  if (!region) continue;
+  if (row.previous_gdp != null) {
+    externalPreviousGdp.set(
+      keyOf(region.code, cityHalfYear.year - 1, cityHalfYear.period),
+      Number(row.previous_gdp)
+    );
+  }
+  if (records.has(keyOf(region.code, cityHalfYear.year, cityHalfYear.period))) continue;
   put(region.code, cityHalfYear.year, cityHalfYear.period, row.gdp, row.real_growth, {
     type: "city-ranking",
     url: row.source_url,
@@ -107,7 +188,45 @@ for (const row of cityHalfYear.rows) {
 }
 console.log(`2026 上半年城市汇总补充：${halfYearImported} 条`);
 
-// 6. 人工录入（覆盖接口数据、年鉴和汇总数据）
+// 7. 历史季度城市榜单快照：逐期收录有城市明细和来源链接的公开榜单，
+// 不用年度值反推季度值；已存在的国家统计局数据优先保留。
+let historicalQuarterImported = 0;
+const quarterlySnapshots = fs
+  .readdirSync(p("raw"))
+  .filter((name) => /^city-gdp-quarterly-.*\.json$/.test(name))
+  .sort();
+for (const file of quarterlySnapshots) {
+  const snapshot = readJson(p(`raw/${file}`), { rows: [] });
+  for (const row of snapshot.rows) {
+    const region = findCity(row);
+    if (!region) continue;
+    const { year, period } = row;
+    if (row.previous_gdp != null) {
+      externalPreviousGdp.set(keyOf(region.code, year - 1, period), Number(row.previous_gdp));
+    }
+    const key = keyOf(region.code, year, period);
+    if (records.has(key)) {
+      const existing = records.get(key);
+      if (existing.real_growth == null && row.real_growth != null) {
+        existing.real_growth = Number(row.real_growth);
+        existing.real_growth_source_url = row.source_url;
+      }
+      continue;
+    }
+    put(region.code, year, period, row.gdp, row.real_growth, {
+      type: "city-ranking-quarter",
+      url: row.source_url,
+      note: snapshot.note,
+    });
+    historicalQuarterImported += 1;
+  }
+}
+if (quarterlySnapshots.length)
+  console.log(
+    `历史季度城市汇总补充：${historicalQuarterImported} 条（${quarterlySnapshots.length} 个快照）`
+  );
+
+// 8. 人工录入（覆盖接口数据、年鉴和汇总数据）
 const manualErrors = [];
 const findRegion = (level, name, province) => {
   const clean = (s) => String(s ?? "").trim();
@@ -189,8 +308,10 @@ for (const [k, list] of groups) {
 const stats = allRecords.map((r) => {
   const region = regionByCode.get(r.region_code);
   const prev = records.get(keyOf(r.region_code, r.year - 1, r.period));
-  const increment = prev?.gdp != null ? round(r.gdp - prev.gdp, 0) : null;
-  const nominal = prev?.gdp ? round(((r.gdp - prev.gdp) / prev.gdp) * 100, 1) : null;
+  const previousGdp =
+    prev?.gdp ?? externalPreviousGdp.get(keyOf(r.region_code, r.year - 1, r.period));
+  const increment = previousGdp != null ? round(r.gdp - previousGdp, 0) : null;
+  const nominal = previousGdp ? round(((r.gdp - previousGdp) / previousGdp) * 100, 1) : null;
   const rankNational = nationalRanks.get(groupKey(r)).get(r.region_code);
   const prevRank = nationalRanks.get(`${r.level}_${r.year - 1}_${r.period}`)?.get(r.region_code);
   let share = null;
@@ -262,6 +383,37 @@ for (const [name, rows] of Object.entries(outputs)) {
   writeJson(p(`output/${name}.json`), rows);
   writeJsonl(p(`output/jsonl/${name}.jsonl`), rows);
 }
+
+// 本地微信预览只需随包携带压缩后的统计行，避免把重复字段和来源 URL
+// 内嵌进 JS 后超过小程序主包 2 MB 限制。云端导入仍使用完整 gdp_stats。
+const compactSources = [...new Set(stats.map((s) => s.source))];
+const compactUrls = [...new Set(stats.map((s) => s.source_url))];
+const regionIndex = new Map(regions.map((r, i) => [r.code, i]));
+const sourceIndex = new Map(compactSources.map((s, i) => [s, i]));
+const urlIndex = new Map(compactUrls.map((s, i) => [s, i]));
+const compactStats = {
+  sources: compactSources,
+  urls: compactUrls,
+  // [regionIndex, year, period, gdp, realGrowth, increment, nominalGrowth,
+  //  rankNational, rankProvince, rankChange, share, sourceIndex, urlIndex, publishedAt]
+  rows: stats.map((s) => [
+    regionIndex.get(s.region_code),
+    s.year,
+    s.period,
+    s.gdp,
+    s.real_growth,
+    s.increment,
+    s.nominal_growth,
+    s.rank_national,
+    s.rank_province,
+    s.rank_change,
+    s.share,
+    sourceIndex.get(s.source),
+    urlIndex.get(s.source_url),
+    s.published_at,
+  ]),
+};
+fs.writeFileSync(p("output/gdp_mock_compact.json"), JSON.stringify(compactStats));
 
 const latest = periods.find((x) => x.province_count > 0);
 console.log(

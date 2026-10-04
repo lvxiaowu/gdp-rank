@@ -10,277 +10,369 @@
       "rank": 1,
       "name": "深圳",
       "gdp": 38731.8,
-      "yoy": 5.24
+      "yoy": 5.24,
+      "real_growth": 4.84,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 2,
       "name": "广州",
       "gdp": 32039.46,
-      "yoy": 3.68
+      "yoy": 3.68,
+      "real_growth": 3.68,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 3,
       "name": "苏州",
       "gdp": 27695.09,
-      "yoy": 3.62
+      "yoy": 3.62,
+      "real_growth": 3.86,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 4,
       "name": "成都",
       "gdp": 24763.61,
-      "yoy": 5.29
+      "yoy": 5.29,
+      "real_growth": 5.29,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 5,
       "name": "杭州",
       "gdp": 23010.9,
-      "yoy": 5.26
+      "yoy": 5.26,
+      "real_growth": 5.26,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 6,
       "name": "武汉",
       "gdp": 22147.35,
-      "yoy": 4.93
+      "yoy": 4.93,
+      "real_growth": 4.93,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 7,
       "name": "南京",
       "gdp": 19428.78,
-      "yoy": 4.49
+      "yoy": 4.49,
+      "real_growth": 4.49,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 8,
       "name": "宁波",
       "gdp": 18715.7,
-      "yoy": 3.13
+      "yoy": 3.13,
+      "real_growth": 3.13,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 9,
       "name": "青岛",
       "gdp": 17560.67,
-      "yoy": 5.03
+      "yoy": 5.03,
+      "real_growth": 5.03,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 10,
       "name": "无锡",
       "gdp": 16773.94,
-      "yoy": 3.4
+      "yoy": 3.4,
+      "real_growth": 3.4,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 11,
       "name": "长沙",
       "gdp": 15737.82,
-      "yoy": 3.07
+      "yoy": 3.07,
+      "real_growth": 3.07,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 12,
       "name": "郑州",
       "gdp": 15244.6,
-      "yoy": 4.63
+      "yoy": 4.63,
+      "real_growth": 4.63,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 13,
       "name": "福州",
       "gdp": 15112.32,
-      "yoy": 6.15
+      "yoy": 6.15,
+      "real_growth": 6.15,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 14,
       "name": "济南",
       "gdp": 14210,
-      "yoy": 5.04
+      "yoy": 5.04,
+      "real_growth": 5.04,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 15,
       "name": "合肥",
       "gdp": 14210,
-      "yoy": 5.2
+      "yoy": 5.2,
+      "real_growth": 5.2,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 16,
       "name": "西安",
       "gdp": 13902.67,
-      "yoy": 3.99
+      "yoy": 3.99,
+      "real_growth": 3.99,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 17,
       "name": "泉州",
       "gdp": 13778.34,
-      "yoy": 5.22
+      "yoy": 5.22,
+      "real_growth": 5.22,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 18,
       "name": "佛山",
       "gdp": 13157.35,
-      "yoy": -0.55
+      "yoy": -0.55,
+      "real_growth": -0.55,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 19,
       "name": "南通",
       "gdp": 12801.5,
-      "yoy": 3.06
+      "yoy": 3.06,
+      "real_growth": 3.06,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 20,
       "name": "东莞",
       "gdp": 12760.2,
-      "yoy": 3.33
+      "yoy": 3.33,
+      "real_growth": 3.33,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 21,
       "name": "烟台",
       "gdp": 11350.98,
-      "yoy": 5.46
+      "yoy": 5.46,
+      "real_growth": 5.46,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 22,
       "name": "常州",
       "gdp": 11158.71,
-      "yoy": 3.42
+      "yoy": 3.42,
+      "real_growth": 3.42,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 23,
       "name": "唐山",
       "gdp": 10450.2,
-      "yoy": 4.47
+      "yoy": 4.47,
+      "real_growth": 4.47,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 24,
       "name": "温州",
       "gdp": 10213.9,
-      "yoy": 5.09
+      "yoy": 5.09,
+      "real_growth": 5.09,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 25,
       "name": "大连",
       "gdp": 10002.1,
-      "yoy": 4.84
+      "yoy": 4.84,
+      "real_growth": 4.84,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 26,
       "name": "徐州",
       "gdp": 9957.22,
-      "yoy": 4.4
+      "yoy": 4.4,
+      "real_growth": 4.4,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 27,
       "name": "沈阳",
       "gdp": 9100.3,
-      "yoy": 0.75
+      "yoy": 0.75,
+      "real_growth": 0.75,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 28,
       "name": "厦门",
       "gdp": 8980.37,
-      "yoy": 4.56
+      "yoy": 4.56,
+      "real_growth": 4.56,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 29,
       "name": "绍兴",
       "gdp": 8932.13,
-      "yoy": 6.73
+      "yoy": 6.73,
+      "real_growth": 6.73,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 30,
       "name": "石家庄",
       "gdp": 8651.7,
-      "yoy": 5.46
+      "yoy": 5.46,
+      "real_growth": 5.46,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 31,
       "name": "昆明",
       "gdp": 8637.45,
-      "yoy": 4.6
+      "yoy": 4.6,
+      "real_growth": 4.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 32,
       "name": "潍坊",
       "gdp": 8587.36,
-      "yoy": 4.68
+      "yoy": 4.68,
+      "real_growth": 4.68,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 33,
       "name": "南昌",
       "gdp": 8141.69,
-      "yoy": 4.38
+      "yoy": 4.38,
+      "real_growth": 4.31,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 34,
       "name": "扬州",
       "gdp": 8056.75,
-      "yoy": 3.16
+      "yoy": 3.16,
+      "real_growth": 3.16,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 35,
       "name": "盐城",
       "gdp": 8045.28,
-      "yoy": 3.97
+      "yoy": 3.97,
+      "real_growth": 3.97,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 36,
       "name": "长春",
       "gdp": 8005.59,
-      "yoy": 5.26
+      "yoy": 5.26,
+      "real_growth": 5.26,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 37,
       "name": "嘉兴",
       "gdp": 7851.06,
-      "yoy": 3.72
+      "yoy": 3.72,
+      "real_growth": 3.72,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 38,
       "name": "榆林",
       "gdp": 7501.06,
-      "yoy": -0.63
+      "yoy": -0.63,
+      "real_growth": 0.66,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 39,
       "name": "金华",
       "gdp": 7313.47,
-      "yoy": 6.14
+      "yoy": 6.14,
+      "real_growth": 5.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 40,
       "name": "泰州",
       "gdp": 7255.27,
-      "yoy": 3.34
+      "yoy": 3.34,
+      "real_growth": 3.34,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 41,
       "name": "台州",
       "gdp": 7005.87,
-      "yoy": 5.33
+      "yoy": 5.33,
+      "real_growth": 5.25,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 42,
       "name": "临沂",
       "gdp": 6862.2,
-      "yoy": 4.67
+      "yoy": 4.67,
+      "real_growth": 4.67,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 43,
       "name": "宜昌",
       "gdp": 6464.42,
-      "yoy": 4.41
+      "yoy": 4.41,
+      "real_growth": 4.41,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 44,
       "name": "惠州",
       "gdp": 6363.66,
-      "yoy": 2.92
+      "yoy": 2.92,
+      "real_growth": 2.92,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 45,
       "name": "南宁",
       "gdp": 6212.46,
-      "yoy": 3.69
+      "yoy": 3.69,
+      "real_growth": 3.69,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 46,
       "name": "哈尔滨",
       "gdp": 6188.5,
-      "yoy": 2.86
+      "yoy": 2.86,
+      "real_growth": 3.11,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5491"
     },
     {
       "rank": 47,

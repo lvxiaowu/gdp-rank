@@ -129,7 +129,7 @@
         </scroll-view>
       </view>
 
-      <SourceFooter v-if="result" :updated-at="result.period?.updated_at" />
+      <SourceFooter v-if="result" />
     </view>
   </view>
 </template>

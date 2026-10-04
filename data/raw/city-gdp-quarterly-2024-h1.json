@@ -1,0 +1,15 @@
+{
+  "note": "聚汇数据整理各市统计局发布的2024年上半年全国前10城市榜单，含2023年同期值与实际增速。",
+  "rows": [
+    {"name":"上海","year":2024,"period":"H1","gdp":22345.59,"previous_gdp":21390.17,"real_growth":4.8,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"北京","year":2024,"period":"H1","gdp":21791.3,"previous_gdp":20621.3,"real_growth":5.4,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"深圳","year":2024,"period":"H1","gdp":17302.22,"previous_gdp":16297.6,"real_growth":6.4,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"重庆","year":2024,"period":"H1","gdp":15138.24,"previous_gdp":14345.95,"real_growth":6.1,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"广州","year":2024,"period":"H1","gdp":14297.66,"previous_gdp":14130.69,"real_growth":2.5,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"苏州","year":2024,"period":"H1","gdp":12059.4,"previous_gdp":11458.4,"real_growth":6.2,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"成都","year":2024,"period":"H1","gdp":11152.14,"previous_gdp":10705.49,"real_growth":4.8,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"杭州","year":2024,"period":"H1","gdp":10137,"previous_gdp":9601.53,"real_growth":4.8,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"武汉","year":2024,"period":"H1","gdp":9975.19,"previous_gdp":9503.33,"real_growth":5.3,"source_url":"https://gdp.gotohui.com/topic-4158"},
+    {"name":"南京","year":2024,"period":"H1","gdp":8607.42,"previous_gdp":8316.92,"real_growth":4.4,"source_url":"https://gdp.gotohui.com/topic-4158"}
+  ]
+}

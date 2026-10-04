@@ -1,0 +1,1375 @@
+{
+  "year": 2026,
+  "period": "Q1",
+  "unit": "亿元",
+  "source_name": "2026年一季度城市GDP公开榜单整理",
+  "note": "按全国前20榜单及四川、广东、安徽、河南、江西、广西、山东、江苏、云南、福建10省分市榜单整理。页面标注数据来源为各市统计局。名义增速根据当前总量与公开的2025年同期总量计算；实际增速仅采用明确列出的实际增长率。数据来源链接逐城市保留。",
+  "rows": [
+    {
+      "name": "阿坝",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 127.09,
+      "previous_gdp": 118.01,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "安庆",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 826.6,
+      "previous_gdp": 788.9,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "安阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 651,
+      "previous_gdp": 625.5,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "巴中",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 196.47,
+      "previous_gdp": 184.63,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "百色",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 498.39,
+      "previous_gdp": 484.66,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "蚌埠",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 626.6,
+      "previous_gdp": 587.5,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "保山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 280.44,
+      "previous_gdp": 274.21,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "北海",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 459.59,
+      "previous_gdp": 435.84,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "北京",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 12931.5,
+      "previous_gdp": 12131,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5.9,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "滨州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 823,
+      "previous_gdp": 792.98,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "亳州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 686.6,
+      "previous_gdp": 656.1,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "常州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2544.02,
+      "previous_gdp": 2416.88,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "潮州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 325.41,
+      "previous_gdp": 313.74,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "成都",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 6311.36,
+      "previous_gdp": 5930.35,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5.7,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "池州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 310.6,
+      "previous_gdp": 289,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "重庆",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 7923.49,
+      "previous_gdp": 7549,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 4.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "崇左",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 338.74,
+      "previous_gdp": 335.09,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "滁州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1073,
+      "previous_gdp": 1017.56,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "楚雄",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 484.8,
+      "previous_gdp": 482.51,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "达州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 635.6,
+      "previous_gdp": 594.49,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "大理",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 474.73,
+      "previous_gdp": 461.15,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "德宏",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 177.05,
+      "previous_gdp": 167.99,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "德阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 800.23,
+      "previous_gdp": 771.11,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "德州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1053.33,
+      "previous_gdp": 1011.07,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "迪庆",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 87.33,
+      "previous_gdp": 85.04,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "东莞",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3098.77,
+      "previous_gdp": 2981.58,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "东营",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1114.87,
+      "previous_gdp": 1032.76,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "防城港",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 290.07,
+      "previous_gdp": 262.15,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "佛山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2923.14,
+      "previous_gdp": 3041.95,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "福州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3075.38,
+      "previous_gdp": 2857.34,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "抚州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 552.68,
+      "previous_gdp": 506.42,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 6.2,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "阜阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 965,
+      "previous_gdp": 909.9,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "甘孜",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 146.61,
+      "previous_gdp": 135.08,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "赣州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1243.2,
+      "previous_gdp": 1129.65,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 6.9,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "广安",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 395.26,
+      "previous_gdp": 377.65,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "广元",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 295.34,
+      "previous_gdp": 282.35,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "广州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 7988.88,
+      "previous_gdp": 7532.51,
+      "source_url": "https://gdp.gotohui.com/topic-5593",
+      "real_growth": 6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "贵港",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 387.57,
+      "previous_gdp": 368.41,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "桂林",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 628.39,
+      "previous_gdp": 590.4,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "杭州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 6109,
+      "previous_gdp": 5715.43,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "合肥",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3229.6,
+      "previous_gdp": 3003.88,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 6.8,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "河池",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 341.88,
+      "previous_gdp": 321.33,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "河源",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 331.4,
+      "previous_gdp": 325.87,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "菏泽",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1178.71,
+      "previous_gdp": 1140.91,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "贺州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 227.32,
+      "previous_gdp": 221.78,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "鹤壁",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 289.3,
+      "previous_gdp": 271.23,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "红河",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 758.69,
+      "previous_gdp": 723.87,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "淮安",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1378.82,
+      "previous_gdp": 1358.31,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "淮北",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 347.6,
+      "previous_gdp": 335.2,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "淮南",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 418.5,
+      "previous_gdp": 404.3,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "黄山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 284.8,
+      "previous_gdp": 266.24,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "惠州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1456.92,
+      "previous_gdp": 1400.18,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "吉安",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 699.4,
+      "previous_gdp": 666.3,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 1.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "济南",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3281.5,
+      "previous_gdp": 3091.26,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5.9,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "济宁",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1476.21,
+      "previous_gdp": 1393.73,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "江门",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 954.18,
+      "previous_gdp": 917.23,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "焦作",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 595.7,
+      "previous_gdp": 561.7,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "揭阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 586.21,
+      "previous_gdp": 578.04,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "景德镇",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 305.4,
+      "previous_gdp": 296.27,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 0.4,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "九江",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1032.26,
+      "previous_gdp": 963.23,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 4.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "开封",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 668.51,
+      "previous_gdp": 632.99,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "昆明",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2235.36,
+      "previous_gdp": 2148.34,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "来宾",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 245.01,
+      "previous_gdp": 230.34,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "乐山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 574.95,
+      "previous_gdp": 579.78,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "丽江",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 176.77,
+      "previous_gdp": 170.48,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "连云港",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1121.14,
+      "previous_gdp": 1043.09,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "凉山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 600.97,
+      "previous_gdp": 576.61,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "聊城",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 788.91,
+      "previous_gdp": 752.1,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "临沧",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 224.85,
+      "previous_gdp": 224.81,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "临沂",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1583.57,
+      "previous_gdp": 1510.4,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "柳州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 768.44,
+      "previous_gdp": 720.03,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "六安",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 618.6,
+      "previous_gdp": 583.8,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "龙岩",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 966.1,
+      "previous_gdp": 887.16,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "泸州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 637.05,
+      "previous_gdp": 597.22,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "洛阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1457.95,
+      "previous_gdp": 1355.4,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "漯河",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 528.2,
+      "previous_gdp": 497.4,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "马鞍山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 746.1,
+      "previous_gdp": 706.93,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "茂名",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 969.38,
+      "previous_gdp": 953,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "眉山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 477.03,
+      "previous_gdp": 447.7,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "梅州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 367.58,
+      "previous_gdp": 345.67,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "绵阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1097.82,
+      "previous_gdp": 1035.71,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "南昌",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1855.31,
+      "previous_gdp": 1726.05,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "南充",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 621.67,
+      "previous_gdp": 614.79,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "南京",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 4939.6,
+      "previous_gdp": 4718.7,
+      "source_url": "https://gdp.gotohui.com/topic-5643",
+      "real_growth": 5.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "南宁",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1618.89,
+      "previous_gdp": 1508.09,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "南平",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 564.84,
+      "previous_gdp": 536.57,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "南通",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3171.15,
+      "previous_gdp": 3125.34,
+      "source_url": "https://gdp.gotohui.com/topic-5643",
+      "real_growth": 5.5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "南阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1217.11,
+      "previous_gdp": 1129.14,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "内江",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 493.72,
+      "previous_gdp": 473.32,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "宁波",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 4641,
+      "previous_gdp": 4420.5,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "宁德",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1016.26,
+      "previous_gdp": 907.27,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "怒江",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 68.42,
+      "previous_gdp": 64.59,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "攀枝花",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 332.38,
+      "previous_gdp": 327.42,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "平顶山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 702.22,
+      "previous_gdp": 661.69,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "萍乡",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 324.66,
+      "previous_gdp": 296.78,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 6.3,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "莆田",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 915.7,
+      "previous_gdp": 885.9,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "濮阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 489.2,
+      "previous_gdp": 461.14,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "普洱",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 267.94,
+      "previous_gdp": 254.74,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "钦州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 449.78,
+      "previous_gdp": null,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "青岛",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 4339.39,
+      "previous_gdp": 4071.34,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "清远",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 534.33,
+      "previous_gdp": 509.43,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "曲靖",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 794.26,
+      "previous_gdp": 784.91,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "泉州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2933.15,
+      "previous_gdp": 2796.21,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "日照",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 681.42,
+      "previous_gdp": 638.1,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "三门峡",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 394.4,
+      "previous_gdp": null,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "三明",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 760.12,
+      "previous_gdp": 829.56,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "厦门",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2226.07,
+      "previous_gdp": 2082.89,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "汕头",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 685.37,
+      "previous_gdp": 715.65,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "汕尾",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 369.33,
+      "previous_gdp": 359.36,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "商丘",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 841.6,
+      "previous_gdp": 778.95,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "上海",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 13526.91,
+      "previous_gdp": null,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "上饶",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 909.8,
+      "previous_gdp": 844.5,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 3.8,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "韶关",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 406.18,
+      "previous_gdp": 387.39,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "深圳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 9594.13,
+      "previous_gdp": 8950.49,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5.8,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "苏州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 6440.57,
+      "previous_gdp": 6095.68,
+      "source_url": "https://gdp.gotohui.com/topic-5643",
+      "real_growth": 5.8,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "宿迁",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1191.89,
+      "previous_gdp": 1079.34,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "宿州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 647.4,
+      "previous_gdp": 626,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "遂宁",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 451.36,
+      "previous_gdp": 431.65,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "泰安",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 945.14,
+      "previous_gdp": 890.6,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "泰州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1894.18,
+      "previous_gdp": 1852.91,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "天津",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 4370.1,
+      "previous_gdp": 4177,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "铜陵",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 346.9,
+      "previous_gdp": 317.1,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "威海",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 980.98,
+      "previous_gdp": 926.16,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "潍坊",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1940.54,
+      "previous_gdp": 1823.27,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "文山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 375.66,
+      "previous_gdp": 356.26,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "无锡",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3929.67,
+      "previous_gdp": 3789.21,
+      "source_url": "https://gdp.gotohui.com/topic-5643",
+      "real_growth": 5.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "芜湖",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1343.4,
+      "previous_gdp": 1260.2,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "梧州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 377.95,
+      "previous_gdp": 375.66,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "武汉",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 5042.99,
+      "previous_gdp": 4759.41,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 5.7,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "西安",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3270.22,
+      "previous_gdp": 3231.55,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 1.1,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "西双版纳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 204.2,
+      "previous_gdp": 198.48,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "新乡",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 885.84,
+      "previous_gdp": 826.88,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "新余",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 340.02,
+      "previous_gdp": 311.49,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 5.9,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "信阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 697.83,
+      "previous_gdp": 658.39,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "徐州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2350.75,
+      "previous_gdp": 2251.7,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "许昌",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 865.1,
+      "previous_gdp": 807.24,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "宣城",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 543.3,
+      "previous_gdp": 512,
+      "source_url": "https://gdp.gotohui.com/topic-5595"
+    },
+    {
+      "name": "雅安",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 243.42,
+      "previous_gdp": 228.75,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "烟台",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2739.16,
+      "previous_gdp": 2584.29,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "盐城",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2017.88,
+      "previous_gdp": 1940.38,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "扬州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 2028.41,
+      "previous_gdp": 1971.99,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "阳江",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 376.83,
+      "previous_gdp": 364.05,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "宜宾",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 895.79,
+      "previous_gdp": 855.05,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "宜春",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 947.4,
+      "previous_gdp": 860.23,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 6.8,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "鹰潭",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 363.42,
+      "previous_gdp": 326.27,
+      "source_url": "https://gdp.gotohui.com/topic-5579",
+      "real_growth": 6.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5579"
+    },
+    {
+      "name": "玉林",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 582.63,
+      "previous_gdp": 562.77,
+      "source_url": "https://gdp.gotohui.com/topic-5641"
+    },
+    {
+      "name": "玉溪",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 659.65,
+      "previous_gdp": 629.96,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "云浮",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 292.84,
+      "previous_gdp": 276.91,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "枣庄",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 617.98,
+      "previous_gdp": 583.99,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "湛江",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 901.61,
+      "previous_gdp": 858.34,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "漳州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1461.91,
+      "previous_gdp": 1446.71,
+      "source_url": "https://gdp.gotohui.com/topic-5596"
+    },
+    {
+      "name": "长沙",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3867.76,
+      "previous_gdp": 3712.38,
+      "source_url": "https://gdp.gotohui.com/topic-5603",
+      "real_growth": 3,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "昭通",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 489,
+      "previous_gdp": 468.36,
+      "source_url": "https://gdp.gotohui.com/topic-5591"
+    },
+    {
+      "name": "肇庆",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 604.09,
+      "previous_gdp": 620.16,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "镇江",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1505.52,
+      "previous_gdp": 1454.32,
+      "source_url": "https://gdp.gotohui.com/topic-5643"
+    },
+    {
+      "name": "郑州",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3650.8,
+      "previous_gdp": 3459.5,
+      "source_url": "https://gdp.gotohui.com/topic-5598",
+      "real_growth": 4.6,
+      "real_growth_source_url": "https://gdp.gotohui.com/topic-5603"
+    },
+    {
+      "name": "中山",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1014.26,
+      "previous_gdp": 973.09,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "周口",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 902.21,
+      "previous_gdp": 852.67,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "珠海",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1169.5,
+      "previous_gdp": 1120.89,
+      "source_url": "https://gdp.gotohui.com/topic-5593"
+    },
+    {
+      "name": "驻马店",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 843.52,
+      "previous_gdp": 793.62,
+      "source_url": "https://gdp.gotohui.com/topic-5598"
+    },
+    {
+      "name": "资阳",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 254.01,
+      "previous_gdp": 243.98,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    },
+    {
+      "name": "淄博",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1253.64,
+      "previous_gdp": 1191.16,
+      "source_url": "https://gdp.gotohui.com/topic-5642"
+    },
+    {
+      "name": "自贡",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 469.97,
+      "previous_gdp": 441.27,
+      "source_url": "https://gdp.gotohui.com/topic-5592"
+    }
+  ]
+}

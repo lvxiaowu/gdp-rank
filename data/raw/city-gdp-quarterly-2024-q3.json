@@ -1,0 +1,455 @@
+{
+  "note": "聚汇数据整理各市统计局发布的2024年前三季度全国前50城市榜单；收录GDP、2023年同期GDP和官方口径实际增速。",
+  "rows": [
+    {
+      "name": "上海",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 34389.18,
+      "previous_gdp": 33019.23,
+      "real_growth": 4.7,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "北京",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 33462.0,
+      "previous_gdp": 31723.1,
+      "real_growth": 5.1,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "深圳",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 25934.28,
+      "previous_gdp": 24468.25,
+      "real_growth": 5.4,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "重庆",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 23244.31,
+      "previous_gdp": 22243.88,
+      "real_growth": 6.0,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "广州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 22149.95,
+      "previous_gdp": 21769.84,
+      "real_growth": 2.0,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "苏州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 18483.8,
+      "previous_gdp": 17655.2,
+      "real_growth": 6.0,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "成都",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 16734.2,
+      "previous_gdp": 16114.3,
+      "real_growth": 5.2,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "杭州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 15215.0,
+      "previous_gdp": 14438.0,
+      "real_growth": 4.5,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "武汉",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 14720.98,
+      "previous_gdp": 14163.9,
+      "real_growth": 5.1,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "南京",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 13124.43,
+      "previous_gdp": 12703.75,
+      "real_growth": 4.4,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "天津",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 12673.87,
+      "previous_gdp": 12252.61,
+      "real_growth": 4.7,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "宁波",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 12644.3,
+      "previous_gdp": 11817.3,
+      "real_growth": 5.3,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "青岛",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 12399.1,
+      "previous_gdp": 11769.11,
+      "real_growth": 5.6,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "无锡",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 11481.55,
+      "previous_gdp": 11000.56,
+      "real_growth": 6.0,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "长沙",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 10987.9,
+      "previous_gdp": 10673.79,
+      "real_growth": 4.8,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "郑州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 10702.7,
+      "previous_gdp": 10435.9,
+      "real_growth": 5.5,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "合肥",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 9697.1,
+      "previous_gdp": 9218.6,
+      "real_growth": 5.4,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "济南",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 9675.1,
+      "previous_gdp": 9229.2,
+      "real_growth": 5.4,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "南通",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 9414.0,
+      "previous_gdp": 9006.2,
+      "real_growth": 6.3,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "福州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 9354.07,
+      "previous_gdp": 8840.95,
+      "real_growth": 6.1,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "佛山",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 9335.48,
+      "previous_gdp": 9270.56,
+      "real_growth": 1.6,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "泉州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 9226.86,
+      "previous_gdp": 9030.99,
+      "real_growth": 6.6,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "东莞",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 8793.79,
+      "previous_gdp": 8118.72,
+      "real_growth": 4.5,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "西安",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 8685.81,
+      "previous_gdp": 8535.52,
+      "real_growth": 3.2,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "烟台",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 7705.04,
+      "previous_gdp": 7260.0,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "常州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 7557.87,
+      "previous_gdp": 7006.1,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "徐州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 6899.37,
+      "previous_gdp": 6593.24,
+      "real_growth": 6.2,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "温州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 6732.0,
+      "previous_gdp": 6230.2,
+      "real_growth": 6.2,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "唐山",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 6707.2,
+      "previous_gdp": 6537.8,
+      "real_growth": 5.1,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "大连",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 6643.2,
+      "previous_gdp": 6482.9,
+      "real_growth": 5.0,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "昆明",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 6096.94,
+      "previous_gdp": 5949.15,
+      "real_growth": 3.1,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "沈阳",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 6074.0,
+      "previous_gdp": 5821.6,
+      "real_growth": 5.1,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "厦门",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 6031.66,
+      "previous_gdp": 5784.25,
+      "real_growth": 4.9,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "绍兴",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5890.93,
+      "previous_gdp": 5569.86,
+      "real_growth": 6.8,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "潍坊",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5839.6,
+      "previous_gdp": 5569.1,
+      "real_growth": 5.9,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "榆林",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5742.95,
+      "previous_gdp": 4880.67,
+      "real_growth": 5.7,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "石家庄",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5716.7,
+      "previous_gdp": 5563.4,
+      "real_growth": 5.3,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "扬州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5708.95,
+      "previous_gdp": 5481.56,
+      "real_growth": 5.9,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "盐城",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5532.2,
+      "previous_gdp": 5302.27,
+      "real_growth": 5.4,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "南昌",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5398.51,
+      "previous_gdp": 5298.68,
+      "real_growth": 4.6,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "长春",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5265.29,
+      "previous_gdp": 5227.17,
+      "real_growth": 4.2,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "嘉兴",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5263.21,
+      "previous_gdp": 5074.32,
+      "real_growth": 5.5,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "泰州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5145.16,
+      "previous_gdp": 4974.0,
+      "real_growth": 5.0,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "临沂",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 4825.8,
+      "previous_gdp": 4549.0,
+      "real_growth": 5.7,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "台州",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 4688.73,
+      "previous_gdp": 4538.02,
+      "real_growth": 5.9,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "金华",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 4513.1,
+      "previous_gdp": 4198.89,
+      "real_growth": 6.1,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "济宁",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 4398.7,
+      "previous_gdp": 4163.3,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "鄂尔多斯",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 4361.3,
+      "previous_gdp": 4127.71,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "洛阳",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 4336.5,
+      "previous_gdp": 4343.9,
+      "real_growth": 4.3,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    },
+    {
+      "name": "哈尔滨",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 4329.3,
+      "previous_gdp": 4158.1,
+      "real_growth": 3.8,
+      "source_url": "https://gdp.gotohui.com/topic-4452"
+    }
+  ]
+}

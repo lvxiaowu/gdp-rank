@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#3370FF"/>
+  <text x="256" y="224" text-anchor="middle" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="132" font-weight="800" letter-spacing="-5">GDP</text>
+  <path d="M116 362V320C116 309 125 300 136 300H170C181 300 190 309 190 320V362H116Z" fill="white" fill-opacity=".66"/>
+  <path d="M219 362V284C219 273 228 264 239 264H273C284 264 293 273 293 284V362H219Z" fill="white" fill-opacity=".82"/>
+  <path d="M322 362V244C322 233 331 224 342 224H376C387 224 396 233 396 244V362H322Z" fill="white"/>
+  <path d="M104 391H408" stroke="white" stroke-opacity=".82" stroke-width="16" stroke-linecap="round"/>
+  <path d="M125 290L211 268L275 278L379 230" stroke="#FFD166" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M358 223L383 228L373 252" stroke="#FFD166" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

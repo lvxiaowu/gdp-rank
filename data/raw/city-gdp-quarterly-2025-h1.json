@@ -1,0 +1,455 @@
+{
+  "note": "聚汇数据整理各市统计局发布的2025年上半年全国前50城市榜单；含2024年同期值和实际增速，保留原榜单来源。",
+  "rows": [
+    {
+      "name": "上海",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 26222.15,
+      "previous_gdp": 25066.0,
+      "real_growth": 5.1,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "北京",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 25029.2,
+      "previous_gdp": 23723.8,
+      "real_growth": 5.5,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "深圳",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 18322.26,
+      "previous_gdp": 17302.22,
+      "real_growth": 5.1,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "重庆",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 15929.58,
+      "previous_gdp": 15215.0,
+      "real_growth": 5.0,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "广州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 15080.99,
+      "previous_gdp": 14297.66,
+      "real_growth": 3.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "苏州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 13002.35,
+      "previous_gdp": 12059.4,
+      "real_growth": 5.7,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "成都",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 12108.21,
+      "previous_gdp": 11152.14,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "杭州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 11302.72,
+      "previous_gdp": 10137.0,
+      "real_growth": 5.5,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "武汉",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 10592.8,
+      "previous_gdp": 9975.19,
+      "real_growth": 5.5,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "南京",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 9179.18,
+      "previous_gdp": 8607.42,
+      "real_growth": 5.3,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "宁波",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 8860.97,
+      "previous_gdp": 8207.9,
+      "real_growth": 5.1,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "天津",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 8706.6,
+      "previous_gdp": 8446.0,
+      "real_growth": 5.3,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "青岛",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 8587.33,
+      "previous_gdp": 7978.67,
+      "real_growth": 5.3,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "无锡",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 7735.15,
+      "previous_gdp": 7437.39,
+      "real_growth": 5.3,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "长沙",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 7640.38,
+      "previous_gdp": 7170.21,
+      "real_growth": 5.0,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "郑州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 7329.3,
+      "previous_gdp": 7042.6,
+      "real_growth": 5.2,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "济南",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6674.0,
+      "previous_gdp": 6144.34,
+      "real_growth": 5.4,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "南通",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6581.2,
+      "previous_gdp": 6286.9,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "福州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6556.13,
+      "previous_gdp": 6121.64,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "合肥",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6514.7,
+      "previous_gdp": 6135.4,
+      "real_growth": 6.0,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "佛山",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6366.87,
+      "previous_gdp": 6122.89,
+      "real_growth": 2.3,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "西安",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6358.16,
+      "previous_gdp": 5717.47,
+      "real_growth": 5.5,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "泉州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6357.04,
+      "previous_gdp": 5924.96,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "东莞",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6067.84,
+      "previous_gdp": 5686.8,
+      "real_growth": 4.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "烟台",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 5375.11,
+      "previous_gdp": 4987.6,
+      "real_growth": 6.4,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "常州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 5079.13,
+      "previous_gdp": 4773.2,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "温州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4831.89,
+      "previous_gdp": 4298.0,
+      "real_growth": 6.0,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "大连",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4647.0,
+      "previous_gdp": 4262.9,
+      "real_growth": 6.0,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "唐山",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4595.3,
+      "previous_gdp": 4312.1,
+      "real_growth": 6.1,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "徐州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4509.3,
+      "previous_gdp": 4228.73,
+      "real_growth": 6.2,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "昆明",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4294.78,
+      "previous_gdp": 4038.62,
+      "real_growth": 4.4,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "沈阳",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4293.2,
+      "previous_gdp": 3876.3,
+      "real_growth": 4.1,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "厦门",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4226.16,
+      "previous_gdp": 3983.77,
+      "real_growth": 5.7,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "绍兴",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4157.75,
+      "previous_gdp": 3823.0,
+      "real_growth": 6.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "石家庄",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4122.6,
+      "previous_gdp": 3856.3,
+      "real_growth": 5.8,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "潍坊",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 4065.3,
+      "previous_gdp": 3851.57,
+      "real_growth": 5.3,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "盐城",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3791.47,
+      "previous_gdp": 3575.9,
+      "real_growth": 5.9,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "扬州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3782.2,
+      "previous_gdp": 3577.28,
+      "real_growth": 5.7,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "长春",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3754.88,
+      "previous_gdp": 3434.28,
+      "real_growth": 5.7,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "南昌",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3712.62,
+      "previous_gdp": 3467.83,
+      "real_growth": 5.0,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "嘉兴",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3697.13,
+      "previous_gdp": 3439.57,
+      "real_growth": 5.2,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "泰州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3498.64,
+      "previous_gdp": 3354.84,
+      "real_growth": 5.7,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "榆林",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3485.74,
+      "previous_gdp": 3505.05,
+      "real_growth": 5.4,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "金华",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3456.11,
+      "previous_gdp": 2946.56,
+      "real_growth": 6.4,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "台州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3307.95,
+      "previous_gdp": 3058.2,
+      "real_growth": 6.6,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "临沂",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3257.6,
+      "previous_gdp": 3048.95,
+      "real_growth": 5.5,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "南宁",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3053.09,
+      "previous_gdp": 2750.77,
+      "real_growth": 3.7,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "济宁",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3022.3,
+      "previous_gdp": 2858.71,
+      "real_growth": 6.0,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "漳州",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 2993.35,
+      "previous_gdp": 2826.78,
+      "real_growth": 5.2,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    },
+    {
+      "name": "镇江",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 2926.86,
+      "previous_gdp": 2759.85,
+      "real_growth": 5.9,
+      "source_url": "https://gdp.gotohui.com/topic-5029"
+    }
+  ]
+}

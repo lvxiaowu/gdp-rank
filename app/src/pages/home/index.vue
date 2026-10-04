@@ -90,7 +90,7 @@
       <!-- ⑥ AD-01 -->
       <AdSlot slot-id="AD-01" />
       <!-- ⑦ 数据来源 -->
-      <SourceFooter :updated-at="latest?.updated_at" />
+      <SourceFooter />
     </template>
   </view>
 </template>
