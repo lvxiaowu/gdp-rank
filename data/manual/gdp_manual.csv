@@ -1,0 +1,7 @@
+level,region,province,year,period,gdp,real_growth,source_url,published_at,note
+# 说明：本文件录入国家统计局接口抓不到的数据（地级市季度 / 年度数据），或用于修正接口数据。以 # 开头的行会被忽略。
+# level：city 或 province；region：地区名，全称简称都行（如 苏州 / 苏州市 / 甘孜）；province：所属省，城市重名时必填
+# period：Q1 一季度 / H1 上半年 / Q3 前三季度 / FY 全年（均为累计值）；gdp 单位亿元；real_growth 为实际增速百分数（如 5.6），没公布留空
+# source_url 必填（统计局发布页或统计公报链接）；published_at 格式 2026-10-24
+# 示例（删掉开头的 # 即生效）：
+#city,苏州,江苏,2026,H1,0,,https://tjj.suzhou.gov.cn/,2026-07-25,示例行

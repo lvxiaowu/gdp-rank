@@ -1,0 +1,26 @@
+{
+  "name": "省市GDP排行",
+  "appid": "",
+  "description": "全国各省、各城市 GDP 排名与增速查询",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "h5": {
+    "title": "省市GDP排行（本地预览）",
+    "router": { "mode": "hash" }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "lazyCodeLoading": "requiredComponents",
+    "__usePrivacyCheck__": true,
+    "optimization": { "subPackages": true }
+  },
+  "uniStatistics": { "enable": false },
+  "vueVersion": "3"
+}

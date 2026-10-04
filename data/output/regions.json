@@ -1,0 +1,4293 @@
+[
+  {
+    "_id": "110000",
+    "code": "110000",
+    "name": "北京市",
+    "short_name": "北京",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "beijing",
+    "initials": "bj",
+    "tags": [
+      "municipality"
+    ]
+  },
+  {
+    "_id": "120000",
+    "code": "120000",
+    "name": "天津市",
+    "short_name": "天津",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "tianjin",
+    "initials": "tj",
+    "tags": [
+      "municipality"
+    ]
+  },
+  {
+    "_id": "130000",
+    "code": "130000",
+    "name": "河北省",
+    "short_name": "河北",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "hebei",
+    "initials": "hb",
+    "tags": []
+  },
+  {
+    "_id": "140000",
+    "code": "140000",
+    "name": "山西省",
+    "short_name": "山西",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "shanxi",
+    "initials": "sx",
+    "tags": []
+  },
+  {
+    "_id": "150000",
+    "code": "150000",
+    "name": "内蒙古自治区",
+    "short_name": "内蒙古",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "neimenggu",
+    "initials": "nmg",
+    "tags": []
+  },
+  {
+    "_id": "210000",
+    "code": "210000",
+    "name": "辽宁省",
+    "short_name": "辽宁",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "liaoning",
+    "initials": "ln",
+    "tags": []
+  },
+  {
+    "_id": "220000",
+    "code": "220000",
+    "name": "吉林省",
+    "short_name": "吉林",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "jilin",
+    "initials": "jl",
+    "tags": []
+  },
+  {
+    "_id": "230000",
+    "code": "230000",
+    "name": "黑龙江省",
+    "short_name": "黑龙江",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "heilongjiang",
+    "initials": "hlj",
+    "tags": []
+  },
+  {
+    "_id": "310000",
+    "code": "310000",
+    "name": "上海市",
+    "short_name": "上海",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "shanghai",
+    "initials": "sh",
+    "tags": [
+      "municipality"
+    ]
+  },
+  {
+    "_id": "320000",
+    "code": "320000",
+    "name": "江苏省",
+    "short_name": "江苏",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "jiangsu",
+    "initials": "js",
+    "tags": []
+  },
+  {
+    "_id": "330000",
+    "code": "330000",
+    "name": "浙江省",
+    "short_name": "浙江",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "zhejiang",
+    "initials": "zj",
+    "tags": []
+  },
+  {
+    "_id": "340000",
+    "code": "340000",
+    "name": "安徽省",
+    "short_name": "安徽",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "anhui",
+    "initials": "ah",
+    "tags": []
+  },
+  {
+    "_id": "350000",
+    "code": "350000",
+    "name": "福建省",
+    "short_name": "福建",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "fujian",
+    "initials": "fj",
+    "tags": []
+  },
+  {
+    "_id": "360000",
+    "code": "360000",
+    "name": "江西省",
+    "short_name": "江西",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "jiangxi",
+    "initials": "jx",
+    "tags": []
+  },
+  {
+    "_id": "370000",
+    "code": "370000",
+    "name": "山东省",
+    "short_name": "山东",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "shandong",
+    "initials": "sd",
+    "tags": []
+  },
+  {
+    "_id": "410000",
+    "code": "410000",
+    "name": "河南省",
+    "short_name": "河南",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "henan",
+    "initials": "hn",
+    "tags": []
+  },
+  {
+    "_id": "420000",
+    "code": "420000",
+    "name": "湖北省",
+    "short_name": "湖北",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "hubei",
+    "initials": "hb",
+    "tags": []
+  },
+  {
+    "_id": "430000",
+    "code": "430000",
+    "name": "湖南省",
+    "short_name": "湖南",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "hunan",
+    "initials": "hn",
+    "tags": []
+  },
+  {
+    "_id": "440000",
+    "code": "440000",
+    "name": "广东省",
+    "short_name": "广东",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "guangdong",
+    "initials": "gd",
+    "tags": []
+  },
+  {
+    "_id": "450000",
+    "code": "450000",
+    "name": "广西壮族自治区",
+    "short_name": "广西",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "guangxi",
+    "initials": "gx",
+    "tags": []
+  },
+  {
+    "_id": "460000",
+    "code": "460000",
+    "name": "海南省",
+    "short_name": "海南",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "hainan",
+    "initials": "hn",
+    "tags": []
+  },
+  {
+    "_id": "500000",
+    "code": "500000",
+    "name": "重庆市",
+    "short_name": "重庆",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "chongqing",
+    "initials": "cq",
+    "tags": [
+      "municipality"
+    ]
+  },
+  {
+    "_id": "510000",
+    "code": "510000",
+    "name": "四川省",
+    "short_name": "四川",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "sichuan",
+    "initials": "sc",
+    "tags": []
+  },
+  {
+    "_id": "520000",
+    "code": "520000",
+    "name": "贵州省",
+    "short_name": "贵州",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "guizhou",
+    "initials": "gz",
+    "tags": []
+  },
+  {
+    "_id": "530000",
+    "code": "530000",
+    "name": "云南省",
+    "short_name": "云南",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "yunnan",
+    "initials": "yn",
+    "tags": []
+  },
+  {
+    "_id": "540000",
+    "code": "540000",
+    "name": "西藏自治区",
+    "short_name": "西藏",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "xizang",
+    "initials": "xz",
+    "tags": []
+  },
+  {
+    "_id": "610000",
+    "code": "610000",
+    "name": "陕西省",
+    "short_name": "陕西",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "shanxi",
+    "initials": "sx",
+    "tags": []
+  },
+  {
+    "_id": "620000",
+    "code": "620000",
+    "name": "甘肃省",
+    "short_name": "甘肃",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "gansu",
+    "initials": "gs",
+    "tags": []
+  },
+  {
+    "_id": "630000",
+    "code": "630000",
+    "name": "青海省",
+    "short_name": "青海",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "qinghai",
+    "initials": "qh",
+    "tags": []
+  },
+  {
+    "_id": "640000",
+    "code": "640000",
+    "name": "宁夏回族自治区",
+    "short_name": "宁夏",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "ningxia",
+    "initials": "nx",
+    "tags": []
+  },
+  {
+    "_id": "650000",
+    "code": "650000",
+    "name": "新疆维吾尔自治区",
+    "short_name": "新疆",
+    "level": "province",
+    "parent_code": null,
+    "pinyin": "xinjiang",
+    "initials": "xj",
+    "tags": []
+  },
+  {
+    "_id": "110100",
+    "code": "110100",
+    "name": "北京市",
+    "short_name": "北京",
+    "level": "city",
+    "parent_code": "110000",
+    "pinyin": "beijing",
+    "initials": "bj",
+    "tags": [
+      "municipality",
+      "jjj"
+    ]
+  },
+  {
+    "_id": "120100",
+    "code": "120100",
+    "name": "天津市",
+    "short_name": "天津",
+    "level": "city",
+    "parent_code": "120000",
+    "pinyin": "tianjin",
+    "initials": "tj",
+    "tags": [
+      "municipality",
+      "jjj"
+    ]
+  },
+  {
+    "_id": "310100",
+    "code": "310100",
+    "name": "上海市",
+    "short_name": "上海",
+    "level": "city",
+    "parent_code": "310000",
+    "pinyin": "shanghai",
+    "initials": "sh",
+    "tags": [
+      "municipality",
+      "yrd"
+    ]
+  },
+  {
+    "_id": "500100",
+    "code": "500100",
+    "name": "重庆市",
+    "short_name": "重庆",
+    "level": "city",
+    "parent_code": "500000",
+    "pinyin": "chongqing",
+    "initials": "cq",
+    "tags": [
+      "municipality",
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "130100",
+    "code": "130100",
+    "name": "石家庄市",
+    "short_name": "石家庄",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "shijiazhuang",
+    "initials": "sjz",
+    "tags": [
+      "capital",
+      "jjj"
+    ]
+  },
+  {
+    "_id": "130200",
+    "code": "130200",
+    "name": "唐山市",
+    "short_name": "唐山",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "tangshan",
+    "initials": "ts",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "130300",
+    "code": "130300",
+    "name": "秦皇岛市",
+    "short_name": "秦皇岛",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "qinhuangdao",
+    "initials": "qhd",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "130400",
+    "code": "130400",
+    "name": "邯郸市",
+    "short_name": "邯郸",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "handan",
+    "initials": "hd",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "130500",
+    "code": "130500",
+    "name": "邢台市",
+    "short_name": "邢台",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "xingtai",
+    "initials": "xt",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "130600",
+    "code": "130600",
+    "name": "保定市",
+    "short_name": "保定",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "baoding",
+    "initials": "bd",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "130700",
+    "code": "130700",
+    "name": "张家口市",
+    "short_name": "张家口",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "zhangjiakou",
+    "initials": "zjk",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "130800",
+    "code": "130800",
+    "name": "承德市",
+    "short_name": "承德",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "chengde",
+    "initials": "cd",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "130900",
+    "code": "130900",
+    "name": "沧州市",
+    "short_name": "沧州",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "cangzhou",
+    "initials": "cz",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "131000",
+    "code": "131000",
+    "name": "廊坊市",
+    "short_name": "廊坊",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "langfang",
+    "initials": "lf",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "131100",
+    "code": "131100",
+    "name": "衡水市",
+    "short_name": "衡水",
+    "level": "city",
+    "parent_code": "130000",
+    "pinyin": "hengshui",
+    "initials": "hs",
+    "tags": [
+      "jjj"
+    ]
+  },
+  {
+    "_id": "140100",
+    "code": "140100",
+    "name": "太原市",
+    "short_name": "太原",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "taiyuan",
+    "initials": "ty",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "140200",
+    "code": "140200",
+    "name": "大同市",
+    "short_name": "大同",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "datong",
+    "initials": "dt",
+    "tags": []
+  },
+  {
+    "_id": "140300",
+    "code": "140300",
+    "name": "阳泉市",
+    "short_name": "阳泉",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "yangquan",
+    "initials": "yq",
+    "tags": []
+  },
+  {
+    "_id": "140400",
+    "code": "140400",
+    "name": "长治市",
+    "short_name": "长治",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "changzhi",
+    "initials": "cz",
+    "tags": []
+  },
+  {
+    "_id": "140500",
+    "code": "140500",
+    "name": "晋城市",
+    "short_name": "晋城",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "jincheng",
+    "initials": "jc",
+    "tags": []
+  },
+  {
+    "_id": "140600",
+    "code": "140600",
+    "name": "朔州市",
+    "short_name": "朔州",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "shuozhou",
+    "initials": "sz",
+    "tags": []
+  },
+  {
+    "_id": "140700",
+    "code": "140700",
+    "name": "晋中市",
+    "short_name": "晋中",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "jinzhong",
+    "initials": "jz",
+    "tags": []
+  },
+  {
+    "_id": "140800",
+    "code": "140800",
+    "name": "运城市",
+    "short_name": "运城",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "yuncheng",
+    "initials": "yc",
+    "tags": []
+  },
+  {
+    "_id": "140900",
+    "code": "140900",
+    "name": "忻州市",
+    "short_name": "忻州",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "xinzhou",
+    "initials": "xz",
+    "tags": []
+  },
+  {
+    "_id": "141000",
+    "code": "141000",
+    "name": "临汾市",
+    "short_name": "临汾",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "linfen",
+    "initials": "lf",
+    "tags": []
+  },
+  {
+    "_id": "141100",
+    "code": "141100",
+    "name": "吕梁市",
+    "short_name": "吕梁",
+    "level": "city",
+    "parent_code": "140000",
+    "pinyin": "lvliang",
+    "initials": "ll",
+    "tags": []
+  },
+  {
+    "_id": "150100",
+    "code": "150100",
+    "name": "呼和浩特市",
+    "short_name": "呼和浩特",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "huhehaote",
+    "initials": "hhht",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "150200",
+    "code": "150200",
+    "name": "包头市",
+    "short_name": "包头",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "baotou",
+    "initials": "bt",
+    "tags": []
+  },
+  {
+    "_id": "150300",
+    "code": "150300",
+    "name": "乌海市",
+    "short_name": "乌海",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "wuhai",
+    "initials": "wh",
+    "tags": []
+  },
+  {
+    "_id": "150400",
+    "code": "150400",
+    "name": "赤峰市",
+    "short_name": "赤峰",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "chifeng",
+    "initials": "cf",
+    "tags": []
+  },
+  {
+    "_id": "150500",
+    "code": "150500",
+    "name": "通辽市",
+    "short_name": "通辽",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "tongliao",
+    "initials": "tl",
+    "tags": []
+  },
+  {
+    "_id": "150600",
+    "code": "150600",
+    "name": "鄂尔多斯市",
+    "short_name": "鄂尔多斯",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "eerduosi",
+    "initials": "eeds",
+    "tags": []
+  },
+  {
+    "_id": "150700",
+    "code": "150700",
+    "name": "呼伦贝尔市",
+    "short_name": "呼伦贝尔",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "hulunbeier",
+    "initials": "hlbe",
+    "tags": []
+  },
+  {
+    "_id": "150800",
+    "code": "150800",
+    "name": "巴彦淖尔市",
+    "short_name": "巴彦淖尔",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "bayannaoer",
+    "initials": "byne",
+    "tags": []
+  },
+  {
+    "_id": "150900",
+    "code": "150900",
+    "name": "乌兰察布市",
+    "short_name": "乌兰察布",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "wulanchabu",
+    "initials": "wlcb",
+    "tags": []
+  },
+  {
+    "_id": "152200",
+    "code": "152200",
+    "name": "兴安盟",
+    "short_name": "兴安",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "xingan",
+    "initials": "xa",
+    "tags": []
+  },
+  {
+    "_id": "152500",
+    "code": "152500",
+    "name": "锡林郭勒盟",
+    "short_name": "锡林郭勒",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "xilinguole",
+    "initials": "xlgl",
+    "tags": []
+  },
+  {
+    "_id": "152900",
+    "code": "152900",
+    "name": "阿拉善盟",
+    "short_name": "阿拉善",
+    "level": "city",
+    "parent_code": "150000",
+    "pinyin": "alashan",
+    "initials": "als",
+    "tags": []
+  },
+  {
+    "_id": "210100",
+    "code": "210100",
+    "name": "沈阳市",
+    "short_name": "沈阳",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "shenyang",
+    "initials": "sy",
+    "tags": [
+      "capital",
+      "sub_provincial"
+    ]
+  },
+  {
+    "_id": "210200",
+    "code": "210200",
+    "name": "大连市",
+    "short_name": "大连",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "dalian",
+    "initials": "dl",
+    "tags": [
+      "sub_provincial",
+      "separate_plan"
+    ]
+  },
+  {
+    "_id": "210300",
+    "code": "210300",
+    "name": "鞍山市",
+    "short_name": "鞍山",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "anshan",
+    "initials": "as",
+    "tags": []
+  },
+  {
+    "_id": "210400",
+    "code": "210400",
+    "name": "抚顺市",
+    "short_name": "抚顺",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "fushun",
+    "initials": "fs",
+    "tags": []
+  },
+  {
+    "_id": "210500",
+    "code": "210500",
+    "name": "本溪市",
+    "short_name": "本溪",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "benxi",
+    "initials": "bx",
+    "tags": []
+  },
+  {
+    "_id": "210600",
+    "code": "210600",
+    "name": "丹东市",
+    "short_name": "丹东",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "dandong",
+    "initials": "dd",
+    "tags": []
+  },
+  {
+    "_id": "210700",
+    "code": "210700",
+    "name": "锦州市",
+    "short_name": "锦州",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "jinzhou",
+    "initials": "jz",
+    "tags": []
+  },
+  {
+    "_id": "210800",
+    "code": "210800",
+    "name": "营口市",
+    "short_name": "营口",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "yingkou",
+    "initials": "yk",
+    "tags": []
+  },
+  {
+    "_id": "210900",
+    "code": "210900",
+    "name": "阜新市",
+    "short_name": "阜新",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "fuxin",
+    "initials": "fx",
+    "tags": []
+  },
+  {
+    "_id": "211000",
+    "code": "211000",
+    "name": "辽阳市",
+    "short_name": "辽阳",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "liaoyang",
+    "initials": "ly",
+    "tags": []
+  },
+  {
+    "_id": "211100",
+    "code": "211100",
+    "name": "盘锦市",
+    "short_name": "盘锦",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "panjin",
+    "initials": "pj",
+    "tags": []
+  },
+  {
+    "_id": "211200",
+    "code": "211200",
+    "name": "铁岭市",
+    "short_name": "铁岭",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "tieling",
+    "initials": "tl",
+    "tags": []
+  },
+  {
+    "_id": "211300",
+    "code": "211300",
+    "name": "朝阳市",
+    "short_name": "朝阳",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "chaoyang",
+    "initials": "cy",
+    "tags": []
+  },
+  {
+    "_id": "211400",
+    "code": "211400",
+    "name": "葫芦岛市",
+    "short_name": "葫芦岛",
+    "level": "city",
+    "parent_code": "210000",
+    "pinyin": "huludao",
+    "initials": "hld",
+    "tags": []
+  },
+  {
+    "_id": "220100",
+    "code": "220100",
+    "name": "长春市",
+    "short_name": "长春",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "changchun",
+    "initials": "cc",
+    "tags": [
+      "capital",
+      "sub_provincial"
+    ]
+  },
+  {
+    "_id": "220200",
+    "code": "220200",
+    "name": "吉林市",
+    "short_name": "吉林",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "jilin",
+    "initials": "jl",
+    "tags": []
+  },
+  {
+    "_id": "220300",
+    "code": "220300",
+    "name": "四平市",
+    "short_name": "四平",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "siping",
+    "initials": "sp",
+    "tags": []
+  },
+  {
+    "_id": "220400",
+    "code": "220400",
+    "name": "辽源市",
+    "short_name": "辽源",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "liaoyuan",
+    "initials": "ly",
+    "tags": []
+  },
+  {
+    "_id": "220500",
+    "code": "220500",
+    "name": "通化市",
+    "short_name": "通化",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "tonghua",
+    "initials": "th",
+    "tags": []
+  },
+  {
+    "_id": "220600",
+    "code": "220600",
+    "name": "白山市",
+    "short_name": "白山",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "baishan",
+    "initials": "bs",
+    "tags": []
+  },
+  {
+    "_id": "220700",
+    "code": "220700",
+    "name": "松原市",
+    "short_name": "松原",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "songyuan",
+    "initials": "sy",
+    "tags": []
+  },
+  {
+    "_id": "220800",
+    "code": "220800",
+    "name": "白城市",
+    "short_name": "白城",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "baicheng",
+    "initials": "bc",
+    "tags": []
+  },
+  {
+    "_id": "222400",
+    "code": "222400",
+    "name": "延边朝鲜族自治州",
+    "short_name": "延边",
+    "level": "city",
+    "parent_code": "220000",
+    "pinyin": "yanbian",
+    "initials": "yb",
+    "tags": []
+  },
+  {
+    "_id": "230100",
+    "code": "230100",
+    "name": "哈尔滨市",
+    "short_name": "哈尔滨",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "haerbin",
+    "initials": "heb",
+    "tags": [
+      "capital",
+      "sub_provincial"
+    ]
+  },
+  {
+    "_id": "230200",
+    "code": "230200",
+    "name": "齐齐哈尔市",
+    "short_name": "齐齐哈尔",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "qiqihaer",
+    "initials": "qqhe",
+    "tags": []
+  },
+  {
+    "_id": "230300",
+    "code": "230300",
+    "name": "鸡西市",
+    "short_name": "鸡西",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "jixi",
+    "initials": "jx",
+    "tags": []
+  },
+  {
+    "_id": "230400",
+    "code": "230400",
+    "name": "鹤岗市",
+    "short_name": "鹤岗",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "hegang",
+    "initials": "hg",
+    "tags": []
+  },
+  {
+    "_id": "230500",
+    "code": "230500",
+    "name": "双鸭山市",
+    "short_name": "双鸭山",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "shuangyashan",
+    "initials": "sys",
+    "tags": []
+  },
+  {
+    "_id": "230600",
+    "code": "230600",
+    "name": "大庆市",
+    "short_name": "大庆",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "daqing",
+    "initials": "dq",
+    "tags": []
+  },
+  {
+    "_id": "230700",
+    "code": "230700",
+    "name": "伊春市",
+    "short_name": "伊春",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "yichun",
+    "initials": "yc",
+    "tags": []
+  },
+  {
+    "_id": "230800",
+    "code": "230800",
+    "name": "佳木斯市",
+    "short_name": "佳木斯",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "jiamusi",
+    "initials": "jms",
+    "tags": []
+  },
+  {
+    "_id": "230900",
+    "code": "230900",
+    "name": "七台河市",
+    "short_name": "七台河",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "qitaihe",
+    "initials": "qth",
+    "tags": []
+  },
+  {
+    "_id": "231000",
+    "code": "231000",
+    "name": "牡丹江市",
+    "short_name": "牡丹江",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "mudanjiang",
+    "initials": "mdj",
+    "tags": []
+  },
+  {
+    "_id": "231100",
+    "code": "231100",
+    "name": "黑河市",
+    "short_name": "黑河",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "heihe",
+    "initials": "hh",
+    "tags": []
+  },
+  {
+    "_id": "231200",
+    "code": "231200",
+    "name": "绥化市",
+    "short_name": "绥化",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "suihua",
+    "initials": "sh",
+    "tags": []
+  },
+  {
+    "_id": "232700",
+    "code": "232700",
+    "name": "大兴安岭地区",
+    "short_name": "大兴安岭",
+    "level": "city",
+    "parent_code": "230000",
+    "pinyin": "daxinganling",
+    "initials": "dxal",
+    "tags": []
+  },
+  {
+    "_id": "320100",
+    "code": "320100",
+    "name": "南京市",
+    "short_name": "南京",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "nanjing",
+    "initials": "nj",
+    "tags": [
+      "capital",
+      "sub_provincial",
+      "yrd"
+    ]
+  },
+  {
+    "_id": "320200",
+    "code": "320200",
+    "name": "无锡市",
+    "short_name": "无锡",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "wuxi",
+    "initials": "wx",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "320300",
+    "code": "320300",
+    "name": "徐州市",
+    "short_name": "徐州",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "xuzhou",
+    "initials": "xz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "320400",
+    "code": "320400",
+    "name": "常州市",
+    "short_name": "常州",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "changzhou",
+    "initials": "cz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "320500",
+    "code": "320500",
+    "name": "苏州市",
+    "short_name": "苏州",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "suzhou",
+    "initials": "sz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "320600",
+    "code": "320600",
+    "name": "南通市",
+    "short_name": "南通",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "nantong",
+    "initials": "nt",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "320700",
+    "code": "320700",
+    "name": "连云港市",
+    "short_name": "连云港",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "lianyungang",
+    "initials": "lyg",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "320800",
+    "code": "320800",
+    "name": "淮安市",
+    "short_name": "淮安",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "huaian",
+    "initials": "ha",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "320900",
+    "code": "320900",
+    "name": "盐城市",
+    "short_name": "盐城",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "yancheng",
+    "initials": "yc",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "321000",
+    "code": "321000",
+    "name": "扬州市",
+    "short_name": "扬州",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "yangzhou",
+    "initials": "yz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "321100",
+    "code": "321100",
+    "name": "镇江市",
+    "short_name": "镇江",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "zhenjiang",
+    "initials": "zj",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "321200",
+    "code": "321200",
+    "name": "泰州市",
+    "short_name": "泰州",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "taizhou",
+    "initials": "tz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "321300",
+    "code": "321300",
+    "name": "宿迁市",
+    "short_name": "宿迁",
+    "level": "city",
+    "parent_code": "320000",
+    "pinyin": "suqian",
+    "initials": "sq",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330100",
+    "code": "330100",
+    "name": "杭州市",
+    "short_name": "杭州",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "hangzhou",
+    "initials": "hz",
+    "tags": [
+      "capital",
+      "sub_provincial",
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330200",
+    "code": "330200",
+    "name": "宁波市",
+    "short_name": "宁波",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "ningbo",
+    "initials": "nb",
+    "tags": [
+      "sub_provincial",
+      "separate_plan",
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330300",
+    "code": "330300",
+    "name": "温州市",
+    "short_name": "温州",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "wenzhou",
+    "initials": "wz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330400",
+    "code": "330400",
+    "name": "嘉兴市",
+    "short_name": "嘉兴",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "jiaxing",
+    "initials": "jx",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330500",
+    "code": "330500",
+    "name": "湖州市",
+    "short_name": "湖州",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "huzhou",
+    "initials": "hz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330600",
+    "code": "330600",
+    "name": "绍兴市",
+    "short_name": "绍兴",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "shaoxing",
+    "initials": "sx",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330700",
+    "code": "330700",
+    "name": "金华市",
+    "short_name": "金华",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "jinhua",
+    "initials": "jh",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330800",
+    "code": "330800",
+    "name": "衢州市",
+    "short_name": "衢州",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "quzhou",
+    "initials": "qz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "330900",
+    "code": "330900",
+    "name": "舟山市",
+    "short_name": "舟山",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "zhoushan",
+    "initials": "zs",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "331000",
+    "code": "331000",
+    "name": "台州市",
+    "short_name": "台州",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "taizhou",
+    "initials": "tz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "331100",
+    "code": "331100",
+    "name": "丽水市",
+    "short_name": "丽水",
+    "level": "city",
+    "parent_code": "330000",
+    "pinyin": "lishui",
+    "initials": "ls",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "340100",
+    "code": "340100",
+    "name": "合肥市",
+    "short_name": "合肥",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "hefei",
+    "initials": "hf",
+    "tags": [
+      "capital",
+      "yrd"
+    ]
+  },
+  {
+    "_id": "340200",
+    "code": "340200",
+    "name": "芜湖市",
+    "short_name": "芜湖",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "wuhu",
+    "initials": "wh",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "340300",
+    "code": "340300",
+    "name": "蚌埠市",
+    "short_name": "蚌埠",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "bengbu",
+    "initials": "bb",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "340400",
+    "code": "340400",
+    "name": "淮南市",
+    "short_name": "淮南",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "huainan",
+    "initials": "hn",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "340500",
+    "code": "340500",
+    "name": "马鞍山市",
+    "short_name": "马鞍山",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "maanshan",
+    "initials": "mas",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "340600",
+    "code": "340600",
+    "name": "淮北市",
+    "short_name": "淮北",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "huaibei",
+    "initials": "hb",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "340700",
+    "code": "340700",
+    "name": "铜陵市",
+    "short_name": "铜陵",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "tongling",
+    "initials": "tl",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "340800",
+    "code": "340800",
+    "name": "安庆市",
+    "short_name": "安庆",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "anqing",
+    "initials": "aq",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "341000",
+    "code": "341000",
+    "name": "黄山市",
+    "short_name": "黄山",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "huangshan",
+    "initials": "hs",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "341100",
+    "code": "341100",
+    "name": "滁州市",
+    "short_name": "滁州",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "chuzhou",
+    "initials": "cz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "341200",
+    "code": "341200",
+    "name": "阜阳市",
+    "short_name": "阜阳",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "fuyang",
+    "initials": "fy",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "341300",
+    "code": "341300",
+    "name": "宿州市",
+    "short_name": "宿州",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "suzhou",
+    "initials": "sz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "341500",
+    "code": "341500",
+    "name": "六安市",
+    "short_name": "六安",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "luan",
+    "initials": "la",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "341600",
+    "code": "341600",
+    "name": "亳州市",
+    "short_name": "亳州",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "bozhou",
+    "initials": "bz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "341700",
+    "code": "341700",
+    "name": "池州市",
+    "short_name": "池州",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "chizhou",
+    "initials": "cz",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "341800",
+    "code": "341800",
+    "name": "宣城市",
+    "short_name": "宣城",
+    "level": "city",
+    "parent_code": "340000",
+    "pinyin": "xuancheng",
+    "initials": "xc",
+    "tags": [
+      "yrd"
+    ]
+  },
+  {
+    "_id": "350100",
+    "code": "350100",
+    "name": "福州市",
+    "short_name": "福州",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "fuzhou",
+    "initials": "fz",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "350200",
+    "code": "350200",
+    "name": "厦门市",
+    "short_name": "厦门",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "xiamen",
+    "initials": "xm",
+    "tags": [
+      "sub_provincial",
+      "separate_plan"
+    ]
+  },
+  {
+    "_id": "350300",
+    "code": "350300",
+    "name": "莆田市",
+    "short_name": "莆田",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "putian",
+    "initials": "pt",
+    "tags": []
+  },
+  {
+    "_id": "350400",
+    "code": "350400",
+    "name": "三明市",
+    "short_name": "三明",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "sanming",
+    "initials": "sm",
+    "tags": []
+  },
+  {
+    "_id": "350500",
+    "code": "350500",
+    "name": "泉州市",
+    "short_name": "泉州",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "quanzhou",
+    "initials": "qz",
+    "tags": []
+  },
+  {
+    "_id": "350600",
+    "code": "350600",
+    "name": "漳州市",
+    "short_name": "漳州",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "zhangzhou",
+    "initials": "zz",
+    "tags": []
+  },
+  {
+    "_id": "350700",
+    "code": "350700",
+    "name": "南平市",
+    "short_name": "南平",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "nanping",
+    "initials": "np",
+    "tags": []
+  },
+  {
+    "_id": "350800",
+    "code": "350800",
+    "name": "龙岩市",
+    "short_name": "龙岩",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "longyan",
+    "initials": "ly",
+    "tags": []
+  },
+  {
+    "_id": "350900",
+    "code": "350900",
+    "name": "宁德市",
+    "short_name": "宁德",
+    "level": "city",
+    "parent_code": "350000",
+    "pinyin": "ningde",
+    "initials": "nd",
+    "tags": []
+  },
+  {
+    "_id": "360100",
+    "code": "360100",
+    "name": "南昌市",
+    "short_name": "南昌",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "nanchang",
+    "initials": "nc",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "360200",
+    "code": "360200",
+    "name": "景德镇市",
+    "short_name": "景德镇",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "jingdezhen",
+    "initials": "jdz",
+    "tags": []
+  },
+  {
+    "_id": "360300",
+    "code": "360300",
+    "name": "萍乡市",
+    "short_name": "萍乡",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "pingxiang",
+    "initials": "px",
+    "tags": []
+  },
+  {
+    "_id": "360400",
+    "code": "360400",
+    "name": "九江市",
+    "short_name": "九江",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "jiujiang",
+    "initials": "jj",
+    "tags": []
+  },
+  {
+    "_id": "360500",
+    "code": "360500",
+    "name": "新余市",
+    "short_name": "新余",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "xinyu",
+    "initials": "xy",
+    "tags": []
+  },
+  {
+    "_id": "360600",
+    "code": "360600",
+    "name": "鹰潭市",
+    "short_name": "鹰潭",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "yingtan",
+    "initials": "yt",
+    "tags": []
+  },
+  {
+    "_id": "360700",
+    "code": "360700",
+    "name": "赣州市",
+    "short_name": "赣州",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "ganzhou",
+    "initials": "gz",
+    "tags": []
+  },
+  {
+    "_id": "360800",
+    "code": "360800",
+    "name": "吉安市",
+    "short_name": "吉安",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "jian",
+    "initials": "ja",
+    "tags": []
+  },
+  {
+    "_id": "360900",
+    "code": "360900",
+    "name": "宜春市",
+    "short_name": "宜春",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "yichun",
+    "initials": "yc",
+    "tags": []
+  },
+  {
+    "_id": "361000",
+    "code": "361000",
+    "name": "抚州市",
+    "short_name": "抚州",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "fuzhou",
+    "initials": "fz",
+    "tags": []
+  },
+  {
+    "_id": "361100",
+    "code": "361100",
+    "name": "上饶市",
+    "short_name": "上饶",
+    "level": "city",
+    "parent_code": "360000",
+    "pinyin": "shangrao",
+    "initials": "sr",
+    "tags": []
+  },
+  {
+    "_id": "370100",
+    "code": "370100",
+    "name": "济南市",
+    "short_name": "济南",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "jinan",
+    "initials": "jn",
+    "tags": [
+      "capital",
+      "sub_provincial"
+    ]
+  },
+  {
+    "_id": "370200",
+    "code": "370200",
+    "name": "青岛市",
+    "short_name": "青岛",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "qingdao",
+    "initials": "qd",
+    "tags": [
+      "sub_provincial",
+      "separate_plan"
+    ]
+  },
+  {
+    "_id": "370300",
+    "code": "370300",
+    "name": "淄博市",
+    "short_name": "淄博",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "zibo",
+    "initials": "zb",
+    "tags": []
+  },
+  {
+    "_id": "370400",
+    "code": "370400",
+    "name": "枣庄市",
+    "short_name": "枣庄",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "zaozhuang",
+    "initials": "zz",
+    "tags": []
+  },
+  {
+    "_id": "370500",
+    "code": "370500",
+    "name": "东营市",
+    "short_name": "东营",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "dongying",
+    "initials": "dy",
+    "tags": []
+  },
+  {
+    "_id": "370600",
+    "code": "370600",
+    "name": "烟台市",
+    "short_name": "烟台",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "yantai",
+    "initials": "yt",
+    "tags": []
+  },
+  {
+    "_id": "370700",
+    "code": "370700",
+    "name": "潍坊市",
+    "short_name": "潍坊",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "weifang",
+    "initials": "wf",
+    "tags": []
+  },
+  {
+    "_id": "370800",
+    "code": "370800",
+    "name": "济宁市",
+    "short_name": "济宁",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "jining",
+    "initials": "jn",
+    "tags": []
+  },
+  {
+    "_id": "370900",
+    "code": "370900",
+    "name": "泰安市",
+    "short_name": "泰安",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "taian",
+    "initials": "ta",
+    "tags": []
+  },
+  {
+    "_id": "371000",
+    "code": "371000",
+    "name": "威海市",
+    "short_name": "威海",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "weihai",
+    "initials": "wh",
+    "tags": []
+  },
+  {
+    "_id": "371100",
+    "code": "371100",
+    "name": "日照市",
+    "short_name": "日照",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "rizhao",
+    "initials": "rz",
+    "tags": []
+  },
+  {
+    "_id": "371300",
+    "code": "371300",
+    "name": "临沂市",
+    "short_name": "临沂",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "linyi",
+    "initials": "ly",
+    "tags": []
+  },
+  {
+    "_id": "371400",
+    "code": "371400",
+    "name": "德州市",
+    "short_name": "德州",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "dezhou",
+    "initials": "dz",
+    "tags": []
+  },
+  {
+    "_id": "371500",
+    "code": "371500",
+    "name": "聊城市",
+    "short_name": "聊城",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "liaocheng",
+    "initials": "lc",
+    "tags": []
+  },
+  {
+    "_id": "371600",
+    "code": "371600",
+    "name": "滨州市",
+    "short_name": "滨州",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "binzhou",
+    "initials": "bz",
+    "tags": []
+  },
+  {
+    "_id": "371700",
+    "code": "371700",
+    "name": "菏泽市",
+    "short_name": "菏泽",
+    "level": "city",
+    "parent_code": "370000",
+    "pinyin": "heze",
+    "initials": "hz",
+    "tags": []
+  },
+  {
+    "_id": "410100",
+    "code": "410100",
+    "name": "郑州市",
+    "short_name": "郑州",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "zhengzhou",
+    "initials": "zz",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "410200",
+    "code": "410200",
+    "name": "开封市",
+    "short_name": "开封",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "kaifeng",
+    "initials": "kf",
+    "tags": []
+  },
+  {
+    "_id": "410300",
+    "code": "410300",
+    "name": "洛阳市",
+    "short_name": "洛阳",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "luoyang",
+    "initials": "ly",
+    "tags": []
+  },
+  {
+    "_id": "410400",
+    "code": "410400",
+    "name": "平顶山市",
+    "short_name": "平顶山",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "pingdingshan",
+    "initials": "pds",
+    "tags": []
+  },
+  {
+    "_id": "410500",
+    "code": "410500",
+    "name": "安阳市",
+    "short_name": "安阳",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "anyang",
+    "initials": "ay",
+    "tags": []
+  },
+  {
+    "_id": "410600",
+    "code": "410600",
+    "name": "鹤壁市",
+    "short_name": "鹤壁",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "hebi",
+    "initials": "hb",
+    "tags": []
+  },
+  {
+    "_id": "410700",
+    "code": "410700",
+    "name": "新乡市",
+    "short_name": "新乡",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "xinxiang",
+    "initials": "xx",
+    "tags": []
+  },
+  {
+    "_id": "410800",
+    "code": "410800",
+    "name": "焦作市",
+    "short_name": "焦作",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "jiaozuo",
+    "initials": "jz",
+    "tags": []
+  },
+  {
+    "_id": "410900",
+    "code": "410900",
+    "name": "濮阳市",
+    "short_name": "濮阳",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "puyang",
+    "initials": "py",
+    "tags": []
+  },
+  {
+    "_id": "411000",
+    "code": "411000",
+    "name": "许昌市",
+    "short_name": "许昌",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "xuchang",
+    "initials": "xc",
+    "tags": []
+  },
+  {
+    "_id": "411100",
+    "code": "411100",
+    "name": "漯河市",
+    "short_name": "漯河",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "luohe",
+    "initials": "lh",
+    "tags": []
+  },
+  {
+    "_id": "411200",
+    "code": "411200",
+    "name": "三门峡市",
+    "short_name": "三门峡",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "sanmenxia",
+    "initials": "smx",
+    "tags": []
+  },
+  {
+    "_id": "411300",
+    "code": "411300",
+    "name": "南阳市",
+    "short_name": "南阳",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "nanyang",
+    "initials": "ny",
+    "tags": []
+  },
+  {
+    "_id": "411400",
+    "code": "411400",
+    "name": "商丘市",
+    "short_name": "商丘",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "shangqiu",
+    "initials": "sq",
+    "tags": []
+  },
+  {
+    "_id": "411500",
+    "code": "411500",
+    "name": "信阳市",
+    "short_name": "信阳",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "xinyang",
+    "initials": "xy",
+    "tags": []
+  },
+  {
+    "_id": "411600",
+    "code": "411600",
+    "name": "周口市",
+    "short_name": "周口",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "zhoukou",
+    "initials": "zk",
+    "tags": []
+  },
+  {
+    "_id": "411700",
+    "code": "411700",
+    "name": "驻马店市",
+    "short_name": "驻马店",
+    "level": "city",
+    "parent_code": "410000",
+    "pinyin": "zhumadian",
+    "initials": "zmd",
+    "tags": []
+  },
+  {
+    "_id": "420100",
+    "code": "420100",
+    "name": "武汉市",
+    "short_name": "武汉",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "wuhan",
+    "initials": "wh",
+    "tags": [
+      "capital",
+      "sub_provincial"
+    ]
+  },
+  {
+    "_id": "420200",
+    "code": "420200",
+    "name": "黄石市",
+    "short_name": "黄石",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "huangshi",
+    "initials": "hs",
+    "tags": []
+  },
+  {
+    "_id": "420300",
+    "code": "420300",
+    "name": "十堰市",
+    "short_name": "十堰",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "shiyan",
+    "initials": "sy",
+    "tags": []
+  },
+  {
+    "_id": "420500",
+    "code": "420500",
+    "name": "宜昌市",
+    "short_name": "宜昌",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "yichang",
+    "initials": "yc",
+    "tags": []
+  },
+  {
+    "_id": "420600",
+    "code": "420600",
+    "name": "襄阳市",
+    "short_name": "襄阳",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "xiangyang",
+    "initials": "xy",
+    "tags": []
+  },
+  {
+    "_id": "420700",
+    "code": "420700",
+    "name": "鄂州市",
+    "short_name": "鄂州",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "ezhou",
+    "initials": "ez",
+    "tags": []
+  },
+  {
+    "_id": "420800",
+    "code": "420800",
+    "name": "荆门市",
+    "short_name": "荆门",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "jingmen",
+    "initials": "jm",
+    "tags": []
+  },
+  {
+    "_id": "420900",
+    "code": "420900",
+    "name": "孝感市",
+    "short_name": "孝感",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "xiaogan",
+    "initials": "xg",
+    "tags": []
+  },
+  {
+    "_id": "421000",
+    "code": "421000",
+    "name": "荆州市",
+    "short_name": "荆州",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "jingzhou",
+    "initials": "jz",
+    "tags": []
+  },
+  {
+    "_id": "421100",
+    "code": "421100",
+    "name": "黄冈市",
+    "short_name": "黄冈",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "huanggang",
+    "initials": "hg",
+    "tags": []
+  },
+  {
+    "_id": "421200",
+    "code": "421200",
+    "name": "咸宁市",
+    "short_name": "咸宁",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "xianning",
+    "initials": "xn",
+    "tags": []
+  },
+  {
+    "_id": "421300",
+    "code": "421300",
+    "name": "随州市",
+    "short_name": "随州",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "suizhou",
+    "initials": "sz",
+    "tags": []
+  },
+  {
+    "_id": "422800",
+    "code": "422800",
+    "name": "恩施土家族苗族自治州",
+    "short_name": "恩施",
+    "level": "city",
+    "parent_code": "420000",
+    "pinyin": "enshi",
+    "initials": "es",
+    "tags": []
+  },
+  {
+    "_id": "430100",
+    "code": "430100",
+    "name": "长沙市",
+    "short_name": "长沙",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "changsha",
+    "initials": "cs",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "430200",
+    "code": "430200",
+    "name": "株洲市",
+    "short_name": "株洲",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "zhuzhou",
+    "initials": "zz",
+    "tags": []
+  },
+  {
+    "_id": "430300",
+    "code": "430300",
+    "name": "湘潭市",
+    "short_name": "湘潭",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "xiangtan",
+    "initials": "xt",
+    "tags": []
+  },
+  {
+    "_id": "430400",
+    "code": "430400",
+    "name": "衡阳市",
+    "short_name": "衡阳",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "hengyang",
+    "initials": "hy",
+    "tags": []
+  },
+  {
+    "_id": "430500",
+    "code": "430500",
+    "name": "邵阳市",
+    "short_name": "邵阳",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "shaoyang",
+    "initials": "sy",
+    "tags": []
+  },
+  {
+    "_id": "430600",
+    "code": "430600",
+    "name": "岳阳市",
+    "short_name": "岳阳",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "yueyang",
+    "initials": "yy",
+    "tags": []
+  },
+  {
+    "_id": "430700",
+    "code": "430700",
+    "name": "常德市",
+    "short_name": "常德",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "changde",
+    "initials": "cd",
+    "tags": []
+  },
+  {
+    "_id": "430800",
+    "code": "430800",
+    "name": "张家界市",
+    "short_name": "张家界",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "zhangjiajie",
+    "initials": "zjj",
+    "tags": []
+  },
+  {
+    "_id": "430900",
+    "code": "430900",
+    "name": "益阳市",
+    "short_name": "益阳",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "yiyang",
+    "initials": "yy",
+    "tags": []
+  },
+  {
+    "_id": "431000",
+    "code": "431000",
+    "name": "郴州市",
+    "short_name": "郴州",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "chenzhou",
+    "initials": "cz",
+    "tags": []
+  },
+  {
+    "_id": "431100",
+    "code": "431100",
+    "name": "永州市",
+    "short_name": "永州",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "yongzhou",
+    "initials": "yz",
+    "tags": []
+  },
+  {
+    "_id": "431200",
+    "code": "431200",
+    "name": "怀化市",
+    "short_name": "怀化",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "huaihua",
+    "initials": "hh",
+    "tags": []
+  },
+  {
+    "_id": "431300",
+    "code": "431300",
+    "name": "娄底市",
+    "short_name": "娄底",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "loudi",
+    "initials": "ld",
+    "tags": []
+  },
+  {
+    "_id": "433100",
+    "code": "433100",
+    "name": "湘西土家族苗族自治州",
+    "short_name": "湘西",
+    "level": "city",
+    "parent_code": "430000",
+    "pinyin": "xiangxi",
+    "initials": "xx",
+    "tags": []
+  },
+  {
+    "_id": "440100",
+    "code": "440100",
+    "name": "广州市",
+    "short_name": "广州",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "guangzhou",
+    "initials": "gz",
+    "tags": [
+      "capital",
+      "sub_provincial",
+      "prd"
+    ]
+  },
+  {
+    "_id": "440200",
+    "code": "440200",
+    "name": "韶关市",
+    "short_name": "韶关",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "shaoguan",
+    "initials": "sg",
+    "tags": []
+  },
+  {
+    "_id": "440300",
+    "code": "440300",
+    "name": "深圳市",
+    "short_name": "深圳",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "shenzhen",
+    "initials": "sz",
+    "tags": [
+      "sub_provincial",
+      "separate_plan",
+      "prd"
+    ]
+  },
+  {
+    "_id": "440400",
+    "code": "440400",
+    "name": "珠海市",
+    "short_name": "珠海",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "zhuhai",
+    "initials": "zh",
+    "tags": [
+      "prd"
+    ]
+  },
+  {
+    "_id": "440500",
+    "code": "440500",
+    "name": "汕头市",
+    "short_name": "汕头",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "shantou",
+    "initials": "st",
+    "tags": []
+  },
+  {
+    "_id": "440600",
+    "code": "440600",
+    "name": "佛山市",
+    "short_name": "佛山",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "foshan",
+    "initials": "fs",
+    "tags": [
+      "prd"
+    ]
+  },
+  {
+    "_id": "440700",
+    "code": "440700",
+    "name": "江门市",
+    "short_name": "江门",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "jiangmen",
+    "initials": "jm",
+    "tags": [
+      "prd"
+    ]
+  },
+  {
+    "_id": "440800",
+    "code": "440800",
+    "name": "湛江市",
+    "short_name": "湛江",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "zhanjiang",
+    "initials": "zj",
+    "tags": []
+  },
+  {
+    "_id": "440900",
+    "code": "440900",
+    "name": "茂名市",
+    "short_name": "茂名",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "maoming",
+    "initials": "mm",
+    "tags": []
+  },
+  {
+    "_id": "441200",
+    "code": "441200",
+    "name": "肇庆市",
+    "short_name": "肇庆",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "zhaoqing",
+    "initials": "zq",
+    "tags": [
+      "prd"
+    ]
+  },
+  {
+    "_id": "441300",
+    "code": "441300",
+    "name": "惠州市",
+    "short_name": "惠州",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "huizhou",
+    "initials": "hz",
+    "tags": [
+      "prd"
+    ]
+  },
+  {
+    "_id": "441400",
+    "code": "441400",
+    "name": "梅州市",
+    "short_name": "梅州",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "meizhou",
+    "initials": "mz",
+    "tags": []
+  },
+  {
+    "_id": "441500",
+    "code": "441500",
+    "name": "汕尾市",
+    "short_name": "汕尾",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "shanwei",
+    "initials": "sw",
+    "tags": []
+  },
+  {
+    "_id": "441600",
+    "code": "441600",
+    "name": "河源市",
+    "short_name": "河源",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "heyuan",
+    "initials": "hy",
+    "tags": []
+  },
+  {
+    "_id": "441700",
+    "code": "441700",
+    "name": "阳江市",
+    "short_name": "阳江",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "yangjiang",
+    "initials": "yj",
+    "tags": []
+  },
+  {
+    "_id": "441800",
+    "code": "441800",
+    "name": "清远市",
+    "short_name": "清远",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "qingyuan",
+    "initials": "qy",
+    "tags": []
+  },
+  {
+    "_id": "441900",
+    "code": "441900",
+    "name": "东莞市",
+    "short_name": "东莞",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "dongguan",
+    "initials": "dg",
+    "tags": [
+      "prd"
+    ]
+  },
+  {
+    "_id": "442000",
+    "code": "442000",
+    "name": "中山市",
+    "short_name": "中山",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "zhongshan",
+    "initials": "zs",
+    "tags": [
+      "prd"
+    ]
+  },
+  {
+    "_id": "445100",
+    "code": "445100",
+    "name": "潮州市",
+    "short_name": "潮州",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "chaozhou",
+    "initials": "cz",
+    "tags": []
+  },
+  {
+    "_id": "445200",
+    "code": "445200",
+    "name": "揭阳市",
+    "short_name": "揭阳",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "jieyang",
+    "initials": "jy",
+    "tags": []
+  },
+  {
+    "_id": "445300",
+    "code": "445300",
+    "name": "云浮市",
+    "short_name": "云浮",
+    "level": "city",
+    "parent_code": "440000",
+    "pinyin": "yunfu",
+    "initials": "yf",
+    "tags": []
+  },
+  {
+    "_id": "450100",
+    "code": "450100",
+    "name": "南宁市",
+    "short_name": "南宁",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "nanning",
+    "initials": "nn",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "450200",
+    "code": "450200",
+    "name": "柳州市",
+    "short_name": "柳州",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "liuzhou",
+    "initials": "lz",
+    "tags": []
+  },
+  {
+    "_id": "450300",
+    "code": "450300",
+    "name": "桂林市",
+    "short_name": "桂林",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "guilin",
+    "initials": "gl",
+    "tags": []
+  },
+  {
+    "_id": "450400",
+    "code": "450400",
+    "name": "梧州市",
+    "short_name": "梧州",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "wuzhou",
+    "initials": "wz",
+    "tags": []
+  },
+  {
+    "_id": "450500",
+    "code": "450500",
+    "name": "北海市",
+    "short_name": "北海",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "beihai",
+    "initials": "bh",
+    "tags": []
+  },
+  {
+    "_id": "450600",
+    "code": "450600",
+    "name": "防城港市",
+    "short_name": "防城港",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "fangchenggang",
+    "initials": "fcg",
+    "tags": []
+  },
+  {
+    "_id": "450700",
+    "code": "450700",
+    "name": "钦州市",
+    "short_name": "钦州",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "qinzhou",
+    "initials": "qz",
+    "tags": []
+  },
+  {
+    "_id": "450800",
+    "code": "450800",
+    "name": "贵港市",
+    "short_name": "贵港",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "guigang",
+    "initials": "gg",
+    "tags": []
+  },
+  {
+    "_id": "450900",
+    "code": "450900",
+    "name": "玉林市",
+    "short_name": "玉林",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "yulin",
+    "initials": "yl",
+    "tags": []
+  },
+  {
+    "_id": "451000",
+    "code": "451000",
+    "name": "百色市",
+    "short_name": "百色",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "baise",
+    "initials": "bs",
+    "tags": []
+  },
+  {
+    "_id": "451100",
+    "code": "451100",
+    "name": "贺州市",
+    "short_name": "贺州",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "hezhou",
+    "initials": "hz",
+    "tags": []
+  },
+  {
+    "_id": "451200",
+    "code": "451200",
+    "name": "河池市",
+    "short_name": "河池",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "hechi",
+    "initials": "hc",
+    "tags": []
+  },
+  {
+    "_id": "451300",
+    "code": "451300",
+    "name": "来宾市",
+    "short_name": "来宾",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "laibin",
+    "initials": "lb",
+    "tags": []
+  },
+  {
+    "_id": "451400",
+    "code": "451400",
+    "name": "崇左市",
+    "short_name": "崇左",
+    "level": "city",
+    "parent_code": "450000",
+    "pinyin": "chongzuo",
+    "initials": "cz",
+    "tags": []
+  },
+  {
+    "_id": "460100",
+    "code": "460100",
+    "name": "海口市",
+    "short_name": "海口",
+    "level": "city",
+    "parent_code": "460000",
+    "pinyin": "haikou",
+    "initials": "hk",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "460200",
+    "code": "460200",
+    "name": "三亚市",
+    "short_name": "三亚",
+    "level": "city",
+    "parent_code": "460000",
+    "pinyin": "sanya",
+    "initials": "sy",
+    "tags": []
+  },
+  {
+    "_id": "460300",
+    "code": "460300",
+    "name": "三沙市",
+    "short_name": "三沙",
+    "level": "city",
+    "parent_code": "460000",
+    "pinyin": "sansha",
+    "initials": "ss",
+    "tags": [
+      "hidden"
+    ]
+  },
+  {
+    "_id": "460400",
+    "code": "460400",
+    "name": "儋州市",
+    "short_name": "儋州",
+    "level": "city",
+    "parent_code": "460000",
+    "pinyin": "danzhou",
+    "initials": "dz",
+    "tags": []
+  },
+  {
+    "_id": "510100",
+    "code": "510100",
+    "name": "成都市",
+    "short_name": "成都",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "chengdu",
+    "initials": "cd",
+    "tags": [
+      "capital",
+      "sub_provincial",
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "510300",
+    "code": "510300",
+    "name": "自贡市",
+    "short_name": "自贡",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "zigong",
+    "initials": "zg",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "510400",
+    "code": "510400",
+    "name": "攀枝花市",
+    "short_name": "攀枝花",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "panzhihua",
+    "initials": "pzh",
+    "tags": []
+  },
+  {
+    "_id": "510500",
+    "code": "510500",
+    "name": "泸州市",
+    "short_name": "泸州",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "luzhou",
+    "initials": "lz",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "510600",
+    "code": "510600",
+    "name": "德阳市",
+    "short_name": "德阳",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "deyang",
+    "initials": "dy",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "510700",
+    "code": "510700",
+    "name": "绵阳市",
+    "short_name": "绵阳",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "mianyang",
+    "initials": "my",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "510800",
+    "code": "510800",
+    "name": "广元市",
+    "short_name": "广元",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "guangyuan",
+    "initials": "gy",
+    "tags": []
+  },
+  {
+    "_id": "510900",
+    "code": "510900",
+    "name": "遂宁市",
+    "short_name": "遂宁",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "suining",
+    "initials": "sn",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511000",
+    "code": "511000",
+    "name": "内江市",
+    "short_name": "内江",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "neijiang",
+    "initials": "nj",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511100",
+    "code": "511100",
+    "name": "乐山市",
+    "short_name": "乐山",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "leshan",
+    "initials": "ls",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511300",
+    "code": "511300",
+    "name": "南充市",
+    "short_name": "南充",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "nanchong",
+    "initials": "nc",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511400",
+    "code": "511400",
+    "name": "眉山市",
+    "short_name": "眉山",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "meishan",
+    "initials": "ms",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511500",
+    "code": "511500",
+    "name": "宜宾市",
+    "short_name": "宜宾",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "yibin",
+    "initials": "yb",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511600",
+    "code": "511600",
+    "name": "广安市",
+    "short_name": "广安",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "guangan",
+    "initials": "ga",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511700",
+    "code": "511700",
+    "name": "达州市",
+    "short_name": "达州",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "dazhou",
+    "initials": "dz",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511800",
+    "code": "511800",
+    "name": "雅安市",
+    "short_name": "雅安",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "yaan",
+    "initials": "ya",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "511900",
+    "code": "511900",
+    "name": "巴中市",
+    "short_name": "巴中",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "bazhong",
+    "initials": "bz",
+    "tags": []
+  },
+  {
+    "_id": "512000",
+    "code": "512000",
+    "name": "资阳市",
+    "short_name": "资阳",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "ziyang",
+    "initials": "zy",
+    "tags": [
+      "chengyu"
+    ]
+  },
+  {
+    "_id": "513200",
+    "code": "513200",
+    "name": "阿坝藏族羌族自治州",
+    "short_name": "阿坝",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "aba",
+    "initials": "ab",
+    "tags": []
+  },
+  {
+    "_id": "513300",
+    "code": "513300",
+    "name": "甘孜藏族自治州",
+    "short_name": "甘孜",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "ganzi",
+    "initials": "gz",
+    "tags": []
+  },
+  {
+    "_id": "513400",
+    "code": "513400",
+    "name": "凉山彝族自治州",
+    "short_name": "凉山",
+    "level": "city",
+    "parent_code": "510000",
+    "pinyin": "liangshan",
+    "initials": "ls",
+    "tags": []
+  },
+  {
+    "_id": "520100",
+    "code": "520100",
+    "name": "贵阳市",
+    "short_name": "贵阳",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "guiyang",
+    "initials": "gy",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "520200",
+    "code": "520200",
+    "name": "六盘水市",
+    "short_name": "六盘水",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "liupanshui",
+    "initials": "lps",
+    "tags": []
+  },
+  {
+    "_id": "520300",
+    "code": "520300",
+    "name": "遵义市",
+    "short_name": "遵义",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "zunyi",
+    "initials": "zy",
+    "tags": []
+  },
+  {
+    "_id": "520400",
+    "code": "520400",
+    "name": "安顺市",
+    "short_name": "安顺",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "anshun",
+    "initials": "as",
+    "tags": []
+  },
+  {
+    "_id": "520500",
+    "code": "520500",
+    "name": "毕节市",
+    "short_name": "毕节",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "bijie",
+    "initials": "bj",
+    "tags": []
+  },
+  {
+    "_id": "520600",
+    "code": "520600",
+    "name": "铜仁市",
+    "short_name": "铜仁",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "tongren",
+    "initials": "tr",
+    "tags": []
+  },
+  {
+    "_id": "522300",
+    "code": "522300",
+    "name": "黔西南布依族苗族自治州",
+    "short_name": "黔西南",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "qianxinan",
+    "initials": "qxn",
+    "tags": []
+  },
+  {
+    "_id": "522600",
+    "code": "522600",
+    "name": "黔东南苗族侗族自治州",
+    "short_name": "黔东南",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "qiandongnan",
+    "initials": "qdn",
+    "tags": []
+  },
+  {
+    "_id": "522700",
+    "code": "522700",
+    "name": "黔南布依族苗族自治州",
+    "short_name": "黔南",
+    "level": "city",
+    "parent_code": "520000",
+    "pinyin": "qiannan",
+    "initials": "qn",
+    "tags": []
+  },
+  {
+    "_id": "530100",
+    "code": "530100",
+    "name": "昆明市",
+    "short_name": "昆明",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "kunming",
+    "initials": "km",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "530300",
+    "code": "530300",
+    "name": "曲靖市",
+    "short_name": "曲靖",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "qujing",
+    "initials": "qj",
+    "tags": []
+  },
+  {
+    "_id": "530400",
+    "code": "530400",
+    "name": "玉溪市",
+    "short_name": "玉溪",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "yuxi",
+    "initials": "yx",
+    "tags": []
+  },
+  {
+    "_id": "530500",
+    "code": "530500",
+    "name": "保山市",
+    "short_name": "保山",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "baoshan",
+    "initials": "bs",
+    "tags": []
+  },
+  {
+    "_id": "530600",
+    "code": "530600",
+    "name": "昭通市",
+    "short_name": "昭通",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "zhaotong",
+    "initials": "zt",
+    "tags": []
+  },
+  {
+    "_id": "530700",
+    "code": "530700",
+    "name": "丽江市",
+    "short_name": "丽江",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "lijiang",
+    "initials": "lj",
+    "tags": []
+  },
+  {
+    "_id": "530800",
+    "code": "530800",
+    "name": "普洱市",
+    "short_name": "普洱",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "puer",
+    "initials": "pe",
+    "tags": []
+  },
+  {
+    "_id": "530900",
+    "code": "530900",
+    "name": "临沧市",
+    "short_name": "临沧",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "lincang",
+    "initials": "lc",
+    "tags": []
+  },
+  {
+    "_id": "532300",
+    "code": "532300",
+    "name": "楚雄彝族自治州",
+    "short_name": "楚雄",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "chuxiong",
+    "initials": "cx",
+    "tags": []
+  },
+  {
+    "_id": "532500",
+    "code": "532500",
+    "name": "红河哈尼族彝族自治州",
+    "short_name": "红河",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "honghe",
+    "initials": "hh",
+    "tags": []
+  },
+  {
+    "_id": "532600",
+    "code": "532600",
+    "name": "文山壮族苗族自治州",
+    "short_name": "文山",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "wenshan",
+    "initials": "ws",
+    "tags": []
+  },
+  {
+    "_id": "532800",
+    "code": "532800",
+    "name": "西双版纳傣族自治州",
+    "short_name": "西双版纳",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "xishuangbanna",
+    "initials": "xsbn",
+    "tags": []
+  },
+  {
+    "_id": "532900",
+    "code": "532900",
+    "name": "大理白族自治州",
+    "short_name": "大理",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "dali",
+    "initials": "dl",
+    "tags": []
+  },
+  {
+    "_id": "533100",
+    "code": "533100",
+    "name": "德宏傣族景颇族自治州",
+    "short_name": "德宏",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "dehong",
+    "initials": "dh",
+    "tags": []
+  },
+  {
+    "_id": "533300",
+    "code": "533300",
+    "name": "怒江傈僳族自治州",
+    "short_name": "怒江",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "nujiang",
+    "initials": "nj",
+    "tags": []
+  },
+  {
+    "_id": "533400",
+    "code": "533400",
+    "name": "迪庆藏族自治州",
+    "short_name": "迪庆",
+    "level": "city",
+    "parent_code": "530000",
+    "pinyin": "diqing",
+    "initials": "dq",
+    "tags": []
+  },
+  {
+    "_id": "540100",
+    "code": "540100",
+    "name": "拉萨市",
+    "short_name": "拉萨",
+    "level": "city",
+    "parent_code": "540000",
+    "pinyin": "lasa",
+    "initials": "ls",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "540200",
+    "code": "540200",
+    "name": "日喀则市",
+    "short_name": "日喀则",
+    "level": "city",
+    "parent_code": "540000",
+    "pinyin": "rikaze",
+    "initials": "rkz",
+    "tags": []
+  },
+  {
+    "_id": "540300",
+    "code": "540300",
+    "name": "昌都市",
+    "short_name": "昌都",
+    "level": "city",
+    "parent_code": "540000",
+    "pinyin": "changdou",
+    "initials": "cd",
+    "tags": []
+  },
+  {
+    "_id": "540400",
+    "code": "540400",
+    "name": "林芝市",
+    "short_name": "林芝",
+    "level": "city",
+    "parent_code": "540000",
+    "pinyin": "linzhi",
+    "initials": "lz",
+    "tags": []
+  },
+  {
+    "_id": "540500",
+    "code": "540500",
+    "name": "山南市",
+    "short_name": "山南",
+    "level": "city",
+    "parent_code": "540000",
+    "pinyin": "shannan",
+    "initials": "sn",
+    "tags": []
+  },
+  {
+    "_id": "540600",
+    "code": "540600",
+    "name": "那曲市",
+    "short_name": "那曲",
+    "level": "city",
+    "parent_code": "540000",
+    "pinyin": "naqu",
+    "initials": "nq",
+    "tags": []
+  },
+  {
+    "_id": "542500",
+    "code": "542500",
+    "name": "阿里地区",
+    "short_name": "阿里",
+    "level": "city",
+    "parent_code": "540000",
+    "pinyin": "ali",
+    "initials": "al",
+    "tags": []
+  },
+  {
+    "_id": "610100",
+    "code": "610100",
+    "name": "西安市",
+    "short_name": "西安",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "xian",
+    "initials": "xa",
+    "tags": [
+      "capital",
+      "sub_provincial"
+    ]
+  },
+  {
+    "_id": "610200",
+    "code": "610200",
+    "name": "铜川市",
+    "short_name": "铜川",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "tongchuan",
+    "initials": "tc",
+    "tags": []
+  },
+  {
+    "_id": "610300",
+    "code": "610300",
+    "name": "宝鸡市",
+    "short_name": "宝鸡",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "baoji",
+    "initials": "bj",
+    "tags": []
+  },
+  {
+    "_id": "610400",
+    "code": "610400",
+    "name": "咸阳市",
+    "short_name": "咸阳",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "xianyang",
+    "initials": "xy",
+    "tags": []
+  },
+  {
+    "_id": "610500",
+    "code": "610500",
+    "name": "渭南市",
+    "short_name": "渭南",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "weinan",
+    "initials": "wn",
+    "tags": []
+  },
+  {
+    "_id": "610600",
+    "code": "610600",
+    "name": "延安市",
+    "short_name": "延安",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "yanan",
+    "initials": "ya",
+    "tags": []
+  },
+  {
+    "_id": "610700",
+    "code": "610700",
+    "name": "汉中市",
+    "short_name": "汉中",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "hanzhong",
+    "initials": "hz",
+    "tags": []
+  },
+  {
+    "_id": "610800",
+    "code": "610800",
+    "name": "榆林市",
+    "short_name": "榆林",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "yulin",
+    "initials": "yl",
+    "tags": []
+  },
+  {
+    "_id": "610900",
+    "code": "610900",
+    "name": "安康市",
+    "short_name": "安康",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "ankang",
+    "initials": "ak",
+    "tags": []
+  },
+  {
+    "_id": "611000",
+    "code": "611000",
+    "name": "商洛市",
+    "short_name": "商洛",
+    "level": "city",
+    "parent_code": "610000",
+    "pinyin": "shangluo",
+    "initials": "sl",
+    "tags": []
+  },
+  {
+    "_id": "620100",
+    "code": "620100",
+    "name": "兰州市",
+    "short_name": "兰州",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "lanzhou",
+    "initials": "lz",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "620200",
+    "code": "620200",
+    "name": "嘉峪关市",
+    "short_name": "嘉峪关",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "jiayuguan",
+    "initials": "jyg",
+    "tags": []
+  },
+  {
+    "_id": "620300",
+    "code": "620300",
+    "name": "金昌市",
+    "short_name": "金昌",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "jinchang",
+    "initials": "jc",
+    "tags": []
+  },
+  {
+    "_id": "620400",
+    "code": "620400",
+    "name": "白银市",
+    "short_name": "白银",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "baiyin",
+    "initials": "by",
+    "tags": []
+  },
+  {
+    "_id": "620500",
+    "code": "620500",
+    "name": "天水市",
+    "short_name": "天水",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "tianshui",
+    "initials": "ts",
+    "tags": []
+  },
+  {
+    "_id": "620600",
+    "code": "620600",
+    "name": "武威市",
+    "short_name": "武威",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "wuwei",
+    "initials": "ww",
+    "tags": []
+  },
+  {
+    "_id": "620700",
+    "code": "620700",
+    "name": "张掖市",
+    "short_name": "张掖",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "zhangye",
+    "initials": "zy",
+    "tags": []
+  },
+  {
+    "_id": "620800",
+    "code": "620800",
+    "name": "平凉市",
+    "short_name": "平凉",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "pingliang",
+    "initials": "pl",
+    "tags": []
+  },
+  {
+    "_id": "620900",
+    "code": "620900",
+    "name": "酒泉市",
+    "short_name": "酒泉",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "jiuquan",
+    "initials": "jq",
+    "tags": []
+  },
+  {
+    "_id": "621000",
+    "code": "621000",
+    "name": "庆阳市",
+    "short_name": "庆阳",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "qingyang",
+    "initials": "qy",
+    "tags": []
+  },
+  {
+    "_id": "621100",
+    "code": "621100",
+    "name": "定西市",
+    "short_name": "定西",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "dingxi",
+    "initials": "dx",
+    "tags": []
+  },
+  {
+    "_id": "621200",
+    "code": "621200",
+    "name": "陇南市",
+    "short_name": "陇南",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "longnan",
+    "initials": "ln",
+    "tags": []
+  },
+  {
+    "_id": "622900",
+    "code": "622900",
+    "name": "临夏回族自治州",
+    "short_name": "临夏",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "linxia",
+    "initials": "lx",
+    "tags": []
+  },
+  {
+    "_id": "623000",
+    "code": "623000",
+    "name": "甘南藏族自治州",
+    "short_name": "甘南",
+    "level": "city",
+    "parent_code": "620000",
+    "pinyin": "gannan",
+    "initials": "gn",
+    "tags": []
+  },
+  {
+    "_id": "630100",
+    "code": "630100",
+    "name": "西宁市",
+    "short_name": "西宁",
+    "level": "city",
+    "parent_code": "630000",
+    "pinyin": "xining",
+    "initials": "xn",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "630200",
+    "code": "630200",
+    "name": "海东市",
+    "short_name": "海东",
+    "level": "city",
+    "parent_code": "630000",
+    "pinyin": "haidong",
+    "initials": "hd",
+    "tags": []
+  },
+  {
+    "_id": "632200",
+    "code": "632200",
+    "name": "海北藏族自治州",
+    "short_name": "海北",
+    "level": "city",
+    "parent_code": "630000",
+    "pinyin": "haibei",
+    "initials": "hb",
+    "tags": []
+  },
+  {
+    "_id": "632300",
+    "code": "632300",
+    "name": "黄南藏族自治州",
+    "short_name": "黄南",
+    "level": "city",
+    "parent_code": "630000",
+    "pinyin": "huangnan",
+    "initials": "hn",
+    "tags": []
+  },
+  {
+    "_id": "632500",
+    "code": "632500",
+    "name": "海南藏族自治州",
+    "short_name": "海南",
+    "level": "city",
+    "parent_code": "630000",
+    "pinyin": "hainan",
+    "initials": "hn",
+    "tags": []
+  },
+  {
+    "_id": "632600",
+    "code": "632600",
+    "name": "果洛藏族自治州",
+    "short_name": "果洛",
+    "level": "city",
+    "parent_code": "630000",
+    "pinyin": "guoluo",
+    "initials": "gl",
+    "tags": []
+  },
+  {
+    "_id": "632700",
+    "code": "632700",
+    "name": "玉树藏族自治州",
+    "short_name": "玉树",
+    "level": "city",
+    "parent_code": "630000",
+    "pinyin": "yushu",
+    "initials": "ys",
+    "tags": []
+  },
+  {
+    "_id": "632800",
+    "code": "632800",
+    "name": "海西蒙古族藏族自治州",
+    "short_name": "海西",
+    "level": "city",
+    "parent_code": "630000",
+    "pinyin": "haixi",
+    "initials": "hx",
+    "tags": []
+  },
+  {
+    "_id": "640100",
+    "code": "640100",
+    "name": "银川市",
+    "short_name": "银川",
+    "level": "city",
+    "parent_code": "640000",
+    "pinyin": "yinchuan",
+    "initials": "yc",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "640200",
+    "code": "640200",
+    "name": "石嘴山市",
+    "short_name": "石嘴山",
+    "level": "city",
+    "parent_code": "640000",
+    "pinyin": "shizuishan",
+    "initials": "szs",
+    "tags": []
+  },
+  {
+    "_id": "640300",
+    "code": "640300",
+    "name": "吴忠市",
+    "short_name": "吴忠",
+    "level": "city",
+    "parent_code": "640000",
+    "pinyin": "wuzhong",
+    "initials": "wz",
+    "tags": []
+  },
+  {
+    "_id": "640400",
+    "code": "640400",
+    "name": "固原市",
+    "short_name": "固原",
+    "level": "city",
+    "parent_code": "640000",
+    "pinyin": "guyuan",
+    "initials": "gy",
+    "tags": []
+  },
+  {
+    "_id": "640500",
+    "code": "640500",
+    "name": "中卫市",
+    "short_name": "中卫",
+    "level": "city",
+    "parent_code": "640000",
+    "pinyin": "zhongwei",
+    "initials": "zw",
+    "tags": []
+  },
+  {
+    "_id": "650100",
+    "code": "650100",
+    "name": "乌鲁木齐市",
+    "short_name": "乌鲁木齐",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "wulumuqi",
+    "initials": "wlmq",
+    "tags": [
+      "capital"
+    ]
+  },
+  {
+    "_id": "650200",
+    "code": "650200",
+    "name": "克拉玛依市",
+    "short_name": "克拉玛依",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "kelamayi",
+    "initials": "klmy",
+    "tags": []
+  },
+  {
+    "_id": "650400",
+    "code": "650400",
+    "name": "吐鲁番市",
+    "short_name": "吐鲁番",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "tulufan",
+    "initials": "tlf",
+    "tags": []
+  },
+  {
+    "_id": "650500",
+    "code": "650500",
+    "name": "哈密市",
+    "short_name": "哈密",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "hami",
+    "initials": "hm",
+    "tags": []
+  },
+  {
+    "_id": "652300",
+    "code": "652300",
+    "name": "昌吉回族自治州",
+    "short_name": "昌吉",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "changji",
+    "initials": "cj",
+    "tags": []
+  },
+  {
+    "_id": "652700",
+    "code": "652700",
+    "name": "博尔塔拉蒙古自治州",
+    "short_name": "博尔塔拉",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "boertala",
+    "initials": "betl",
+    "tags": []
+  },
+  {
+    "_id": "652800",
+    "code": "652800",
+    "name": "巴音郭楞蒙古自治州",
+    "short_name": "巴音郭楞",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "bayinguoleng",
+    "initials": "bygl",
+    "tags": []
+  },
+  {
+    "_id": "652900",
+    "code": "652900",
+    "name": "阿克苏地区",
+    "short_name": "阿克苏",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "akesu",
+    "initials": "aks",
+    "tags": []
+  },
+  {
+    "_id": "653000",
+    "code": "653000",
+    "name": "克孜勒苏柯尔克孜自治州",
+    "short_name": "克孜勒苏",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "kezilesu",
+    "initials": "kzls",
+    "tags": []
+  },
+  {
+    "_id": "653100",
+    "code": "653100",
+    "name": "喀什地区",
+    "short_name": "喀什",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "kashen",
+    "initials": "ks",
+    "tags": []
+  },
+  {
+    "_id": "653200",
+    "code": "653200",
+    "name": "和田地区",
+    "short_name": "和田",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "hetian",
+    "initials": "ht",
+    "tags": []
+  },
+  {
+    "_id": "654000",
+    "code": "654000",
+    "name": "伊犁哈萨克自治州",
+    "short_name": "伊犁",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "yili",
+    "initials": "yl",
+    "tags": []
+  },
+  {
+    "_id": "654200",
+    "code": "654200",
+    "name": "塔城地区",
+    "short_name": "塔城",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "tacheng",
+    "initials": "tc",
+    "tags": []
+  },
+  {
+    "_id": "654300",
+    "code": "654300",
+    "name": "阿勒泰地区",
+    "short_name": "阿勒泰",
+    "level": "city",
+    "parent_code": "650000",
+    "pinyin": "aletai",
+    "initials": "alt",
+    "tags": []
+  }
+]

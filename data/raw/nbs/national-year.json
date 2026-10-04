@@ -1,0 +1,83 @@
+{
+  "fetched_at": "2026-10-04T01:08:39.473Z",
+  "source": "https://data.stats.gov.cn",
+  "rows": [
+    {
+      "code": "000000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 1401879.2,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1348066.2,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 1294271.7,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 1234029.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 1173823,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 1034867.6,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 1005872.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 936010.1,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 847382.9,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 761193,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 702511.5,
+      "index": null
+    }
+  ]
+}

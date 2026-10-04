@@ -1,0 +1,328 @@
+{
+  "fetched_at": "2026-10-04T01:08:39.473Z",
+  "source": "https://data.stats.gov.cn",
+  "rows": [
+    {
+      "code": "000000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 695704,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 334192.9,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 1401879.2,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 1013967.9,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 659861.6,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 318466.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 1348066.2,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 974553.8,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 633110.6,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 304525.2,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 1294271.7,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 937047,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 608606.3,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 292368.8,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 1234029.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 891687,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 576287.3,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 277175.8,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 1173823,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 840996.2,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 543034.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 255055.2,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 1034867.6,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 733031.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 463121.1,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 209671.1,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 1005872.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 723671,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 467647.8,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 221453.9,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 936010.1,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 672574.5,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 433777.7,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 205735.3,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 847382.9,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 607695.3,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 390940,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 185274.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 761193,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 545575.1,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 350737.5,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 165735.3,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 702511.5,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 506177.1,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 326058.4,
+      "index": null
+    },
+    {
+      "code": "000000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 154171.4,
+      "index": null
+    }
+  ]
+}

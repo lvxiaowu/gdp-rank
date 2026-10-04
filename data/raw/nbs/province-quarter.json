@@ -1,0 +1,9988 @@
+{
+  "fetched_at": "2026-10-04T01:08:39.473Z",
+  "source": "https://data.stats.gov.cn",
+  "rows": [
+    {
+      "code": "110000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 26412,
+      "index": 105.4
+    },
+    {
+      "code": "120000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 9138,
+      "index": 104.8
+    },
+    {
+      "code": "130000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 24207,
+      "index": 104.8
+    },
+    {
+      "code": "140000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 11747,
+      "index": 102.1
+    },
+    {
+      "code": "150000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 12810,
+      "index": 104.5
+    },
+    {
+      "code": "210000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 16227,
+      "index": 102.5
+    },
+    {
+      "code": "220000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 6979,
+      "index": 102.4
+    },
+    {
+      "code": "230000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 7390,
+      "index": 103.5
+    },
+    {
+      "code": "310000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 27887,
+      "index": 105.6
+    },
+    {
+      "code": "320000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 70387,
+      "index": 105.2
+    },
+    {
+      "code": "330000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 47937,
+      "index": 105.7
+    },
+    {
+      "code": "340000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 27370,
+      "index": 105.6
+    },
+    {
+      "code": "350000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 29316,
+      "index": 104
+    },
+    {
+      "code": "360000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 18038,
+      "index": 104
+    },
+    {
+      "code": "370000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 53173,
+      "index": 105.6
+    },
+    {
+      "code": "410000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 33522,
+      "index": 105
+    },
+    {
+      "code": "420000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 31337,
+      "index": 105
+    },
+    {
+      "code": "430000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 27034,
+      "index": 102.7
+    },
+    {
+      "code": "440000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 72281,
+      "index": 104.5
+    },
+    {
+      "code": "450000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 14506,
+      "index": 103.5
+    },
+    {
+      "code": "460000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 3813,
+      "index": 102
+    },
+    {
+      "code": "500000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 16702,
+      "index": 104.2
+    },
+    {
+      "code": "510000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 33629,
+      "index": 104.8
+    },
+    {
+      "code": "520000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 11990,
+      "index": 104
+    },
+    {
+      "code": "530000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 16217,
+      "index": 102.5
+    },
+    {
+      "code": "540000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 1556,
+      "index": 106.3
+    },
+    {
+      "code": "610000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 17533,
+      "index": 103.8
+    },
+    {
+      "code": "620000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 6959,
+      "index": 104.9
+    },
+    {
+      "code": "630000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 2068,
+      "index": 105
+    },
+    {
+      "code": "640000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 2819,
+      "index": 104.9
+    },
+    {
+      "code": "650000",
+      "year": 2026,
+      "period": "H1",
+      "gdp": 10314,
+      "index": 103.7
+    },
+    {
+      "code": "110000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 12931,
+      "index": 105.9
+    },
+    {
+      "code": "120000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 4370,
+      "index": 105
+    },
+    {
+      "code": "130000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 11748,
+      "index": 104.9
+    },
+    {
+      "code": "140000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 5709,
+      "index": 104.2
+    },
+    {
+      "code": "150000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 6070,
+      "index": 104.6
+    },
+    {
+      "code": "210000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 7788,
+      "index": 102.8
+    },
+    {
+      "code": "220000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3347,
+      "index": 104.5
+    },
+    {
+      "code": "230000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3480,
+      "index": 103.7
+    },
+    {
+      "code": "310000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 13527,
+      "index": 105.9
+    },
+    {
+      "code": "320000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 34483,
+      "index": 105.4
+    },
+    {
+      "code": "330000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 23684,
+      "index": 106
+    },
+    {
+      "code": "340000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 13014,
+      "index": 105.8
+    },
+    {
+      "code": "350000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 13926,
+      "index": 105.1
+    },
+    {
+      "code": "360000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 8574,
+      "index": 105
+    },
+    {
+      "code": "370000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 24844,
+      "index": 106
+    },
+    {
+      "code": "410000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 15915,
+      "index": 105.2
+    },
+    {
+      "code": "420000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 14295,
+      "index": 105.4
+    },
+    {
+      "code": "430000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 13156,
+      "index": 103
+    },
+    {
+      "code": "440000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 34950,
+      "index": 104.6
+    },
+    {
+      "code": "450000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 7215,
+      "index": 104.8
+    },
+    {
+      "code": "460000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1980,
+      "index": 103.8
+    },
+    {
+      "code": "500000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 7923,
+      "index": 104.5
+    },
+    {
+      "code": "510000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 16058,
+      "index": 105.5
+    },
+    {
+      "code": "520000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 5867,
+      "index": 104.7
+    },
+    {
+      "code": "530000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 7754,
+      "index": 103
+    },
+    {
+      "code": "540000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 778,
+      "index": 106.1
+    },
+    {
+      "code": "610000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 8458,
+      "index": 104
+    },
+    {
+      "code": "620000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 3345,
+      "index": 105.9
+    },
+    {
+      "code": "630000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1052,
+      "index": 105.4
+    },
+    {
+      "code": "640000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 1366,
+      "index": 104.9
+    },
+    {
+      "code": "650000",
+      "year": 2026,
+      "period": "Q1",
+      "gdp": 4826,
+      "index": 103.5
+    },
+    {
+      "code": "110000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 52073,
+      "index": 105.4
+    },
+    {
+      "code": "120000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 18540,
+      "index": 104.8
+    },
+    {
+      "code": "130000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 49305,
+      "index": 105.6
+    },
+    {
+      "code": "140000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 25496,
+      "index": 104
+    },
+    {
+      "code": "150000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 26710,
+      "index": 104.7
+    },
+    {
+      "code": "210000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 33183,
+      "index": 103.7
+    },
+    {
+      "code": "220000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 14974,
+      "index": 105
+    },
+    {
+      "code": "230000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 16878,
+      "index": 104.2
+    },
+    {
+      "code": "310000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 56709,
+      "index": 105.4
+    },
+    {
+      "code": "320000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 142352,
+      "index": 105.3
+    },
+    {
+      "code": "330000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 94545,
+      "index": 105.5
+    },
+    {
+      "code": "340000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 52989,
+      "index": 105.5
+    },
+    {
+      "code": "350000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 60199,
+      "index": 105
+    },
+    {
+      "code": "360000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 36020,
+      "index": 105.2
+    },
+    {
+      "code": "370000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 103197,
+      "index": 105.5
+    },
+    {
+      "code": "410000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 66633,
+      "index": 105.6
+    },
+    {
+      "code": "420000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 62661,
+      "index": 105.5
+    },
+    {
+      "code": "430000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 55309,
+      "index": 104.8
+    },
+    {
+      "code": "440000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 145847,
+      "index": 103.9
+    },
+    {
+      "code": "450000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 29727,
+      "index": 105.1
+    },
+    {
+      "code": "460000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 8109,
+      "index": 104
+    },
+    {
+      "code": "500000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 33758,
+      "index": 105.3
+    },
+    {
+      "code": "510000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 67665,
+      "index": 105.5
+    },
+    {
+      "code": "520000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 23562,
+      "index": 104.9
+    },
+    {
+      "code": "530000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 32766,
+      "index": 104.1
+    },
+    {
+      "code": "540000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 3032,
+      "index": 107
+    },
+    {
+      "code": "610000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 36551,
+      "index": 105.1
+    },
+    {
+      "code": "620000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 13698,
+      "index": 105.8
+    },
+    {
+      "code": "630000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 4122,
+      "index": 104.1
+    },
+    {
+      "code": "640000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 5696,
+      "index": 105.3
+    },
+    {
+      "code": "650000",
+      "year": 2025,
+      "period": "FY",
+      "gdp": 21462,
+      "index": 105.5
+    },
+    {
+      "code": "110000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 38320,
+      "index": 105.6
+    },
+    {
+      "code": "120000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 13360,
+      "index": 104.7
+    },
+    {
+      "code": "130000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 35523,
+      "index": 105.5
+    },
+    {
+      "code": "140000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 17725,
+      "index": 104
+    },
+    {
+      "code": "150000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 18505,
+      "index": 104.5
+    },
+    {
+      "code": "210000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 24254,
+      "index": 104.3
+    },
+    {
+      "code": "220000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 10800,
+      "index": 105.3
+    },
+    {
+      "code": "230000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 11476,
+      "index": 104.8
+    },
+    {
+      "code": "310000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 40634,
+      "index": 105.5
+    },
+    {
+      "code": "320000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 102646,
+      "index": 105.4
+    },
+    {
+      "code": "330000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 68467,
+      "index": 105.7
+    },
+    {
+      "code": "340000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 39825,
+      "index": 105.4
+    },
+    {
+      "code": "350000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 42172,
+      "index": 105.2
+    },
+    {
+      "code": "360000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 25714,
+      "index": 105.4
+    },
+    {
+      "code": "370000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 77065,
+      "index": 105.6
+    },
+    {
+      "code": "410000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 48889,
+      "index": 105.6
+    },
+    {
+      "code": "420000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 44693,
+      "index": 106
+    },
+    {
+      "code": "430000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 40169,
+      "index": 105.4
+    },
+    {
+      "code": "440000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 105171,
+      "index": 104.1
+    },
+    {
+      "code": "450000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 21531,
+      "index": 105.3
+    },
+    {
+      "code": "460000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 5719,
+      "index": 103.9
+    },
+    {
+      "code": "500000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 24362,
+      "index": 105.3
+    },
+    {
+      "code": "510000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 49248,
+      "index": 105.5
+    },
+    {
+      "code": "520000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 17352,
+      "index": 104.9
+    },
+    {
+      "code": "530000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 23458,
+      "index": 104.3
+    },
+    {
+      "code": "540000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 2090,
+      "index": 107.1
+    },
+    {
+      "code": "610000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 25732,
+      "index": 105.3
+    },
+    {
+      "code": "620000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 9993,
+      "index": 106.1
+    },
+    {
+      "code": "630000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 2880,
+      "index": 103.7
+    },
+    {
+      "code": "640000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 4046,
+      "index": 105.8
+    },
+    {
+      "code": "650000",
+      "year": 2025,
+      "period": "Q3",
+      "gdp": 15552,
+      "index": 105.5
+    },
+    {
+      "code": "110000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 24967,
+      "index": 105.5
+    },
+    {
+      "code": "120000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 8670,
+      "index": 105.3
+    },
+    {
+      "code": "130000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 22951,
+      "index": 105.4
+    },
+    {
+      "code": "140000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 11456,
+      "index": 103.8
+    },
+    {
+      "code": "150000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 12100,
+      "index": 105.4
+    },
+    {
+      "code": "210000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 15689,
+      "index": 104.7
+    },
+    {
+      "code": "220000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6803,
+      "index": 105.7
+    },
+    {
+      "code": "230000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 7091,
+      "index": 105.1
+    },
+    {
+      "code": "310000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 26167,
+      "index": 105.1
+    },
+    {
+      "code": "320000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 66843,
+      "index": 105.7
+    },
+    {
+      "code": "330000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 44988,
+      "index": 105.8
+    },
+    {
+      "code": "340000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 25759,
+      "index": 105.6
+    },
+    {
+      "code": "350000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 27887,
+      "index": 105.7
+    },
+    {
+      "code": "360000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 16749,
+      "index": 105.6
+    },
+    {
+      "code": "370000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 50015,
+      "index": 105.6
+    },
+    {
+      "code": "410000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 31699,
+      "index": 105.7
+    },
+    {
+      "code": "420000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 29490,
+      "index": 106.2
+    },
+    {
+      "code": "430000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 26121,
+      "index": 105.6
+    },
+    {
+      "code": "440000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 68724,
+      "index": 104.2
+    },
+    {
+      "code": "450000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 13886,
+      "index": 105.5
+    },
+    {
+      "code": "460000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 3723,
+      "index": 104.2
+    },
+    {
+      "code": "500000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 15873,
+      "index": 105
+    },
+    {
+      "code": "510000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 31871,
+      "index": 105.6
+    },
+    {
+      "code": "520000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 11453,
+      "index": 105.3
+    },
+    {
+      "code": "530000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 15498,
+      "index": 104.4
+    },
+    {
+      "code": "540000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 1396,
+      "index": 107.2
+    },
+    {
+      "code": "610000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 16797,
+      "index": 105.5
+    },
+    {
+      "code": "620000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 6484,
+      "index": 106.3
+    },
+    {
+      "code": "630000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 1885,
+      "index": 104
+    },
+    {
+      "code": "640000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 2662,
+      "index": 105.8
+    },
+    {
+      "code": "650000",
+      "year": 2025,
+      "period": "H1",
+      "gdp": 9821,
+      "index": 105.7
+    },
+    {
+      "code": "110000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 12131,
+      "index": 105.5
+    },
+    {
+      "code": "120000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 4177,
+      "index": 105.8
+    },
+    {
+      "code": "130000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 11240,
+      "index": 105.7
+    },
+    {
+      "code": "140000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 5601,
+      "index": 104.5
+    },
+    {
+      "code": "150000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 5827,
+      "index": 105.4
+    },
+    {
+      "code": "210000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 7598,
+      "index": 105.2
+    },
+    {
+      "code": "220000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 3173,
+      "index": 105.5
+    },
+    {
+      "code": "230000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 3401,
+      "index": 104.9
+    },
+    {
+      "code": "310000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 12709,
+      "index": 105.1
+    },
+    {
+      "code": "320000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 33009,
+      "index": 105.9
+    },
+    {
+      "code": "330000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 22294,
+      "index": 106
+    },
+    {
+      "code": "340000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 12283,
+      "index": 106.2
+    },
+    {
+      "code": "350000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 13182,
+      "index": 105.7
+    },
+    {
+      "code": "360000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 7942,
+      "index": 105.7
+    },
+    {
+      "code": "370000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 23453,
+      "index": 106
+    },
+    {
+      "code": "410000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 14954,
+      "index": 105.9
+    },
+    {
+      "code": "420000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 13475,
+      "index": 106.3
+    },
+    {
+      "code": "430000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 12681,
+      "index": 105.4
+    },
+    {
+      "code": "440000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 33528,
+      "index": 104.1
+    },
+    {
+      "code": "450000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 6852,
+      "index": 105.8
+    },
+    {
+      "code": "460000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 1915,
+      "index": 104
+    },
+    {
+      "code": "500000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 7549,
+      "index": 104.3
+    },
+    {
+      "code": "510000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 15226,
+      "index": 105.5
+    },
+    {
+      "code": "520000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 5594,
+      "index": 105.3
+    },
+    {
+      "code": "530000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 7473,
+      "index": 104.3
+    },
+    {
+      "code": "540000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 724,
+      "index": 107.9
+    },
+    {
+      "code": "610000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 8221,
+      "index": 105.6
+    },
+    {
+      "code": "620000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 3126,
+      "index": 106.2
+    },
+    {
+      "code": "630000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 968,
+      "index": 104.6
+    },
+    {
+      "code": "640000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 1316,
+      "index": 106
+    },
+    {
+      "code": "650000",
+      "year": 2025,
+      "period": "Q1",
+      "gdp": 4719,
+      "index": 105.6
+    },
+    {
+      "code": "110000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 49670,
+      "index": 105.1
+    },
+    {
+      "code": "120000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 17931,
+      "index": 104.9
+    },
+    {
+      "code": "130000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 47448,
+      "index": 105.4
+    },
+    {
+      "code": "140000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 25353,
+      "index": 102.2
+    },
+    {
+      "code": "150000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 26337,
+      "index": 105.8
+    },
+    {
+      "code": "210000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 32541,
+      "index": 105.1
+    },
+    {
+      "code": "220000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 14305,
+      "index": 104.2
+    },
+    {
+      "code": "230000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 16478,
+      "index": 103.2
+    },
+    {
+      "code": "310000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 53760,
+      "index": 104.9
+    },
+    {
+      "code": "320000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 136697,
+      "index": 105.7
+    },
+    {
+      "code": "330000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 90007,
+      "index": 105.5
+    },
+    {
+      "code": "340000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 50647,
+      "index": 105.8
+    },
+    {
+      "code": "350000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 57477,
+      "index": 105.4
+    },
+    {
+      "code": "360000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 34228,
+      "index": 105.1
+    },
+    {
+      "code": "370000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 98407,
+      "index": 105.6
+    },
+    {
+      "code": "410000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 63557,
+      "index": 105.1
+    },
+    {
+      "code": "420000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 59644,
+      "index": 105.6
+    },
+    {
+      "code": "430000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 53085,
+      "index": 104.7
+    },
+    {
+      "code": "440000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 141489,
+      "index": 103.5
+    },
+    {
+      "code": "450000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 28694,
+      "index": 104.2
+    },
+    {
+      "code": "460000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 7973,
+      "index": 103.8
+    },
+    {
+      "code": "500000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 32047,
+      "index": 105.6
+    },
+    {
+      "code": "510000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 64538,
+      "index": 105.6
+    },
+    {
+      "code": "520000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 22646,
+      "index": 105.3
+    },
+    {
+      "code": "530000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 31423,
+      "index": 103.2
+    },
+    {
+      "code": "540000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 2789,
+      "index": 106.5
+    },
+    {
+      "code": "610000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 35437,
+      "index": 105.2
+    },
+    {
+      "code": "620000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 13021,
+      "index": 105.8
+    },
+    {
+      "code": "630000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 3965,
+      "index": 102.8
+    },
+    {
+      "code": "640000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 5520,
+      "index": 105.5
+    },
+    {
+      "code": "650000",
+      "year": 2024,
+      "period": "FY",
+      "gdp": 20492,
+      "index": 106.1
+    },
+    {
+      "code": "110000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 36265,
+      "index": 105
+    },
+    {
+      "code": "120000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 12988,
+      "index": 104.5
+    },
+    {
+      "code": "130000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 34397,
+      "index": 105
+    },
+    {
+      "code": "140000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 17705,
+      "index": 101.7
+    },
+    {
+      "code": "150000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 18208,
+      "index": 105.8
+    },
+    {
+      "code": "210000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 23719,
+      "index": 104.9
+    },
+    {
+      "code": "220000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 10396,
+      "index": 104
+    },
+    {
+      "code": "230000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 11141,
+      "index": 102.3
+    },
+    {
+      "code": "310000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 38594,
+      "index": 104.6
+    },
+    {
+      "code": "320000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 99005,
+      "index": 105.6
+    },
+    {
+      "code": "330000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 64966,
+      "index": 105.4
+    },
+    {
+      "code": "340000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 38271,
+      "index": 105.4
+    },
+    {
+      "code": "350000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 40392,
+      "index": 105.3
+    },
+    {
+      "code": "360000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 24568,
+      "index": 104.7
+    },
+    {
+      "code": "370000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 73660,
+      "index": 105.4
+    },
+    {
+      "code": "410000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 46748,
+      "index": 105
+    },
+    {
+      "code": "420000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 42246,
+      "index": 105.4
+    },
+    {
+      "code": "430000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 38294,
+      "index": 104.4
+    },
+    {
+      "code": "440000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 102078,
+      "index": 103.4
+    },
+    {
+      "code": "450000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 20643,
+      "index": 103.7
+    },
+    {
+      "code": "460000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 5648,
+      "index": 103.2
+    },
+    {
+      "code": "500000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 23240,
+      "index": 105.9
+    },
+    {
+      "code": "510000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 46887,
+      "index": 105.3
+    },
+    {
+      "code": "520000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 16654,
+      "index": 105.2
+    },
+    {
+      "code": "530000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 22493,
+      "index": 102.9
+    },
+    {
+      "code": "540000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 1910,
+      "index": 106.4
+    },
+    {
+      "code": "610000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 24892,
+      "index": 104.5
+    },
+    {
+      "code": "620000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 9526,
+      "index": 106.1
+    },
+    {
+      "code": "630000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 2792,
+      "index": 102.6
+    },
+    {
+      "code": "640000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 3919,
+      "index": 105.1
+    },
+    {
+      "code": "650000",
+      "year": 2024,
+      "period": "Q3",
+      "gdp": 14906,
+      "index": 105.5
+    },
+    {
+      "code": "110000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 23642,
+      "index": 105.3
+    },
+    {
+      "code": "120000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 8403,
+      "index": 104.7
+    },
+    {
+      "code": "130000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 22374,
+      "index": 105
+    },
+    {
+      "code": "140000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 11308,
+      "index": 101.9
+    },
+    {
+      "code": "150000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 11912,
+      "index": 106.3
+    },
+    {
+      "code": "210000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 15323,
+      "index": 105
+    },
+    {
+      "code": "220000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 6515,
+      "index": 105.6
+    },
+    {
+      "code": "230000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 6887,
+      "index": 101.6
+    },
+    {
+      "code": "310000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 24989,
+      "index": 104.7
+    },
+    {
+      "code": "320000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 64280,
+      "index": 105.7
+    },
+    {
+      "code": "330000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 42497,
+      "index": 105.6
+    },
+    {
+      "code": "340000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 24644,
+      "index": 105.3
+    },
+    {
+      "code": "350000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 26538,
+      "index": 105.5
+    },
+    {
+      "code": "360000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 15925,
+      "index": 104.5
+    },
+    {
+      "code": "370000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 47813,
+      "index": 105.6
+    },
+    {
+      "code": "410000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 30202,
+      "index": 105
+    },
+    {
+      "code": "420000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 27736,
+      "index": 105.6
+    },
+    {
+      "code": "430000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 24807,
+      "index": 104.5
+    },
+    {
+      "code": "440000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 66575,
+      "index": 103.9
+    },
+    {
+      "code": "450000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 13317,
+      "index": 103.7
+    },
+    {
+      "code": "460000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 3651,
+      "index": 103.1
+    },
+    {
+      "code": "500000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 15146,
+      "index": 106
+    },
+    {
+      "code": "510000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 30372,
+      "index": 105.4
+    },
+    {
+      "code": "520000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 11066,
+      "index": 105.3
+    },
+    {
+      "code": "530000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 14840,
+      "index": 103.4
+    },
+    {
+      "code": "540000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 1274,
+      "index": 106.3
+    },
+    {
+      "code": "610000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 16347,
+      "index": 104.2
+    },
+    {
+      "code": "620000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 6167,
+      "index": 105.9
+    },
+    {
+      "code": "630000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 1841,
+      "index": 101.1
+    },
+    {
+      "code": "640000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 2583,
+      "index": 105.3
+    },
+    {
+      "code": "650000",
+      "year": 2024,
+      "period": "H1",
+      "gdp": 9448,
+      "index": 105.4
+    },
+    {
+      "code": "110000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 11476,
+      "index": 105.9
+    },
+    {
+      "code": "120000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 4003,
+      "index": 105.1
+    },
+    {
+      "code": "130000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 10906,
+      "index": 105.6
+    },
+    {
+      "code": "140000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 5475,
+      "index": 101.1
+    },
+    {
+      "code": "150000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 5731,
+      "index": 105.9
+    },
+    {
+      "code": "210000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 7358,
+      "index": 105.4
+    },
+    {
+      "code": "220000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 3046,
+      "index": 106.4
+    },
+    {
+      "code": "230000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 3275,
+      "index": 102.2
+    },
+    {
+      "code": "310000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 12114,
+      "index": 104.9
+    },
+    {
+      "code": "320000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 31341,
+      "index": 106.1
+    },
+    {
+      "code": "330000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 20976,
+      "index": 106.1
+    },
+    {
+      "code": "340000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 11647,
+      "index": 105.3
+    },
+    {
+      "code": "350000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 12487,
+      "index": 105.6
+    },
+    {
+      "code": "360000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 7509,
+      "index": 104
+    },
+    {
+      "code": "370000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 22245,
+      "index": 105.9
+    },
+    {
+      "code": "410000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 14197,
+      "index": 104.8
+    },
+    {
+      "code": "420000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 12649,
+      "index": 105.9
+    },
+    {
+      "code": "430000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 12031,
+      "index": 104.8
+    },
+    {
+      "code": "440000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 32363,
+      "index": 104.5
+    },
+    {
+      "code": "450000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 6461,
+      "index": 103.2
+    },
+    {
+      "code": "460000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 1866,
+      "index": 103.3
+    },
+    {
+      "code": "500000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 7253,
+      "index": 106.1
+    },
+    {
+      "code": "510000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 14477,
+      "index": 106
+    },
+    {
+      "code": "520000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 5353,
+      "index": 105.5
+    },
+    {
+      "code": "530000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 7141,
+      "index": 104.5
+    },
+    {
+      "code": "540000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 649,
+      "index": 105.3
+    },
+    {
+      "code": "610000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 7966,
+      "index": 104.1
+    },
+    {
+      "code": "620000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 2961,
+      "index": 106
+    },
+    {
+      "code": "630000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 933,
+      "index": 103.7
+    },
+    {
+      "code": "640000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 1264,
+      "index": 106
+    },
+    {
+      "code": "650000",
+      "year": 2024,
+      "period": "Q1",
+      "gdp": 4540,
+      "index": 105.6
+    },
+    {
+      "code": "110000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 47354,
+      "index": 105.5
+    },
+    {
+      "code": "120000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 17212,
+      "index": 104.5
+    },
+    {
+      "code": "130000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 45660,
+      "index": 105.7
+    },
+    {
+      "code": "140000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 26051,
+      "index": 105.1
+    },
+    {
+      "code": "150000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 25020,
+      "index": 107.4
+    },
+    {
+      "code": "210000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 31390,
+      "index": 105.5
+    },
+    {
+      "code": "220000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 13943,
+      "index": 106.5
+    },
+    {
+      "code": "230000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 16471,
+      "index": 102.8
+    },
+    {
+      "code": "310000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 51404,
+      "index": 105.3
+    },
+    {
+      "code": "320000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 130924,
+      "index": 105.9
+    },
+    {
+      "code": "330000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 85620,
+      "index": 106.2
+    },
+    {
+      "code": "340000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 48227,
+      "index": 105.8
+    },
+    {
+      "code": "350000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 54802,
+      "index": 104.5
+    },
+    {
+      "code": "360000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 32677,
+      "index": 104.2
+    },
+    {
+      "code": "370000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 94206,
+      "index": 106.1
+    },
+    {
+      "code": "410000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 60628,
+      "index": 104.2
+    },
+    {
+      "code": "420000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 56794,
+      "index": 106.1
+    },
+    {
+      "code": "430000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 50667,
+      "index": 104.7
+    },
+    {
+      "code": "440000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 137905,
+      "index": 104.9
+    },
+    {
+      "code": "450000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 27502,
+      "index": 104.1
+    },
+    {
+      "code": "460000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 7590,
+      "index": 109.2
+    },
+    {
+      "code": "500000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 30614,
+      "index": 106.2
+    },
+    {
+      "code": "510000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 61353,
+      "index": 106.1
+    },
+    {
+      "code": "520000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 21514,
+      "index": 105.1
+    },
+    {
+      "code": "530000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 30596,
+      "index": 104.5
+    },
+    {
+      "code": "540000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 2533,
+      "index": 109.7
+    },
+    {
+      "code": "610000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 33976,
+      "index": 104.3
+    },
+    {
+      "code": "620000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 12346,
+      "index": 106.6
+    },
+    {
+      "code": "630000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 3849,
+      "index": 105.4
+    },
+    {
+      "code": "640000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 5369,
+      "index": 106.7
+    },
+    {
+      "code": "650000",
+      "year": 2023,
+      "period": "FY",
+      "gdp": 19603,
+      "index": 107
+    },
+    {
+      "code": "110000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 34580,
+      "index": 105.4
+    },
+    {
+      "code": "120000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 12574,
+      "index": 104.9
+    },
+    {
+      "code": "130000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 33206,
+      "index": 105.4
+    },
+    {
+      "code": "140000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 18421,
+      "index": 104.6
+    },
+    {
+      "code": "150000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 17479,
+      "index": 107.3
+    },
+    {
+      "code": "210000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 22627,
+      "index": 105.5
+    },
+    {
+      "code": "220000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 10121,
+      "index": 106
+    },
+    {
+      "code": "230000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 11038,
+      "index": 102.7
+    },
+    {
+      "code": "310000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 37152,
+      "index": 106.3
+    },
+    {
+      "code": "320000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 95159,
+      "index": 105.9
+    },
+    {
+      "code": "330000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 62211,
+      "index": 106.5
+    },
+    {
+      "code": "340000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 36518,
+      "index": 106.1
+    },
+    {
+      "code": "350000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 38792,
+      "index": 104.1
+    },
+    {
+      "code": "360000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 23571,
+      "index": 103.5
+    },
+    {
+      "code": "370000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 70313,
+      "index": 106.1
+    },
+    {
+      "code": "410000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 44757,
+      "index": 103.9
+    },
+    {
+      "code": "420000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 40560,
+      "index": 106.2
+    },
+    {
+      "code": "430000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 36854,
+      "index": 104.1
+    },
+    {
+      "code": "440000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 99459,
+      "index": 104.6
+    },
+    {
+      "code": "450000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 19963,
+      "index": 103.9
+    },
+    {
+      "code": "460000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 5411,
+      "index": 109.5
+    },
+    {
+      "code": "500000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 22362,
+      "index": 105.6
+    },
+    {
+      "code": "510000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 44944,
+      "index": 106.6
+    },
+    {
+      "code": "520000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 15810,
+      "index": 105
+    },
+    {
+      "code": "530000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 22056,
+      "index": 104.5
+    },
+    {
+      "code": "540000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 1754,
+      "index": 110
+    },
+    {
+      "code": "610000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 24079,
+      "index": 102.4
+    },
+    {
+      "code": "620000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 9003,
+      "index": 106.8
+    },
+    {
+      "code": "630000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 2766,
+      "index": 105.7
+    },
+    {
+      "code": "640000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 3831,
+      "index": 106.5
+    },
+    {
+      "code": "650000",
+      "year": 2023,
+      "period": "Q3",
+      "gdp": 14255,
+      "index": 106.3
+    },
+    {
+      "code": "110000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 22495,
+      "index": 105.8
+    },
+    {
+      "code": "120000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 8055,
+      "index": 105
+    },
+    {
+      "code": "130000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 21605,
+      "index": 106.3
+    },
+    {
+      "code": "140000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 11938,
+      "index": 104.8
+    },
+    {
+      "code": "150000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 11368,
+      "index": 107.4
+    },
+    {
+      "code": "210000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 14612,
+      "index": 105.8
+    },
+    {
+      "code": "220000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 6254,
+      "index": 107.7
+    },
+    {
+      "code": "230000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 6886,
+      "index": 104.8
+    },
+    {
+      "code": "310000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 24075,
+      "index": 110.1
+    },
+    {
+      "code": "320000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 61823,
+      "index": 106.7
+    },
+    {
+      "code": "330000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 40729,
+      "index": 107
+    },
+    {
+      "code": "340000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 23650,
+      "index": 106.1
+    },
+    {
+      "code": "350000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 25352,
+      "index": 103.8
+    },
+    {
+      "code": "360000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 15357,
+      "index": 102.5
+    },
+    {
+      "code": "370000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 45578,
+      "index": 106.3
+    },
+    {
+      "code": "410000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 28938,
+      "index": 103.9
+    },
+    {
+      "code": "420000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 26489,
+      "index": 105.7
+    },
+    {
+      "code": "430000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 23934,
+      "index": 103.7
+    },
+    {
+      "code": "440000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 64880,
+      "index": 105.1
+    },
+    {
+      "code": "450000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 12893,
+      "index": 102.8
+    },
+    {
+      "code": "460000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 3553,
+      "index": 108.6
+    },
+    {
+      "code": "500000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 14432,
+      "index": 104.6
+    },
+    {
+      "code": "510000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 28885,
+      "index": 105.6
+    },
+    {
+      "code": "520000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 10534,
+      "index": 104.6
+    },
+    {
+      "code": "530000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 14383,
+      "index": 105.2
+    },
+    {
+      "code": "540000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 1153,
+      "index": 108.6
+    },
+    {
+      "code": "610000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 15775,
+      "index": 103.8
+    },
+    {
+      "code": "620000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 5779,
+      "index": 107
+    },
+    {
+      "code": "630000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 1847,
+      "index": 106.8
+    },
+    {
+      "code": "640000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 2531,
+      "index": 106.6
+    },
+    {
+      "code": "650000",
+      "year": 2023,
+      "period": "H1",
+      "gdp": 8991,
+      "index": 105.4
+    },
+    {
+      "code": "110000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 10861,
+      "index": 103.4
+    },
+    {
+      "code": "120000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 3819,
+      "index": 105.7
+    },
+    {
+      "code": "130000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 10449,
+      "index": 105.4
+    },
+    {
+      "code": "140000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 5953,
+      "index": 105.1
+    },
+    {
+      "code": "150000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 5541,
+      "index": 105.7
+    },
+    {
+      "code": "210000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 6959,
+      "index": 105
+    },
+    {
+      "code": "220000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 2894,
+      "index": 108.2
+    },
+    {
+      "code": "230000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 3239,
+      "index": 105.4
+    },
+    {
+      "code": "310000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 11633,
+      "index": 103.4
+    },
+    {
+      "code": "320000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 29959,
+      "index": 104.8
+    },
+    {
+      "code": "330000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 19925,
+      "index": 105.1
+    },
+    {
+      "code": "340000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 11219,
+      "index": 104.8
+    },
+    {
+      "code": "350000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 11979,
+      "index": 101.7
+    },
+    {
+      "code": "360000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 7307,
+      "index": 101.3
+    },
+    {
+      "code": "370000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 21111,
+      "index": 104.8
+    },
+    {
+      "code": "410000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 13710,
+      "index": 105.2
+    },
+    {
+      "code": "420000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 12014,
+      "index": 105.3
+    },
+    {
+      "code": "430000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 11569,
+      "index": 104.2
+    },
+    {
+      "code": "440000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 31227,
+      "index": 104.2
+    },
+    {
+      "code": "450000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 6359,
+      "index": 104.9
+    },
+    {
+      "code": "460000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 1828,
+      "index": 106.8
+    },
+    {
+      "code": "500000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 6981,
+      "index": 104.7
+    },
+    {
+      "code": "510000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 13758,
+      "index": 103.9
+    },
+    {
+      "code": "520000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 5096,
+      "index": 102.7
+    },
+    {
+      "code": "530000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 6951,
+      "index": 104.9
+    },
+    {
+      "code": "540000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 621,
+      "index": 108.4
+    },
+    {
+      "code": "610000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 7792,
+      "index": 105.4
+    },
+    {
+      "code": "620000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 2789,
+      "index": 106.9
+    },
+    {
+      "code": "630000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 914,
+      "index": 105.2
+    },
+    {
+      "code": "640000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 1235,
+      "index": 107.6
+    },
+    {
+      "code": "650000",
+      "year": 2023,
+      "period": "Q1",
+      "gdp": 4371,
+      "index": 105.1
+    },
+    {
+      "code": "110000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 45222,
+      "index": 101
+    },
+    {
+      "code": "120000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 16589,
+      "index": 101.2
+    },
+    {
+      "code": "130000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 43198,
+      "index": 103.8
+    },
+    {
+      "code": "140000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 25653,
+      "index": 104.4
+    },
+    {
+      "code": "150000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 23796,
+      "index": 104.5
+    },
+    {
+      "code": "210000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 29740,
+      "index": 102.2
+    },
+    {
+      "code": "220000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 13121,
+      "index": 98.1
+    },
+    {
+      "code": "230000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 16359,
+      "index": 102.8
+    },
+    {
+      "code": "310000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 48594,
+      "index": 100.2
+    },
+    {
+      "code": "320000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 124564,
+      "index": 102.7
+    },
+    {
+      "code": "330000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 80770,
+      "index": 103.4
+    },
+    {
+      "code": "340000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 45525,
+      "index": 103.3
+    },
+    {
+      "code": "350000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 52100,
+      "index": 104.2
+    },
+    {
+      "code": "360000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 31568,
+      "index": 104.3
+    },
+    {
+      "code": "370000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 89519,
+      "index": 104
+    },
+    {
+      "code": "410000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 58807,
+      "index": 102.4
+    },
+    {
+      "code": "420000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 53445,
+      "index": 104
+    },
+    {
+      "code": "430000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 47958,
+      "index": 104.2
+    },
+    {
+      "code": "440000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 132547,
+      "index": 102.1
+    },
+    {
+      "code": "450000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 26420,
+      "index": 102.8
+    },
+    {
+      "code": "460000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 6913,
+      "index": 100.4
+    },
+    {
+      "code": "500000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 28772,
+      "index": 102.5
+    },
+    {
+      "code": "510000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 57609,
+      "index": 102.9
+    },
+    {
+      "code": "520000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 20580,
+      "index": 101.2
+    },
+    {
+      "code": "530000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 29301,
+      "index": 104.3
+    },
+    {
+      "code": "540000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 2235,
+      "index": 101.4
+    },
+    {
+      "code": "610000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 33036,
+      "index": 104.5
+    },
+    {
+      "code": "620000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 11554,
+      "index": 104.6
+    },
+    {
+      "code": "630000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 3677,
+      "index": 102.5
+    },
+    {
+      "code": "640000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 5168,
+      "index": 104.3
+    },
+    {
+      "code": "650000",
+      "year": 2022,
+      "period": "FY",
+      "gdp": 18550,
+      "index": 103.6
+    },
+    {
+      "code": "110000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 32703,
+      "index": 101.1
+    },
+    {
+      "code": "120000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 12161,
+      "index": 101.3
+    },
+    {
+      "code": "130000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 31391,
+      "index": 103.7
+    },
+    {
+      "code": "140000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 18128,
+      "index": 105.4
+    },
+    {
+      "code": "150000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 16741,
+      "index": 105.3
+    },
+    {
+      "code": "210000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 21457,
+      "index": 102.2
+    },
+    {
+      "code": "220000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 9519,
+      "index": 98.4
+    },
+    {
+      "code": "230000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 10825,
+      "index": 103
+    },
+    {
+      "code": "310000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 33865,
+      "index": 99.1
+    },
+    {
+      "code": "320000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 90340,
+      "index": 102.3
+    },
+    {
+      "code": "330000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 58244,
+      "index": 103.4
+    },
+    {
+      "code": "340000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 34240,
+      "index": 103
+    },
+    {
+      "code": "350000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 37072,
+      "index": 104.7
+    },
+    {
+      "code": "360000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 22967,
+      "index": 104.6
+    },
+    {
+      "code": "370000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 66200,
+      "index": 104.1
+    },
+    {
+      "code": "410000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 44632,
+      "index": 102.9
+    },
+    {
+      "code": "420000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 37885,
+      "index": 104.5
+    },
+    {
+      "code": "430000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 34997,
+      "index": 104.5
+    },
+    {
+      "code": "440000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 94651,
+      "index": 102.6
+    },
+    {
+      "code": "450000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 19050,
+      "index": 102.9
+    },
+    {
+      "code": "460000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 4883,
+      "index": 99.9
+    },
+    {
+      "code": "500000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 20864,
+      "index": 102.9
+    },
+    {
+      "code": "510000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 41260,
+      "index": 101.5
+    },
+    {
+      "code": "520000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 15091,
+      "index": 102.8
+    },
+    {
+      "code": "530000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 21070,
+      "index": 103.7
+    },
+    {
+      "code": "540000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 1539,
+      "index": 100.5
+    },
+    {
+      "code": "610000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 23814,
+      "index": 105
+    },
+    {
+      "code": "620000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 8423,
+      "index": 104.1
+    },
+    {
+      "code": "630000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 2625,
+      "index": 102.9
+    },
+    {
+      "code": "640000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 3682,
+      "index": 105.2
+    },
+    {
+      "code": "650000",
+      "year": 2022,
+      "period": "Q3",
+      "gdp": 13689,
+      "index": 104.3
+    },
+    {
+      "code": "110000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 21152,
+      "index": 101
+    },
+    {
+      "code": "120000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 7789,
+      "index": 100.7
+    },
+    {
+      "code": "130000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 20312,
+      "index": 103.4
+    },
+    {
+      "code": "140000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 11632,
+      "index": 105.3
+    },
+    {
+      "code": "150000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 10807,
+      "index": 104.6
+    },
+    {
+      "code": "210000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 13742,
+      "index": 101.6
+    },
+    {
+      "code": "220000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 5749,
+      "index": 94
+    },
+    {
+      "code": "230000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 6614,
+      "index": 102.9
+    },
+    {
+      "code": "310000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 21163,
+      "index": 94.7
+    },
+    {
+      "code": "320000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 57979,
+      "index": 101.6
+    },
+    {
+      "code": "330000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 37834,
+      "index": 102.8
+    },
+    {
+      "code": "340000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 22106,
+      "index": 102.7
+    },
+    {
+      "code": "350000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 24258,
+      "index": 104.1
+    },
+    {
+      "code": "360000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 14968,
+      "index": 104.5
+    },
+    {
+      "code": "370000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 42877,
+      "index": 103.7
+    },
+    {
+      "code": "410000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 29123,
+      "index": 102.3
+    },
+    {
+      "code": "420000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 24691,
+      "index": 104.3
+    },
+    {
+      "code": "430000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 22711,
+      "index": 104
+    },
+    {
+      "code": "440000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 61404,
+      "index": 102.3
+    },
+    {
+      "code": "450000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 12411,
+      "index": 102.5
+    },
+    {
+      "code": "460000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 3213,
+      "index": 102
+    },
+    {
+      "code": "500000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 13540,
+      "index": 103.8
+    },
+    {
+      "code": "510000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 26706,
+      "index": 102.8
+    },
+    {
+      "code": "520000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 10042,
+      "index": 104.5
+    },
+    {
+      "code": "530000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 13626,
+      "index": 103.4
+    },
+    {
+      "code": "540000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 1025,
+      "index": 105.1
+    },
+    {
+      "code": "610000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 15452,
+      "index": 104.4
+    },
+    {
+      "code": "620000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 5427,
+      "index": 104.2
+    },
+    {
+      "code": "630000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 1729,
+      "index": 102.8
+    },
+    {
+      "code": "640000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 2409,
+      "index": 105.7
+    },
+    {
+      "code": "650000",
+      "year": 2022,
+      "period": "H1",
+      "gdp": 8700,
+      "index": 105.3
+    },
+    {
+      "code": "110000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 10294,
+      "index": 105.1
+    },
+    {
+      "code": "120000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 3617,
+      "index": 100.4
+    },
+    {
+      "code": "130000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 9797,
+      "index": 105.2
+    },
+    {
+      "code": "140000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 5544,
+      "index": 106.6
+    },
+    {
+      "code": "150000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 5245,
+      "index": 106.1
+    },
+    {
+      "code": "210000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 6473,
+      "index": 102.8
+    },
+    {
+      "code": "220000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 2600,
+      "index": 92.1
+    },
+    {
+      "code": "230000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 3078,
+      "index": 105.5
+    },
+    {
+      "code": "310000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 10950,
+      "index": 103.6
+    },
+    {
+      "code": "320000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 28388,
+      "index": 104.6
+    },
+    {
+      "code": "330000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 18686,
+      "index": 105.4
+    },
+    {
+      "code": "340000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 10512,
+      "index": 104.9
+    },
+    {
+      "code": "350000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 11694,
+      "index": 106.2
+    },
+    {
+      "code": "360000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 7163,
+      "index": 106.5
+    },
+    {
+      "code": "370000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 20497,
+      "index": 105.3
+    },
+    {
+      "code": "410000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 13482,
+      "index": 103.9
+    },
+    {
+      "code": "420000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 11150,
+      "index": 106.5
+    },
+    {
+      "code": "430000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 10953,
+      "index": 105.7
+    },
+    {
+      "code": "440000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 29406,
+      "index": 103.6
+    },
+    {
+      "code": "450000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 5972,
+      "index": 104.7
+    },
+    {
+      "code": "460000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 1641,
+      "index": 106.6
+    },
+    {
+      "code": "500000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 6476,
+      "index": 105
+    },
+    {
+      "code": "510000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 12999,
+      "index": 105.3
+    },
+    {
+      "code": "520000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 4931,
+      "index": 106.6
+    },
+    {
+      "code": "530000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 6545,
+      "index": 105.2
+    },
+    {
+      "code": "540000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 544,
+      "index": 106.7
+    },
+    {
+      "code": "610000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 7362,
+      "index": 105.3
+    },
+    {
+      "code": "620000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 2570,
+      "index": 105.3
+    },
+    {
+      "code": "630000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 853,
+      "index": 105.4
+    },
+    {
+      "code": "640000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 1141,
+      "index": 105.6
+    },
+    {
+      "code": "650000",
+      "year": 2022,
+      "period": "Q1",
+      "gdp": 4178,
+      "index": 107.4
+    },
+    {
+      "code": "110000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 44351,
+      "index": 109.2
+    },
+    {
+      "code": "120000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 16093,
+      "index": 106.8
+    },
+    {
+      "code": "130000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 41205,
+      "index": 106.7
+    },
+    {
+      "code": "140000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 23088,
+      "index": 109.4
+    },
+    {
+      "code": "150000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 21585,
+      "index": 106.9
+    },
+    {
+      "code": "210000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 28471,
+      "index": 106
+    },
+    {
+      "code": "220000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 13431,
+      "index": 106.6
+    },
+    {
+      "code": "230000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 15293,
+      "index": 106.2
+    },
+    {
+      "code": "310000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 47059,
+      "index": 108.7
+    },
+    {
+      "code": "320000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 119853,
+      "index": 109.1
+    },
+    {
+      "code": "330000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 76765,
+      "index": 108.9
+    },
+    {
+      "code": "340000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 43103,
+      "index": 108.2
+    },
+    {
+      "code": "350000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 49603,
+      "index": 108.3
+    },
+    {
+      "code": "360000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 29838,
+      "index": 108.9
+    },
+    {
+      "code": "370000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 84838,
+      "index": 108.5
+    },
+    {
+      "code": "410000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 57807,
+      "index": 105.9
+    },
+    {
+      "code": "420000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 50093,
+      "index": 112.9
+    },
+    {
+      "code": "430000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 45752,
+      "index": 107.6
+    },
+    {
+      "code": "440000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 127577,
+      "index": 108.3
+    },
+    {
+      "code": "450000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 25312,
+      "index": 107.9
+    },
+    {
+      "code": "460000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 6509,
+      "index": 111.4
+    },
+    {
+      "code": "500000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 28093,
+      "index": 108.4
+    },
+    {
+      "code": "510000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 55131,
+      "index": 108.3
+    },
+    {
+      "code": "520000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 19921,
+      "index": 108.3
+    },
+    {
+      "code": "530000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 27895,
+      "index": 107.4
+    },
+    {
+      "code": "540000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 2145,
+      "index": 107
+    },
+    {
+      "code": "610000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 30477,
+      "index": 106.7
+    },
+    {
+      "code": "620000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 10608,
+      "index": 107.1
+    },
+    {
+      "code": "630000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 3446,
+      "index": 105.9
+    },
+    {
+      "code": "640000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 4666,
+      "index": 106.9
+    },
+    {
+      "code": "650000",
+      "year": 2021,
+      "period": "FY",
+      "gdp": 16792,
+      "index": 107.4
+    },
+    {
+      "code": "110000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 32176,
+      "index": 111.4
+    },
+    {
+      "code": "120000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 11650,
+      "index": 108.8
+    },
+    {
+      "code": "130000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 29505,
+      "index": 107.9
+    },
+    {
+      "code": "140000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 15850,
+      "index": 110.8
+    },
+    {
+      "code": "150000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 15173,
+      "index": 108.5
+    },
+    {
+      "code": "210000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 20257,
+      "index": 107.6
+    },
+    {
+      "code": "220000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 9630,
+      "index": 107.7
+    },
+    {
+      "code": "230000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 9970,
+      "index": 108.2
+    },
+    {
+      "code": "310000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 33449,
+      "index": 110.4
+    },
+    {
+      "code": "320000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 87014,
+      "index": 110.7
+    },
+    {
+      "code": "330000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 54919,
+      "index": 111.1
+    },
+    {
+      "code": "340000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 31825,
+      "index": 110.1
+    },
+    {
+      "code": "350000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 35593,
+      "index": 109.2
+    },
+    {
+      "code": "360000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 21654,
+      "index": 110.4
+    },
+    {
+      "code": "370000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 61392,
+      "index": 110
+    },
+    {
+      "code": "410000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 43187,
+      "index": 108.5
+    },
+    {
+      "code": "420000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 34618,
+      "index": 118.8
+    },
+    {
+      "code": "430000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 32837,
+      "index": 108.8
+    },
+    {
+      "code": "440000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 90566,
+      "index": 110.1
+    },
+    {
+      "code": "450000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 18300,
+      "index": 109.4
+    },
+    {
+      "code": "460000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 4541,
+      "index": 113.2
+    },
+    {
+      "code": "500000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 20020,
+      "index": 110
+    },
+    {
+      "code": "510000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 39731,
+      "index": 109.4
+    },
+    {
+      "code": "520000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 14155,
+      "index": 108.9
+    },
+    {
+      "code": "530000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 20050,
+      "index": 108.9
+    },
+    {
+      "code": "540000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 1478,
+      "index": 107.5
+    },
+    {
+      "code": "610000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 21568,
+      "index": 107.3
+    },
+    {
+      "code": "620000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 7627,
+      "index": 108.7
+    },
+    {
+      "code": "630000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 2461,
+      "index": 106.9
+    },
+    {
+      "code": "640000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 3311,
+      "index": 108.5
+    },
+    {
+      "code": "650000",
+      "year": 2021,
+      "period": "Q3",
+      "gdp": 11914,
+      "index": 109.3
+    },
+    {
+      "code": "110000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 20820,
+      "index": 114.2
+    },
+    {
+      "code": "120000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 7445,
+      "index": 111.7
+    },
+    {
+      "code": "130000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 18993,
+      "index": 110.1
+    },
+    {
+      "code": "140000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 9753,
+      "index": 112.6
+    },
+    {
+      "code": "150000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 9515,
+      "index": 111.3
+    },
+    {
+      "code": "210000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 12961,
+      "index": 110.2
+    },
+    {
+      "code": "220000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 6132,
+      "index": 110.6
+    },
+    {
+      "code": "230000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 6116,
+      "index": 110.5
+    },
+    {
+      "code": "310000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 21745,
+      "index": 113.4
+    },
+    {
+      "code": "320000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 56476,
+      "index": 113.8
+    },
+    {
+      "code": "330000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 35844,
+      "index": 114
+    },
+    {
+      "code": "340000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 20508,
+      "index": 112.8
+    },
+    {
+      "code": "350000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 23131,
+      "index": 112.8
+    },
+    {
+      "code": "360000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 13987,
+      "index": 113.1
+    },
+    {
+      "code": "370000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 39438,
+      "index": 112.9
+    },
+    {
+      "code": "410000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 28299,
+      "index": 109.4
+    },
+    {
+      "code": "420000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 22663,
+      "index": 128.7
+    },
+    {
+      "code": "430000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 21377,
+      "index": 111.6
+    },
+    {
+      "code": "440000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 58753,
+      "index": 113.5
+    },
+    {
+      "code": "450000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 11949,
+      "index": 112.6
+    },
+    {
+      "code": "460000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 2929,
+      "index": 117.9
+    },
+    {
+      "code": "500000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 12937,
+      "index": 112.8
+    },
+    {
+      "code": "510000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 25661,
+      "index": 112.2
+    },
+    {
+      "code": "520000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 9169,
+      "index": 112.3
+    },
+    {
+      "code": "530000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 13005,
+      "index": 112
+    },
+    {
+      "code": "540000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 949,
+      "index": 109.4
+    },
+    {
+      "code": "610000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 13757,
+      "index": 110.6
+    },
+    {
+      "code": "620000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 4885,
+      "index": 110.7
+    },
+    {
+      "code": "630000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 1593,
+      "index": 109.4
+    },
+    {
+      "code": "640000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 2111,
+      "index": 111.3
+    },
+    {
+      "code": "650000",
+      "year": 2021,
+      "period": "H1",
+      "gdp": 7648,
+      "index": 110.4
+    },
+    {
+      "code": "110000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 9739,
+      "index": 118
+    },
+    {
+      "code": "120000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 3481,
+      "index": 116.2
+    },
+    {
+      "code": "130000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 8906,
+      "index": 115.3
+    },
+    {
+      "code": "140000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 4550,
+      "index": 117.8
+    },
+    {
+      "code": "150000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 4431,
+      "index": 116.4
+    },
+    {
+      "code": "210000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 6017,
+      "index": 113.2
+    },
+    {
+      "code": "220000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 2805,
+      "index": 114.7
+    },
+    {
+      "code": "230000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 2760,
+      "index": 112.6
+    },
+    {
+      "code": "310000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 10272,
+      "index": 118.4
+    },
+    {
+      "code": "320000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 26582,
+      "index": 120
+    },
+    {
+      "code": "330000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 17023,
+      "index": 120.2
+    },
+    {
+      "code": "340000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 9535,
+      "index": 118.5
+    },
+    {
+      "code": "350000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 10896,
+      "index": 118.7
+    },
+    {
+      "code": "360000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 6605,
+      "index": 118.7
+    },
+    {
+      "code": "370000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 18385,
+      "index": 118
+    },
+    {
+      "code": "410000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 13027,
+      "index": 114.5
+    },
+    {
+      "code": "420000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 9862,
+      "index": 158.7
+    },
+    {
+      "code": "430000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 10127,
+      "index": 114.9
+    },
+    {
+      "code": "440000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 27965,
+      "index": 119.2
+    },
+    {
+      "code": "450000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 5637,
+      "index": 116.9
+    },
+    {
+      "code": "460000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 1409,
+      "index": 120
+    },
+    {
+      "code": "500000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 6022,
+      "index": 119.1
+    },
+    {
+      "code": "510000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 12108,
+      "index": 115.9
+    },
+    {
+      "code": "520000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 4399,
+      "index": 116.3
+    },
+    {
+      "code": "530000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 6106,
+      "index": 115.3
+    },
+    {
+      "code": "540000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 489,
+      "index": 117.8
+    },
+    {
+      "code": "610000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 6479,
+      "index": 115.9
+    },
+    {
+      "code": "620000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 2279,
+      "index": 113.4
+    },
+    {
+      "code": "630000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 764,
+      "index": 113.1
+    },
+    {
+      "code": "640000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 998,
+      "index": 115.7
+    },
+    {
+      "code": "650000",
+      "year": 2021,
+      "period": "Q1",
+      "gdp": 3565,
+      "index": 112.7
+    },
+    {
+      "code": "110000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 38504,
+      "index": 101.4
+    },
+    {
+      "code": "120000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 14231,
+      "index": 101.5
+    },
+    {
+      "code": "130000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 36821,
+      "index": 104
+    },
+    {
+      "code": "140000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 18203,
+      "index": 103.7
+    },
+    {
+      "code": "150000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 17623,
+      "index": 100.3
+    },
+    {
+      "code": "210000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 25839,
+      "index": 100.8
+    },
+    {
+      "code": "220000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 12499,
+      "index": 102.4
+    },
+    {
+      "code": "230000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 14000,
+      "index": 101
+    },
+    {
+      "code": "310000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 41604,
+      "index": 102
+    },
+    {
+      "code": "320000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 104567,
+      "index": 103.8
+    },
+    {
+      "code": "330000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 67164,
+      "index": 103.8
+    },
+    {
+      "code": "340000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 38629,
+      "index": 103.7
+    },
+    {
+      "code": "350000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 43682,
+      "index": 103.2
+    },
+    {
+      "code": "360000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 25825,
+      "index": 103.8
+    },
+    {
+      "code": "370000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 74356,
+      "index": 103.6
+    },
+    {
+      "code": "410000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 54161,
+      "index": 101.1
+    },
+    {
+      "code": "420000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 43018,
+      "index": 94.6
+    },
+    {
+      "code": "430000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 41694,
+      "index": 103.8
+    },
+    {
+      "code": "440000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 113709,
+      "index": 102.4
+    },
+    {
+      "code": "450000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 22251,
+      "index": 103.7
+    },
+    {
+      "code": "460000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 5641,
+      "index": 103.6
+    },
+    {
+      "code": "500000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 25158,
+      "index": 103.9
+    },
+    {
+      "code": "510000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 49445,
+      "index": 103.8
+    },
+    {
+      "code": "520000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 18308,
+      "index": 104.6
+    },
+    {
+      "code": "530000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 25215,
+      "index": 104.1
+    },
+    {
+      "code": "540000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 1957,
+      "index": 108.1
+    },
+    {
+      "code": "610000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 26297,
+      "index": 102.1
+    },
+    {
+      "code": "620000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 9323,
+      "index": 104
+    },
+    {
+      "code": "630000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 3081,
+      "index": 101.7
+    },
+    {
+      "code": "640000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 4036,
+      "index": 104.1
+    },
+    {
+      "code": "650000",
+      "year": 2020,
+      "period": "FY",
+      "gdp": 14262,
+      "index": 103.6
+    },
+    {
+      "code": "110000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 27371,
+      "index": 100.2
+    },
+    {
+      "code": "120000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 10163,
+      "index": 100.1
+    },
+    {
+      "code": "130000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 26145,
+      "index": 101.6
+    },
+    {
+      "code": "140000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 12842,
+      "index": 101.4
+    },
+    {
+      "code": "150000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 12461,
+      "index": 98.1
+    },
+    {
+      "code": "210000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 18151,
+      "index": 98.8
+    },
+    {
+      "code": "220000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 8898,
+      "index": 101.4
+    },
+    {
+      "code": "230000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 8777,
+      "index": 98.3
+    },
+    {
+      "code": "310000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 29241,
+      "index": 99.9
+    },
+    {
+      "code": "320000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 74857,
+      "index": 102.8
+    },
+    {
+      "code": "330000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 47458,
+      "index": 102.4
+    },
+    {
+      "code": "340000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 27528,
+      "index": 102.4
+    },
+    {
+      "code": "350000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 31057,
+      "index": 102.4
+    },
+    {
+      "code": "360000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 18415,
+      "index": 102.5
+    },
+    {
+      "code": "370000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 52864,
+      "index": 102.1
+    },
+    {
+      "code": "410000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 39163,
+      "index": 100.4
+    },
+    {
+      "code": "420000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 28714,
+      "index": 89.4
+    },
+    {
+      "code": "430000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 29608,
+      "index": 102.6
+    },
+    {
+      "code": "440000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 80185,
+      "index": 100.6
+    },
+    {
+      "code": "450000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 16007,
+      "index": 102
+    },
+    {
+      "code": "460000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 3902,
+      "index": 101.2
+    },
+    {
+      "code": "500000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 17591,
+      "index": 102.6
+    },
+    {
+      "code": "510000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 35735,
+      "index": 102.5
+    },
+    {
+      "code": "520000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 12944,
+      "index": 103.3
+    },
+    {
+      "code": "530000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 17968,
+      "index": 102.7
+    },
+    {
+      "code": "540000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 1340,
+      "index": 106.6
+    },
+    {
+      "code": "610000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 18694,
+      "index": 101.1
+    },
+    {
+      "code": "620000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 6639,
+      "index": 102.8
+    },
+    {
+      "code": "630000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 2216,
+      "index": 101.4
+    },
+    {
+      "code": "640000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 2866,
+      "index": 102.7
+    },
+    {
+      "code": "650000",
+      "year": 2020,
+      "period": "Q3",
+      "gdp": 10113,
+      "index": 102.3
+    },
+    {
+      "code": "110000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 17237,
+      "index": 96.9
+    },
+    {
+      "code": "120000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 6358,
+      "index": 96.1
+    },
+    {
+      "code": "130000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 16621,
+      "index": 99.6
+    },
+    {
+      "code": "140000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 8044,
+      "index": 98.7
+    },
+    {
+      "code": "150000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 7800,
+      "index": 96.2
+    },
+    {
+      "code": "210000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 11423,
+      "index": 96
+    },
+    {
+      "code": "220000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 5510,
+      "index": 99.5
+    },
+    {
+      "code": "230000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 5352,
+      "index": 95.3
+    },
+    {
+      "code": "310000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 18609,
+      "index": 97.6
+    },
+    {
+      "code": "320000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 47437,
+      "index": 101.2
+    },
+    {
+      "code": "330000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 30154,
+      "index": 100.6
+    },
+    {
+      "code": "340000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 17481,
+      "index": 100.6
+    },
+    {
+      "code": "350000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 19748,
+      "index": 100.5
+    },
+    {
+      "code": "360000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 11721,
+      "index": 100.9
+    },
+    {
+      "code": "370000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 33505,
+      "index": 100
+    },
+    {
+      "code": "410000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 25001,
+      "index": 99.6
+    },
+    {
+      "code": "420000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 17263,
+      "index": 80.5
+    },
+    {
+      "code": "430000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 18936,
+      "index": 101.3
+    },
+    {
+      "code": "440000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 50410,
+      "index": 97.4
+    },
+    {
+      "code": "450000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 10222,
+      "index": 100.8
+    },
+    {
+      "code": "460000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 2423,
+      "index": 97.5
+    },
+    {
+      "code": "500000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 11148,
+      "index": 100.8
+    },
+    {
+      "code": "510000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 22635,
+      "index": 100.7
+    },
+    {
+      "code": "520000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 8179,
+      "index": 101.6
+    },
+    {
+      "code": "530000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 11414,
+      "index": 100.5
+    },
+    {
+      "code": "540000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 860,
+      "index": 105.4
+    },
+    {
+      "code": "610000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 11815,
+      "index": 99.5
+    },
+    {
+      "code": "620000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 4230,
+      "index": 101.5
+    },
+    {
+      "code": "630000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 1421,
+      "index": 101.2
+    },
+    {
+      "code": "640000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 1808,
+      "index": 101.4
+    },
+    {
+      "code": "650000",
+      "year": 2020,
+      "period": "H1",
+      "gdp": 6611,
+      "index": 103.4
+    },
+    {
+      "code": "110000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 7952,
+      "index": 93.5
+    },
+    {
+      "code": "120000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 2902,
+      "index": 90.6
+    },
+    {
+      "code": "130000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 7530,
+      "index": 93.9
+    },
+    {
+      "code": "140000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 3745,
+      "index": 95.5
+    },
+    {
+      "code": "150000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 3602,
+      "index": 94.3
+    },
+    {
+      "code": "210000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 5224,
+      "index": 92.3
+    },
+    {
+      "code": "220000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 2428,
+      "index": 93.4
+    },
+    {
+      "code": "230000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 2445,
+      "index": 91.9
+    },
+    {
+      "code": "310000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 8439,
+      "index": 93.5
+    },
+    {
+      "code": "320000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 21363,
+      "index": 95.3
+    },
+    {
+      "code": "330000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 13621,
+      "index": 94.5
+    },
+    {
+      "code": "340000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 7804,
+      "index": 93.5
+    },
+    {
+      "code": "350000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 8946,
+      "index": 94.9
+    },
+    {
+      "code": "360000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 5367,
+      "index": 96.2
+    },
+    {
+      "code": "370000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 15175,
+      "index": 94.4
+    },
+    {
+      "code": "410000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 11201,
+      "index": 93.2
+    },
+    {
+      "code": "420000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 6198,
+      "index": 60.7
+    },
+    {
+      "code": "430000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 8799,
+      "index": 98.1
+    },
+    {
+      "code": "440000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 23099,
+      "index": 93.3
+    },
+    {
+      "code": "450000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 4687,
+      "index": 96.8
+    },
+    {
+      "code": "460000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 1136,
+      "index": 95.7
+    },
+    {
+      "code": "500000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 4969,
+      "index": 93.6
+    },
+    {
+      "code": "510000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 10342,
+      "index": 97.1
+    },
+    {
+      "code": "520000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 3801,
+      "index": 98.3
+    },
+    {
+      "code": "530000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 5248,
+      "index": 95.8
+    },
+    {
+      "code": "540000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 395,
+      "index": 101.3
+    },
+    {
+      "code": "610000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 5459,
+      "index": 94.3
+    },
+    {
+      "code": "620000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 1972,
+      "index": 96.6
+    },
+    {
+      "code": "630000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 668,
+      "index": 98.1
+    },
+    {
+      "code": "640000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 829,
+      "index": 97.2
+    },
+    {
+      "code": "650000",
+      "year": 2020,
+      "period": "Q1",
+      "gdp": 3079,
+      "index": 99.8
+    },
+    {
+      "code": "110000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 37767,
+      "index": 106.4
+    },
+    {
+      "code": "120000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 14097,
+      "index": 104.8
+    },
+    {
+      "code": "130000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 35623,
+      "index": 106.9
+    },
+    {
+      "code": "140000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 17311,
+      "index": 106.3
+    },
+    {
+      "code": "150000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 17479,
+      "index": 105.4
+    },
+    {
+      "code": "210000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 25666,
+      "index": 105.6
+    },
+    {
+      "code": "220000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 11949,
+      "index": 103.1
+    },
+    {
+      "code": "230000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 13963,
+      "index": 104.1
+    },
+    {
+      "code": "310000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 40241,
+      "index": 106.3
+    },
+    {
+      "code": "320000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 99837,
+      "index": 106
+    },
+    {
+      "code": "330000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 64632,
+      "index": 107
+    },
+    {
+      "code": "340000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 37585,
+      "index": 107.4
+    },
+    {
+      "code": "350000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 42479,
+      "index": 107.5
+    },
+    {
+      "code": "360000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 24724,
+      "index": 107.9
+    },
+    {
+      "code": "370000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 72024,
+      "index": 105.4
+    },
+    {
+      "code": "410000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 53739,
+      "index": 106.8
+    },
+    {
+      "code": "420000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 45557,
+      "index": 107.3
+    },
+    {
+      "code": "430000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 39931,
+      "index": 107.6
+    },
+    {
+      "code": "440000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 110468,
+      "index": 106.3
+    },
+    {
+      "code": "450000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 21342,
+      "index": 106
+    },
+    {
+      "code": "460000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 5442,
+      "index": 105.9
+    },
+    {
+      "code": "500000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 23690,
+      "index": 106.3
+    },
+    {
+      "code": "510000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 47169,
+      "index": 107.4
+    },
+    {
+      "code": "520000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 17252,
+      "index": 108.4
+    },
+    {
+      "code": "530000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 23902,
+      "index": 108.3
+    },
+    {
+      "code": "540000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 1750,
+      "index": 108.3
+    },
+    {
+      "code": "610000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 26215,
+      "index": 106.1
+    },
+    {
+      "code": "620000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 9053,
+      "index": 106.4
+    },
+    {
+      "code": "630000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 3020,
+      "index": 106.3
+    },
+    {
+      "code": "640000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 3842,
+      "index": 106.7
+    },
+    {
+      "code": "650000",
+      "year": 2019,
+      "period": "FY",
+      "gdp": 14025,
+      "index": 106.3
+    },
+    {
+      "code": "110000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 27170,
+      "index": 106.3
+    },
+    {
+      "code": "120000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 10142,
+      "index": 104.6
+    },
+    {
+      "code": "130000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 25628,
+      "index": 106.9
+    },
+    {
+      "code": "140000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 12454,
+      "index": 106.5
+    },
+    {
+      "code": "150000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 12575,
+      "index": 105.6
+    },
+    {
+      "code": "210000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 18464,
+      "index": 105.7
+    },
+    {
+      "code": "220000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 8597,
+      "index": 101.8
+    },
+    {
+      "code": "230000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 8970,
+      "index": 104.2
+    },
+    {
+      "code": "310000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 28950,
+      "index": 106.1
+    },
+    {
+      "code": "320000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 71824,
+      "index": 106.3
+    },
+    {
+      "code": "330000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 46497,
+      "index": 106.6
+    },
+    {
+      "code": "340000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 27039,
+      "index": 107.7
+    },
+    {
+      "code": "350000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 30560,
+      "index": 107.9
+    },
+    {
+      "code": "360000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 17787,
+      "index": 108.5
+    },
+    {
+      "code": "370000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 51829,
+      "index": 105.3
+    },
+    {
+      "code": "410000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 38661,
+      "index": 107.2
+    },
+    {
+      "code": "420000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 32775,
+      "index": 107.6
+    },
+    {
+      "code": "430000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 28727,
+      "index": 107.8
+    },
+    {
+      "code": "440000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 79472,
+      "index": 106.4
+    },
+    {
+      "code": "450000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 15353,
+      "index": 105.5
+    },
+    {
+      "code": "460000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 3915,
+      "index": 105.7
+    },
+    {
+      "code": "500000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 17043,
+      "index": 106.4
+    },
+    {
+      "code": "510000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 33934,
+      "index": 107.7
+    },
+    {
+      "code": "520000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 12411,
+      "index": 108.8
+    },
+    {
+      "code": "530000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 17196,
+      "index": 108.8
+    },
+    {
+      "code": "540000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 1259,
+      "index": 109
+    },
+    {
+      "code": "610000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 18859,
+      "index": 105.9
+    },
+    {
+      "code": "620000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 6513,
+      "index": 106.2
+    },
+    {
+      "code": "630000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 2173,
+      "index": 105.5
+    },
+    {
+      "code": "640000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 2764,
+      "index": 106.5
+    },
+    {
+      "code": "650000",
+      "year": 2019,
+      "period": "Q3",
+      "gdp": 10090,
+      "index": 106.1
+    },
+    {
+      "code": "110000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 17557,
+      "index": 106.4
+    },
+    {
+      "code": "120000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 6554,
+      "index": 104.6
+    },
+    {
+      "code": "130000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 16561,
+      "index": 107
+    },
+    {
+      "code": "140000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 8048,
+      "index": 107.1
+    },
+    {
+      "code": "150000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 8018,
+      "index": 105.5
+    },
+    {
+      "code": "210000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 11932,
+      "index": 105.8
+    },
+    {
+      "code": "220000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 5417,
+      "index": 102
+    },
+    {
+      "code": "230000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 5730,
+      "index": 104.2
+    },
+    {
+      "code": "310000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 18707,
+      "index": 106
+    },
+    {
+      "code": "320000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 46413,
+      "index": 106.4
+    },
+    {
+      "code": "330000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 30046,
+      "index": 107.1
+    },
+    {
+      "code": "340000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 17473,
+      "index": 107.9
+    },
+    {
+      "code": "350000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 19748,
+      "index": 108
+    },
+    {
+      "code": "360000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 11494,
+      "index": 108.5
+    },
+    {
+      "code": "370000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 33499,
+      "index": 105.3
+    },
+    {
+      "code": "410000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 24983,
+      "index": 107.5
+    },
+    {
+      "code": "420000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 21179,
+      "index": 107.8
+    },
+    {
+      "code": "430000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 18563,
+      "index": 107.2
+    },
+    {
+      "code": "440000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 51355,
+      "index": 106.5
+    },
+    {
+      "code": "450000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 9921,
+      "index": 105.9
+    },
+    {
+      "code": "460000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 2530,
+      "index": 105.5
+    },
+    {
+      "code": "500000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 11013,
+      "index": 106.3
+    },
+    {
+      "code": "510000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 21928,
+      "index": 107.8
+    },
+    {
+      "code": "520000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 8020,
+      "index": 109.1
+    },
+    {
+      "code": "530000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 11112,
+      "index": 109.2
+    },
+    {
+      "code": "540000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 814,
+      "index": 109.3
+    },
+    {
+      "code": "610000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 12187,
+      "index": 105.5
+    },
+    {
+      "code": "620000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 4209,
+      "index": 106.1
+    },
+    {
+      "code": "630000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 1404,
+      "index": 105.5
+    },
+    {
+      "code": "640000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 1786,
+      "index": 106.5
+    },
+    {
+      "code": "650000",
+      "year": 2019,
+      "period": "H1",
+      "gdp": 6520,
+      "index": 105.6
+    },
+    {
+      "code": "110000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 8311,
+      "index": 106.4
+    },
+    {
+      "code": "120000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 3102,
+      "index": 104.5
+    },
+    {
+      "code": "130000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 7840,
+      "index": 107.3
+    },
+    {
+      "code": "140000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 3810,
+      "index": 107.1
+    },
+    {
+      "code": "150000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 3733,
+      "index": 105.5
+    },
+    {
+      "code": "210000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 5578,
+      "index": 106.1
+    },
+    {
+      "code": "220000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 2540,
+      "index": 102.4
+    },
+    {
+      "code": "230000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 2648,
+      "index": 104.4
+    },
+    {
+      "code": "310000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 8856,
+      "index": 105.7
+    },
+    {
+      "code": "320000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 21971,
+      "index": 106.6
+    },
+    {
+      "code": "330000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 14224,
+      "index": 107.7
+    },
+    {
+      "code": "340000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 8271,
+      "index": 107.6
+    },
+    {
+      "code": "350000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 9349,
+      "index": 108.1
+    },
+    {
+      "code": "360000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 5441,
+      "index": 108.5
+    },
+    {
+      "code": "370000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 15874,
+      "index": 105.4
+    },
+    {
+      "code": "410000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 11827,
+      "index": 107.7
+    },
+    {
+      "code": "420000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 10026,
+      "index": 107.9
+    },
+    {
+      "code": "430000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 8788,
+      "index": 107.6
+    },
+    {
+      "code": "440000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 24311,
+      "index": 106.6
+    },
+    {
+      "code": "450000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 4697,
+      "index": 106.4
+    },
+    {
+      "code": "460000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 1198,
+      "index": 105.7
+    },
+    {
+      "code": "500000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 5213,
+      "index": 106.1
+    },
+    {
+      "code": "510000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 10380,
+      "index": 107.7
+    },
+    {
+      "code": "520000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 3797,
+      "index": 109.3
+    },
+    {
+      "code": "530000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 5260,
+      "index": 109.7
+    },
+    {
+      "code": "540000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 385,
+      "index": 109.4
+    },
+    {
+      "code": "610000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 5769,
+      "index": 106.4
+    },
+    {
+      "code": "620000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 1992,
+      "index": 107.9
+    },
+    {
+      "code": "630000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 665,
+      "index": 105.5
+    },
+    {
+      "code": "640000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 845,
+      "index": 107.9
+    },
+    {
+      "code": "650000",
+      "year": 2019,
+      "period": "Q1",
+      "gdp": 3087,
+      "index": 105.3
+    },
+    {
+      "code": "110000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 35161,
+      "index": 106.9
+    },
+    {
+      "code": "120000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 13411,
+      "index": 103.2
+    },
+    {
+      "code": "130000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 32947,
+      "index": 106.5
+    },
+    {
+      "code": "140000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 16153,
+      "index": 106.4
+    },
+    {
+      "code": "150000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 16253,
+      "index": 105.2
+    },
+    {
+      "code": "210000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 24114,
+      "index": 105.6
+    },
+    {
+      "code": "220000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 11437,
+      "index": 104.5
+    },
+    {
+      "code": "230000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 13206,
+      "index": 104.3
+    },
+    {
+      "code": "310000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 37769,
+      "index": 106.9
+    },
+    {
+      "code": "320000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 93456,
+      "index": 106.5
+    },
+    {
+      "code": "330000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 59312,
+      "index": 107.3
+    },
+    {
+      "code": "340000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 34377,
+      "index": 107.8
+    },
+    {
+      "code": "350000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 39205,
+      "index": 108.1
+    },
+    {
+      "code": "360000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 23017,
+      "index": 108.5
+    },
+    {
+      "code": "370000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 67864,
+      "index": 106.5
+    },
+    {
+      "code": "410000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 50273,
+      "index": 107.6
+    },
+    {
+      "code": "420000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 42425,
+      "index": 107.6
+    },
+    {
+      "code": "430000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 36629,
+      "index": 107.6
+    },
+    {
+      "code": "440000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 101876,
+      "index": 106.7
+    },
+    {
+      "code": "450000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 19952,
+      "index": 106.8
+    },
+    {
+      "code": "460000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 5004,
+      "index": 106
+    },
+    {
+      "code": "500000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 21867,
+      "index": 105.9
+    },
+    {
+      "code": "510000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 43539,
+      "index": 107.8
+    },
+    {
+      "code": "520000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 15887,
+      "index": 108.9
+    },
+    {
+      "code": "530000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 21427,
+      "index": 108.7
+    },
+    {
+      "code": "540000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 1583,
+      "index": 108.8
+    },
+    {
+      "code": "610000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 24355,
+      "index": 108.2
+    },
+    {
+      "code": "620000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 8365,
+      "index": 105.9
+    },
+    {
+      "code": "630000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 2800,
+      "index": 107
+    },
+    {
+      "code": "640000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 3581,
+      "index": 106.6
+    },
+    {
+      "code": "650000",
+      "year": 2018,
+      "period": "FY",
+      "gdp": 13110,
+      "index": 105.9
+    },
+    {
+      "code": "110000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 25135,
+      "index": 107
+    },
+    {
+      "code": "120000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 9784,
+      "index": 103.1
+    },
+    {
+      "code": "130000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 24090,
+      "index": 106.5
+    },
+    {
+      "code": "140000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 11375,
+      "index": 105.8
+    },
+    {
+      "code": "150000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 11570,
+      "index": 105
+    },
+    {
+      "code": "210000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 17289,
+      "index": 105.3
+    },
+    {
+      "code": "220000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 8500,
+      "index": 104
+    },
+    {
+      "code": "230000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 8529,
+      "index": 104.4
+    },
+    {
+      "code": "310000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 26854,
+      "index": 106.9
+    },
+    {
+      "code": "320000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 66731,
+      "index": 106.5
+    },
+    {
+      "code": "330000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 42256,
+      "index": 107.7
+    },
+    {
+      "code": "340000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 24548,
+      "index": 108
+    },
+    {
+      "code": "350000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 28150,
+      "index": 108.1
+    },
+    {
+      "code": "360000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 16383,
+      "index": 108.6
+    },
+    {
+      "code": "370000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 49796,
+      "index": 106.6
+    },
+    {
+      "code": "410000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 35759,
+      "index": 107.4
+    },
+    {
+      "code": "420000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 29568,
+      "index": 107.6
+    },
+    {
+      "code": "430000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 26094,
+      "index": 107.6
+    },
+    {
+      "code": "440000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 72251,
+      "index": 106.8
+    },
+    {
+      "code": "450000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 15089,
+      "index": 107
+    },
+    {
+      "code": "460000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 3571,
+      "index": 105.6
+    },
+    {
+      "code": "500000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 15810,
+      "index": 106.2
+    },
+    {
+      "code": "510000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 30982,
+      "index": 107.9
+    },
+    {
+      "code": "520000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 11278,
+      "index": 108.8
+    },
+    {
+      "code": "530000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 15358,
+      "index": 108.9
+    },
+    {
+      "code": "540000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 1128,
+      "index": 108.7
+    },
+    {
+      "code": "610000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 17380,
+      "index": 108.3
+    },
+    {
+      "code": "620000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 6089,
+      "index": 105.9
+    },
+    {
+      "code": "630000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 2047,
+      "index": 106.6
+    },
+    {
+      "code": "640000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 2556,
+      "index": 106.6
+    },
+    {
+      "code": "650000",
+      "year": 2018,
+      "period": "Q3",
+      "gdp": 9326,
+      "index": 105.1
+    },
+    {
+      "code": "110000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 16228,
+      "index": 107.1
+    },
+    {
+      "code": "120000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 6400,
+      "index": 103
+    },
+    {
+      "code": "130000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 15579,
+      "index": 106.4
+    },
+    {
+      "code": "140000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 7427,
+      "index": 106.5
+    },
+    {
+      "code": "150000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 7373,
+      "index": 104.8
+    },
+    {
+      "code": "210000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 11112,
+      "index": 105.5
+    },
+    {
+      "code": "220000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 5370,
+      "index": 102.5
+    },
+    {
+      "code": "230000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 5441,
+      "index": 104.9
+    },
+    {
+      "code": "310000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 17937,
+      "index": 107.2
+    },
+    {
+      "code": "320000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 43258,
+      "index": 106.8
+    },
+    {
+      "code": "330000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 27124,
+      "index": 107.8
+    },
+    {
+      "code": "340000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 15791,
+      "index": 108.1
+    },
+    {
+      "code": "350000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 18163,
+      "index": 108
+    },
+    {
+      "code": "360000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 10647,
+      "index": 108.8
+    },
+    {
+      "code": "370000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 31879,
+      "index": 106.7
+    },
+    {
+      "code": "410000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 23374,
+      "index": 107.8
+    },
+    {
+      "code": "420000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 19136,
+      "index": 107.5
+    },
+    {
+      "code": "430000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 16966,
+      "index": 107.6
+    },
+    {
+      "code": "440000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 46949,
+      "index": 107
+    },
+    {
+      "code": "450000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 9047,
+      "index": 106.2
+    },
+    {
+      "code": "460000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 2307,
+      "index": 106
+    },
+    {
+      "code": "500000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 10779,
+      "index": 106.4
+    },
+    {
+      "code": "510000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 19948,
+      "index": 108
+    },
+    {
+      "code": "520000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 7293,
+      "index": 109.8
+    },
+    {
+      "code": "530000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 9841,
+      "index": 109
+    },
+    {
+      "code": "540000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 732,
+      "index": 109.5
+    },
+    {
+      "code": "610000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 11242,
+      "index": 108.5
+    },
+    {
+      "code": "620000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 3918,
+      "index": 104.6
+    },
+    {
+      "code": "630000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 1314,
+      "index": 105.7
+    },
+    {
+      "code": "640000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 1652,
+      "index": 107.3
+    },
+    {
+      "code": "650000",
+      "year": 2018,
+      "period": "H1",
+      "gdp": 6022,
+      "index": 105.4
+    },
+    {
+      "code": "110000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 7685,
+      "index": 107
+    },
+    {
+      "code": "120000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 3026,
+      "index": 101.5
+    },
+    {
+      "code": "130000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 7216,
+      "index": 105.9
+    },
+    {
+      "code": "140000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 3498,
+      "index": 105.9
+    },
+    {
+      "code": "150000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 3429,
+      "index": 104.5
+    },
+    {
+      "code": "210000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 5181,
+      "index": 105
+    },
+    {
+      "code": "220000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 2493,
+      "index": 102.2
+    },
+    {
+      "code": "230000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 2510,
+      "index": 105.2
+    },
+    {
+      "code": "310000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 8500,
+      "index": 107.1
+    },
+    {
+      "code": "320000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 20495,
+      "index": 106.9
+    },
+    {
+      "code": "330000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 12783,
+      "index": 107.6
+    },
+    {
+      "code": "340000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 7568,
+      "index": 107.9
+    },
+    {
+      "code": "350000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 8614,
+      "index": 107.7
+    },
+    {
+      "code": "360000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 5021,
+      "index": 108.8
+    },
+    {
+      "code": "370000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 14935,
+      "index": 106.8
+    },
+    {
+      "code": "410000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 10990,
+      "index": 107.9
+    },
+    {
+      "code": "420000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 9117,
+      "index": 107.4
+    },
+    {
+      "code": "430000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 8180,
+      "index": 107.8
+    },
+    {
+      "code": "440000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 22095,
+      "index": 106.9
+    },
+    {
+      "code": "450000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 4399,
+      "index": 107.1
+    },
+    {
+      "code": "460000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 1100,
+      "index": 105.3
+    },
+    {
+      "code": "500000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 4950,
+      "index": 106.9
+    },
+    {
+      "code": "510000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 9469,
+      "index": 108
+    },
+    {
+      "code": "520000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 3446,
+      "index": 109.9
+    },
+    {
+      "code": "530000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 4705,
+      "index": 109.1
+    },
+    {
+      "code": "540000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 352,
+      "index": 109.2
+    },
+    {
+      "code": "610000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 5285,
+      "index": 108.4
+    },
+    {
+      "code": "620000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 1809,
+      "index": 104.9
+    },
+    {
+      "code": "630000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 643,
+      "index": 107
+    },
+    {
+      "code": "640000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 763,
+      "index": 107.5
+    },
+    {
+      "code": "650000",
+      "year": 2018,
+      "period": "Q1",
+      "gdp": 2861,
+      "index": 106.5
+    },
+    {
+      "code": "110000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 31326,
+      "index": 107
+    },
+    {
+      "code": "120000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 12468,
+      "index": 103.2
+    },
+    {
+      "code": "130000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 31065,
+      "index": 106.6
+    },
+    {
+      "code": "140000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 14679,
+      "index": 106.7
+    },
+    {
+      "code": "150000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 15010,
+      "index": 104
+    },
+    {
+      "code": "210000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 22105,
+      "index": 104.2
+    },
+    {
+      "code": "220000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 11083,
+      "index": 105.2
+    },
+    {
+      "code": "230000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 12660,
+      "index": 105.8
+    },
+    {
+      "code": "310000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 34378,
+      "index": 107.2
+    },
+    {
+      "code": "320000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 86513,
+      "index": 107
+    },
+    {
+      "code": "330000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 53135,
+      "index": 107.8
+    },
+    {
+      "code": "340000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 30142,
+      "index": 108.4
+    },
+    {
+      "code": "350000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 34432,
+      "index": 107.9
+    },
+    {
+      "code": "360000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 20498,
+      "index": 108.6
+    },
+    {
+      "code": "370000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 63959,
+      "index": 107.5
+    },
+    {
+      "code": "410000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 44587,
+      "index": 107.6
+    },
+    {
+      "code": "420000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 37624,
+      "index": 107.8
+    },
+    {
+      "code": "430000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 34128,
+      "index": 107.9
+    },
+    {
+      "code": "440000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 93005,
+      "index": 107.5
+    },
+    {
+      "code": "450000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 18072,
+      "index": 107.1
+    },
+    {
+      "code": "460000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 4553,
+      "index": 106.9
+    },
+    {
+      "code": "500000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 20261,
+      "index": 109.1
+    },
+    {
+      "code": "510000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 38517,
+      "index": 107.9
+    },
+    {
+      "code": "520000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 14067,
+      "index": 110.1
+    },
+    {
+      "code": "530000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 18865,
+      "index": 109.3
+    },
+    {
+      "code": "540000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 1381,
+      "index": 110.2
+    },
+    {
+      "code": "610000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 21776,
+      "index": 107.7
+    },
+    {
+      "code": "620000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 7643,
+      "index": 103.3
+    },
+    {
+      "code": "630000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 2517,
+      "index": 107.1
+    },
+    {
+      "code": "640000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 3272,
+      "index": 107.1
+    },
+    {
+      "code": "650000",
+      "year": 2017,
+      "period": "FY",
+      "gdp": 11461,
+      "index": 107.5
+    },
+    {
+      "code": "110000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 22185,
+      "index": 107.1
+    },
+    {
+      "code": "120000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 9014,
+      "index": 105.6
+    },
+    {
+      "code": "130000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 23053,
+      "index": 106.6
+    },
+    {
+      "code": "140000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 10383,
+      "index": 106.9
+    },
+    {
+      "code": "150000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 10633,
+      "index": 105
+    },
+    {
+      "code": "210000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 15602,
+      "index": 102.5
+    },
+    {
+      "code": "220000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 8262,
+      "index": 105.6
+    },
+    {
+      "code": "230000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 8160,
+      "index": 105.9
+    },
+    {
+      "code": "310000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 24362,
+      "index": 107.3
+    },
+    {
+      "code": "320000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 62484,
+      "index": 107
+    },
+    {
+      "code": "330000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 37170,
+      "index": 108.1
+    },
+    {
+      "code": "340000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 21613,
+      "index": 108.1
+    },
+    {
+      "code": "350000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 24751,
+      "index": 107.7
+    },
+    {
+      "code": "360000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 14542,
+      "index": 108.7
+    },
+    {
+      "code": "370000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 45310,
+      "index": 107.6
+    },
+    {
+      "code": "410000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 31499,
+      "index": 107.9
+    },
+    {
+      "code": "420000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 26430,
+      "index": 107.7
+    },
+    {
+      "code": "430000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 24617,
+      "index": 107.4
+    },
+    {
+      "code": "440000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 65781,
+      "index": 107.6
+    },
+    {
+      "code": "450000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 13604,
+      "index": 106.8
+    },
+    {
+      "code": "460000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 3198,
+      "index": 107.4
+    },
+    {
+      "code": "500000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 15015,
+      "index": 109.8
+    },
+    {
+      "code": "510000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 26751,
+      "index": 107.9
+    },
+    {
+      "code": "520000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 10032,
+      "index": 110
+    },
+    {
+      "code": "530000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 13468,
+      "index": 108.8
+    },
+    {
+      "code": "540000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 995,
+      "index": 110.3
+    },
+    {
+      "code": "610000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 15635,
+      "index": 107.8
+    },
+    {
+      "code": "620000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 5568,
+      "index": 103.3
+    },
+    {
+      "code": "630000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 1989,
+      "index": 106.8
+    },
+    {
+      "code": "640000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 2241,
+      "index": 107.1
+    },
+    {
+      "code": "650000",
+      "year": 2017,
+      "period": "Q3",
+      "gdp": 8236,
+      "index": 107.4
+    },
+    {
+      "code": "110000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 14286,
+      "index": 107.1
+    },
+    {
+      "code": "120000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 5720,
+      "index": 106.5
+    },
+    {
+      "code": "130000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 15059,
+      "index": 106.7
+    },
+    {
+      "code": "140000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 6500,
+      "index": 106.6
+    },
+    {
+      "code": "150000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 6779,
+      "index": 106.6
+    },
+    {
+      "code": "210000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 9988,
+      "index": 102.1
+    },
+    {
+      "code": "220000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 5243,
+      "index": 106.4
+    },
+    {
+      "code": "230000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 5352,
+      "index": 105.8
+    },
+    {
+      "code": "310000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 15989,
+      "index": 107.2
+    },
+    {
+      "code": "320000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 40002,
+      "index": 107
+    },
+    {
+      "code": "330000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 24418,
+      "index": 108
+    },
+    {
+      "code": "340000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 13904,
+      "index": 108.3
+    },
+    {
+      "code": "350000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 16058,
+      "index": 108.1
+    },
+    {
+      "code": "360000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 9397,
+      "index": 108.7
+    },
+    {
+      "code": "370000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 28527,
+      "index": 107.8
+    },
+    {
+      "code": "410000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 20572,
+      "index": 108
+    },
+    {
+      "code": "420000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 17072,
+      "index": 107.7
+    },
+    {
+      "code": "430000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 15971,
+      "index": 107.5
+    },
+    {
+      "code": "440000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 42778,
+      "index": 107.8
+    },
+    {
+      "code": "450000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 8434,
+      "index": 107
+    },
+    {
+      "code": "460000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 2063,
+      "index": 107.4
+    },
+    {
+      "code": "500000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 9854,
+      "index": 110.3
+    },
+    {
+      "code": "510000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 17146,
+      "index": 108
+    },
+    {
+      "code": "520000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 6474,
+      "index": 110.3
+    },
+    {
+      "code": "530000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 8653,
+      "index": 109.3
+    },
+    {
+      "code": "540000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 638,
+      "index": 111.1
+    },
+    {
+      "code": "610000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 10173,
+      "index": 107.9
+    },
+    {
+      "code": "620000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 3708,
+      "index": 104.7
+    },
+    {
+      "code": "630000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 1294,
+      "index": 107.4
+    },
+    {
+      "code": "640000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 1426,
+      "index": 107.9
+    },
+    {
+      "code": "650000",
+      "year": 2017,
+      "period": "H1",
+      "gdp": 5277,
+      "index": 107.1
+    },
+    {
+      "code": "110000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 6778,
+      "index": 107.2
+    },
+    {
+      "code": "120000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 2699,
+      "index": 107.6
+    },
+    {
+      "code": "130000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 6737,
+      "index": 106.4
+    },
+    {
+      "code": "140000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 3146,
+      "index": 105.8
+    },
+    {
+      "code": "150000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 3148,
+      "index": 107.2
+    },
+    {
+      "code": "210000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 4682,
+      "index": 102.5
+    },
+    {
+      "code": "220000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 2472,
+      "index": 105.8
+    },
+    {
+      "code": "230000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 2385,
+      "index": 105.8
+    },
+    {
+      "code": "310000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 7459,
+      "index": 107.1
+    },
+    {
+      "code": "320000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 18627,
+      "index": 106.9
+    },
+    {
+      "code": "330000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 11418,
+      "index": 108
+    },
+    {
+      "code": "340000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 6588,
+      "index": 108.2
+    },
+    {
+      "code": "350000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 7606,
+      "index": 108.4
+    },
+    {
+      "code": "360000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 4290,
+      "index": 108.7
+    },
+    {
+      "code": "370000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 13293,
+      "index": 107.8
+    },
+    {
+      "code": "410000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 9399,
+      "index": 107.8
+    },
+    {
+      "code": "420000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 8123,
+      "index": 107.5
+    },
+    {
+      "code": "430000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 7540,
+      "index": 107.3
+    },
+    {
+      "code": "440000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 19894,
+      "index": 107.8
+    },
+    {
+      "code": "450000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 4030,
+      "index": 106.1
+    },
+    {
+      "code": "460000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 972,
+      "index": 108.8
+    },
+    {
+      "code": "500000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 4489,
+      "index": 110.3
+    },
+    {
+      "code": "510000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 8135,
+      "index": 108
+    },
+    {
+      "code": "520000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 3070,
+      "index": 110.1
+    },
+    {
+      "code": "530000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 4092,
+      "index": 109.7
+    },
+    {
+      "code": "540000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 309,
+      "index": 111.3
+    },
+    {
+      "code": "610000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 4829,
+      "index": 107.8
+    },
+    {
+      "code": "620000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 1728,
+      "index": 105.8
+    },
+    {
+      "code": "630000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 620,
+      "index": 107.4
+    },
+    {
+      "code": "640000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 660,
+      "index": 107.9
+    },
+    {
+      "code": "650000",
+      "year": 2017,
+      "period": "Q1",
+      "gdp": 2498,
+      "index": 107.5
+    },
+    {
+      "code": "110000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 28439,
+      "index": 107
+    },
+    {
+      "code": "120000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 11487,
+      "index": 105.8
+    },
+    {
+      "code": "130000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 28880,
+      "index": 106.7
+    },
+    {
+      "code": "140000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 12160,
+      "index": 104
+    },
+    {
+      "code": "150000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 13879,
+      "index": 106.8
+    },
+    {
+      "code": "210000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 20832,
+      "index": 100.6
+    },
+    {
+      "code": "220000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 10604,
+      "index": 106.5
+    },
+    {
+      "code": "230000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 12281,
+      "index": 104.3
+    },
+    {
+      "code": "310000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 30964,
+      "index": 107.1
+    },
+    {
+      "code": "320000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 78261,
+      "index": 107.6
+    },
+    {
+      "code": "330000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 48096,
+      "index": 107.7
+    },
+    {
+      "code": "340000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 26801,
+      "index": 108.6
+    },
+    {
+      "code": "350000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 30199,
+      "index": 108.2
+    },
+    {
+      "code": "360000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 18761,
+      "index": 108.8
+    },
+    {
+      "code": "370000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 59703,
+      "index": 107.5
+    },
+    {
+      "code": "410000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 40168,
+      "index": 108.4
+    },
+    {
+      "code": "420000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 33768,
+      "index": 108.2
+    },
+    {
+      "code": "430000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 31225,
+      "index": 107.9
+    },
+    {
+      "code": "440000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 83493,
+      "index": 107.8
+    },
+    {
+      "code": "450000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 16417,
+      "index": 107
+    },
+    {
+      "code": "460000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 4151,
+      "index": 107.7
+    },
+    {
+      "code": "500000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 18271,
+      "index": 110.5
+    },
+    {
+      "code": "510000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 33879,
+      "index": 107.6
+    },
+    {
+      "code": "520000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 12134,
+      "index": 110.4
+    },
+    {
+      "code": "530000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 16774,
+      "index": 108.5
+    },
+    {
+      "code": "540000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 1197,
+      "index": 110.3
+    },
+    {
+      "code": "610000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 19355,
+      "index": 107.5
+    },
+    {
+      "code": "620000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 7207,
+      "index": 107.6
+    },
+    {
+      "code": "630000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 2311,
+      "index": 107.9
+    },
+    {
+      "code": "640000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 2853,
+      "index": 107.2
+    },
+    {
+      "code": "650000",
+      "year": 2016,
+      "period": "FY",
+      "gdp": 9914,
+      "index": 107.7
+    },
+    {
+      "code": "110000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 20142,
+      "index": 107
+    },
+    {
+      "code": "120000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 8218,
+      "index": 105.9
+    },
+    {
+      "code": "130000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 21252,
+      "index": 106.7
+    },
+    {
+      "code": "140000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 8525,
+      "index": 103.5
+    },
+    {
+      "code": "150000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 9338,
+      "index": 106.7
+    },
+    {
+      "code": "210000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 14937,
+      "index": 100.9
+    },
+    {
+      "code": "220000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 7561,
+      "index": 106.5
+    },
+    {
+      "code": "230000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 7899,
+      "index": 104.3
+    },
+    {
+      "code": "310000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 21751,
+      "index": 107
+    },
+    {
+      "code": "320000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 56448,
+      "index": 107.9
+    },
+    {
+      "code": "330000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 32702,
+      "index": 107.7
+    },
+    {
+      "code": "340000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 19204,
+      "index": 108.6
+    },
+    {
+      "code": "350000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 21745,
+      "index": 108.2
+    },
+    {
+      "code": "360000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 13070,
+      "index": 108.9
+    },
+    {
+      "code": "370000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 41004,
+      "index": 107.4
+    },
+    {
+      "code": "410000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 27937,
+      "index": 108.4
+    },
+    {
+      "code": "420000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 23700,
+      "index": 108.3
+    },
+    {
+      "code": "430000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 22162,
+      "index": 107.6
+    },
+    {
+      "code": "440000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 58758,
+      "index": 107.2
+    },
+    {
+      "code": "450000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 12301,
+      "index": 106.7
+    },
+    {
+      "code": "460000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 2899,
+      "index": 107.6
+    },
+    {
+      "code": "500000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 13144,
+      "index": 110.5
+    },
+    {
+      "code": "510000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 23186,
+      "index": 107.4
+    },
+    {
+      "code": "520000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 8657,
+      "index": 110.4
+    },
+    {
+      "code": "530000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 11924,
+      "index": 107.4
+    },
+    {
+      "code": "540000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 858,
+      "index": 111
+    },
+    {
+      "code": "610000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 13570,
+      "index": 107.2
+    },
+    {
+      "code": "620000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 5181,
+      "index": 107.5
+    },
+    {
+      "code": "630000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 1707,
+      "index": 108.1
+    },
+    {
+      "code": "640000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 1859,
+      "index": 107.1
+    },
+    {
+      "code": "650000",
+      "year": 2016,
+      "period": "Q3",
+      "gdp": 7094,
+      "index": 108
+    },
+    {
+      "code": "110000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 13014,
+      "index": 107
+    },
+    {
+      "code": "120000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 4974,
+      "index": 106
+    },
+    {
+      "code": "130000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 13839,
+      "index": 106.5
+    },
+    {
+      "code": "140000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 5368,
+      "index": 102.9
+    },
+    {
+      "code": "150000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 5941,
+      "index": 106.7
+    },
+    {
+      "code": "210000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 9612,
+      "index": 102.1
+    },
+    {
+      "code": "220000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 4785,
+      "index": 106.3
+    },
+    {
+      "code": "230000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 5164,
+      "index": 104.2
+    },
+    {
+      "code": "310000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 14348,
+      "index": 107
+    },
+    {
+      "code": "320000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 35946,
+      "index": 108
+    },
+    {
+      "code": "330000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 21508,
+      "index": 107.9
+    },
+    {
+      "code": "340000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 12346,
+      "index": 108.4
+    },
+    {
+      "code": "350000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 14038,
+      "index": 108.1
+    },
+    {
+      "code": "360000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 8451,
+      "index": 108.9
+    },
+    {
+      "code": "370000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 25743,
+      "index": 107.2
+    },
+    {
+      "code": "410000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 18215,
+      "index": 108.3
+    },
+    {
+      "code": "420000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 15226,
+      "index": 108.4
+    },
+    {
+      "code": "430000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 14277,
+      "index": 107.6
+    },
+    {
+      "code": "440000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 38010,
+      "index": 107.7
+    },
+    {
+      "code": "450000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 7625,
+      "index": 106.9
+    },
+    {
+      "code": "460000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 1892,
+      "index": 108.3
+    },
+    {
+      "code": "500000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 8551,
+      "index": 110.4
+    },
+    {
+      "code": "510000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 14979,
+      "index": 107.4
+    },
+    {
+      "code": "520000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 5530,
+      "index": 110.4
+    },
+    {
+      "code": "530000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 7745,
+      "index": 106.4
+    },
+    {
+      "code": "540000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 535,
+      "index": 110.9
+    },
+    {
+      "code": "610000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 8798,
+      "index": 107.1
+    },
+    {
+      "code": "620000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 3389,
+      "index": 107.8
+    },
+    {
+      "code": "630000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 1089,
+      "index": 108.2
+    },
+    {
+      "code": "640000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 1171,
+      "index": 107
+    },
+    {
+      "code": "650000",
+      "year": 2016,
+      "period": "H1",
+      "gdp": 4524,
+      "index": 108.1
+    },
+    {
+      "code": "110000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 6079,
+      "index": 107.2
+    },
+    {
+      "code": "120000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 2260,
+      "index": 105.9
+    },
+    {
+      "code": "130000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 6064,
+      "index": 106.4
+    },
+    {
+      "code": "140000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 2615,
+      "index": 102.5
+    },
+    {
+      "code": "150000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 2770,
+      "index": 106.8
+    },
+    {
+      "code": "210000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 4463,
+      "index": 102
+    },
+    {
+      "code": "220000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 2356,
+      "index": 105.8
+    },
+    {
+      "code": "230000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 2319,
+      "index": 103.6
+    },
+    {
+      "code": "310000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 6509,
+      "index": 107
+    },
+    {
+      "code": "320000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 16760,
+      "index": 108.1
+    },
+    {
+      "code": "330000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 10038,
+      "index": 107.4
+    },
+    {
+      "code": "340000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 5832,
+      "index": 108.4
+    },
+    {
+      "code": "350000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 6620,
+      "index": 108.1
+    },
+    {
+      "code": "360000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 3853,
+      "index": 108.9
+    },
+    {
+      "code": "370000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 11911,
+      "index": 107.2
+    },
+    {
+      "code": "410000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 8302,
+      "index": 108.5
+    },
+    {
+      "code": "420000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 7249,
+      "index": 108.3
+    },
+    {
+      "code": "430000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 6740,
+      "index": 107.3
+    },
+    {
+      "code": "440000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 17686,
+      "index": 109
+    },
+    {
+      "code": "450000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 3686,
+      "index": 106.7
+    },
+    {
+      "code": "460000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 880,
+      "index": 109.9
+    },
+    {
+      "code": "500000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 3900,
+      "index": 110.5
+    },
+    {
+      "code": "510000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 7098,
+      "index": 107.3
+    },
+    {
+      "code": "520000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 2635,
+      "index": 110.2
+    },
+    {
+      "code": "530000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 3586,
+      "index": 106.4
+    },
+    {
+      "code": "540000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 267,
+      "index": 111
+    },
+    {
+      "code": "610000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 4164,
+      "index": 107.5
+    },
+    {
+      "code": "620000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 1546,
+      "index": 107.3
+    },
+    {
+      "code": "630000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 512,
+      "index": 108.2
+    },
+    {
+      "code": "640000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 544,
+      "index": 106
+    },
+    {
+      "code": "650000",
+      "year": 2016,
+      "period": "Q1",
+      "gdp": 2103,
+      "index": 107
+    },
+    {
+      "code": "110000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 26034,
+      "index": 106.8
+    },
+    {
+      "code": "120000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 10889,
+      "index": 106.8
+    },
+    {
+      "code": "130000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 26744,
+      "index": 106.8
+    },
+    {
+      "code": "140000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 12036,
+      "index": 103.1
+    },
+    {
+      "code": "150000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 13063,
+      "index": 107.6
+    },
+    {
+      "code": "210000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 20658,
+      "index": 102.8
+    },
+    {
+      "code": "220000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 10163,
+      "index": 106.1
+    },
+    {
+      "code": "230000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 12023,
+      "index": 105.4
+    },
+    {
+      "code": "310000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 27822,
+      "index": 107
+    },
+    {
+      "code": "320000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 71876,
+      "index": 108.5
+    },
+    {
+      "code": "330000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 44222,
+      "index": 108
+    },
+    {
+      "code": "340000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 24143,
+      "index": 108.6
+    },
+    {
+      "code": "350000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 27307,
+      "index": 108.8
+    },
+    {
+      "code": "360000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 17031,
+      "index": 109
+    },
+    {
+      "code": "370000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 56159,
+      "index": 107.8
+    },
+    {
+      "code": "410000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 36798,
+      "index": 108.3
+    },
+    {
+      "code": "420000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 30662,
+      "index": 108.5
+    },
+    {
+      "code": "430000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 28812,
+      "index": 108.5
+    },
+    {
+      "code": "440000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 75821,
+      "index": 107.9
+    },
+    {
+      "code": "450000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 15030,
+      "index": 108
+    },
+    {
+      "code": "460000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 3783,
+      "index": 107.6
+    },
+    {
+      "code": "500000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 16306,
+      "index": 110.9
+    },
+    {
+      "code": "510000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 30829,
+      "index": 107.9
+    },
+    {
+      "code": "520000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 10887,
+      "index": 110.6
+    },
+    {
+      "code": "530000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 15359,
+      "index": 108.6
+    },
+    {
+      "code": "540000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 1064,
+      "index": 110.8
+    },
+    {
+      "code": "610000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 18188,
+      "index": 107.7
+    },
+    {
+      "code": "620000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 6793,
+      "index": 108
+    },
+    {
+      "code": "630000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 2054,
+      "index": 108.1
+    },
+    {
+      "code": "640000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 2645,
+      "index": 107.8
+    },
+    {
+      "code": "650000",
+      "year": 2015,
+      "period": "FY",
+      "gdp": 9546,
+      "index": 108.7
+    },
+    {
+      "code": "110000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 18432,
+      "index": 106.5
+    },
+    {
+      "code": "120000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 7782,
+      "index": 106.9
+    },
+    {
+      "code": "130000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 19878,
+      "index": 106.5
+    },
+    {
+      "code": "140000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 8580,
+      "index": 102.9
+    },
+    {
+      "code": "150000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 8690,
+      "index": 107.4
+    },
+    {
+      "code": "210000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 14681,
+      "index": 102.5
+    },
+    {
+      "code": "220000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 7269,
+      "index": 106.1
+    },
+    {
+      "code": "230000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 7667,
+      "index": 105.3
+    },
+    {
+      "code": "310000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 19667,
+      "index": 106.9
+    },
+    {
+      "code": "320000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 52109,
+      "index": 108.4
+    },
+    {
+      "code": "330000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 30225,
+      "index": 108
+    },
+    {
+      "code": "340000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 17271,
+      "index": 108.6
+    },
+    {
+      "code": "350000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 19784,
+      "index": 108.9
+    },
+    {
+      "code": "360000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 11977,
+      "index": 109.1
+    },
+    {
+      "code": "370000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 38609,
+      "index": 107.8
+    },
+    {
+      "code": "410000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 25935,
+      "index": 108.1
+    },
+    {
+      "code": "420000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 21702,
+      "index": 108.5
+    },
+    {
+      "code": "430000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 20446,
+      "index": 108.6
+    },
+    {
+      "code": "440000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 53846,
+      "index": 107.8
+    },
+    {
+      "code": "450000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 11072,
+      "index": 108
+    },
+    {
+      "code": "460000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 2656,
+      "index": 107.8
+    },
+    {
+      "code": "500000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 11792,
+      "index": 110.9
+    },
+    {
+      "code": "510000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 21273,
+      "index": 108
+    },
+    {
+      "code": "520000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 7783,
+      "index": 110.7
+    },
+    {
+      "code": "530000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 11041,
+      "index": 108.2
+    },
+    {
+      "code": "540000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 763,
+      "index": 110.8
+    },
+    {
+      "code": "610000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 12885,
+      "index": 107.3
+    },
+    {
+      "code": "620000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 4994,
+      "index": 107.9
+    },
+    {
+      "code": "630000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 1515,
+      "index": 108.3
+    },
+    {
+      "code": "640000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 1747,
+      "index": 107.4
+    },
+    {
+      "code": "650000",
+      "year": 2015,
+      "period": "Q3",
+      "gdp": 6717,
+      "index": 108.3
+    },
+    {
+      "code": "110000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 11976,
+      "index": 106.8
+    },
+    {
+      "code": "120000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 4731,
+      "index": 106.9
+    },
+    {
+      "code": "130000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 13049,
+      "index": 106.6
+    },
+    {
+      "code": "140000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 5463,
+      "index": 102.7
+    },
+    {
+      "code": "150000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 5606,
+      "index": 106.8
+    },
+    {
+      "code": "210000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 9386,
+      "index": 102.4
+    },
+    {
+      "code": "220000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 4607,
+      "index": 105.9
+    },
+    {
+      "code": "230000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 5019,
+      "index": 104.9
+    },
+    {
+      "code": "310000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 13013,
+      "index": 107.1
+    },
+    {
+      "code": "320000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 33264,
+      "index": 108.4
+    },
+    {
+      "code": "330000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 19897,
+      "index": 108.3
+    },
+    {
+      "code": "340000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 11129,
+      "index": 108.5
+    },
+    {
+      "code": "350000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 12820,
+      "index": 108.5
+    },
+    {
+      "code": "360000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 7753,
+      "index": 108.9
+    },
+    {
+      "code": "370000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 24290,
+      "index": 107.6
+    },
+    {
+      "code": "410000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 16881,
+      "index": 107.7
+    },
+    {
+      "code": "420000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 13907,
+      "index": 108.5
+    },
+    {
+      "code": "430000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 13309,
+      "index": 108.5
+    },
+    {
+      "code": "440000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 34878,
+      "index": 107.6
+    },
+    {
+      "code": "450000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 7062,
+      "index": 107.9
+    },
+    {
+      "code": "460000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 1717,
+      "index": 107.1
+    },
+    {
+      "code": "500000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 7712,
+      "index": 110.9
+    },
+    {
+      "code": "510000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 13757,
+      "index": 108
+    },
+    {
+      "code": "520000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 4942,
+      "index": 110.6
+    },
+    {
+      "code": "530000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 7172,
+      "index": 107.9
+    },
+    {
+      "code": "540000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 472,
+      "index": 109
+    },
+    {
+      "code": "610000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 8391,
+      "index": 107
+    },
+    {
+      "code": "620000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 3230,
+      "index": 107.9
+    },
+    {
+      "code": "630000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 975,
+      "index": 107.9
+    },
+    {
+      "code": "640000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 1101,
+      "index": 107.2
+    },
+    {
+      "code": "650000",
+      "year": 2015,
+      "period": "H1",
+      "gdp": 4290,
+      "index": 108.1
+    },
+    {
+      "code": "110000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 5606,
+      "index": 106.6
+    },
+    {
+      "code": "120000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 2179,
+      "index": 106.8
+    },
+    {
+      "code": "130000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 5779,
+      "index": 106.2
+    },
+    {
+      "code": "140000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 2743,
+      "index": 102.6
+    },
+    {
+      "code": "150000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 2626,
+      "index": 106.9
+    },
+    {
+      "code": "210000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 4378,
+      "index": 101.7
+    },
+    {
+      "code": "220000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 2301,
+      "index": 105.6
+    },
+    {
+      "code": "230000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 2284,
+      "index": 104.6
+    },
+    {
+      "code": "310000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 5971,
+      "index": 106.7
+    },
+    {
+      "code": "320000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 15572,
+      "index": 108.3
+    },
+    {
+      "code": "330000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 9373,
+      "index": 108.2
+    },
+    {
+      "code": "340000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 5340,
+      "index": 108.5
+    },
+    {
+      "code": "350000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 6085,
+      "index": 108.4
+    },
+    {
+      "code": "360000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 3566,
+      "index": 108.7
+    },
+    {
+      "code": "370000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 11244,
+      "index": 107.6
+    },
+    {
+      "code": "410000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 7754,
+      "index": 106.9
+    },
+    {
+      "code": "420000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 6635,
+      "index": 108.4
+    },
+    {
+      "code": "430000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 6272,
+      "index": 108.4
+    },
+    {
+      "code": "440000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 16024,
+      "index": 107.2
+    },
+    {
+      "code": "450000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 3450,
+      "index": 107.5
+    },
+    {
+      "code": "460000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 780,
+      "index": 105.6
+    },
+    {
+      "code": "500000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 3524,
+      "index": 110.6
+    },
+    {
+      "code": "510000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 6545,
+      "index": 107.4
+    },
+    {
+      "code": "520000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 2349,
+      "index": 110.3
+    },
+    {
+      "code": "530000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 3390,
+      "index": 107.1
+    },
+    {
+      "code": "540000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 238,
+      "index": 109.9
+    },
+    {
+      "code": "610000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 3993,
+      "index": 106.5
+    },
+    {
+      "code": "620000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 1518,
+      "index": 107.7
+    },
+    {
+      "code": "630000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 460,
+      "index": 107.5
+    },
+    {
+      "code": "640000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 514,
+      "index": 106.8
+    },
+    {
+      "code": "650000",
+      "year": 2015,
+      "period": "Q1",
+      "gdp": 2044,
+      "index": 106.8
+    }
+  ]
+}

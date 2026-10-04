@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# GUI Git clients (e.g. Sourcetree) often omit shell profile PATH entries.
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
+if ! command -v npx >/dev/null 2>&1; then
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+fi
+
+# Run checks on staged files (eslint + prettier as configured in package.json).
+npx lint-staged --allow-empty

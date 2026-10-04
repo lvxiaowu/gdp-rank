@@ -1,0 +1,25 @@
+{
+  "name": "gdp-rank-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "省市GDP排行小程序的数据抓取、校验、计算与上传脚本",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "regions": "node scripts/build-regions.mjs",
+    "fetch": "node scripts/fetch-nbs.mjs",
+    "build": "node scripts/build-data.mjs",
+    "validate": "node scripts/validate.mjs",
+    "upload": "node scripts/upload.mjs",
+    "upload:dry": "node scripts/upload.mjs --dry-run",
+    "all": "npm run regions && npm run fetch && npm run build && npm run validate"
+  },
+  "dependencies": {
+    "@cloudbase/node-sdk": "^3.18.3",
+    "china-division": "^2.7.0",
+    "papaparse": "^5.7.0",
+    "pinyin-pro": "^3.29.4"
+  }
+}

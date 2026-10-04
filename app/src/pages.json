@@ -1,0 +1,75 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": { "navigationBarTitleText": "省市GDP排行", "enablePullDownRefresh": true }
+    },
+    {
+      "path": "pages/ranking/index",
+      "style": { "navigationBarTitleText": "榜单", "enablePullDownRefresh": true }
+    },
+    {
+      "path": "pages/compare/index",
+      "style": { "navigationBarTitleText": "对比" }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": { "navigationBarTitleText": "我的" }
+    },
+    {
+      "path": "pages/region/index",
+      "style": { "navigationBarTitleText": "", "enablePullDownRefresh": true }
+    },
+    {
+      "path": "pages/search/index",
+      "style": { "navigationBarTitleText": "搜索" }
+    },
+    {
+      "path": "pages/mine/favorites",
+      "style": { "navigationBarTitleText": "我的收藏" }
+    },
+    {
+      "path": "pages/mine/data-notes",
+      "style": { "navigationBarTitleText": "数据说明" }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "省市GDP排行",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F6F7",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#8F959E",
+    "selectedColor": "#3370FF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/ranking/index",
+        "text": "榜单",
+        "iconPath": "static/tabbar/ranking.png",
+        "selectedIconPath": "static/tabbar/ranking-active.png"
+      },
+      {
+        "pagePath": "pages/compare/index",
+        "text": "对比",
+        "iconPath": "static/tabbar/compare.png",
+        "selectedIconPath": "static/tabbar/compare-active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine-active.png"
+      }
+    ]
+  }
+}

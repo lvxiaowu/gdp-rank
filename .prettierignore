@@ -1,0 +1,11 @@
+node_modules
+dist
+unpackage
+package-lock.json
+pnpm-lock.yaml
+*.md
+
+# 数据产物 / 原始抓取数据，不参与格式化
+data/output
+data/raw
+data/manual
