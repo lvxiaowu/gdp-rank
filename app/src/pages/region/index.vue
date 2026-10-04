@@ -73,6 +73,14 @@
               : "暂无已收录数据"
           }}</text>
           <view v-if="data.history.length" class="btn plain" @tap="load()">查看最近一期</view>
+          <view v-if="showsPopulation" class="metrics population-only">
+            <view class="metric" @tap="showTip(populationTip)">
+              <text class="m-label">{{ isCity ? "常住人口" : "已收录市人口合计" }}</text>
+              <text class="m-value num">{{
+                data.population ? populationText(data.population.population) : "暂无数据"
+              }}</text>
+            </view>
+          </view>
         </view>
       </view>
 
@@ -281,9 +289,17 @@ const childSortOptions = [
 
 const cur = computed(() => data.value?.current ?? null);
 const isCity = computed(() => data.value?.region.level === "city");
+const showsPopulation = computed(
+  () => data.value?.region.level === "city" || data.value?.region.level === "province"
+);
 const favorite = computed(() => isFavorite(code.value));
 const compared = computed(() => inCompare(code.value));
 const big = computed(() => fmtGdpBig(cur.value?.gdp));
+const populationTip = computed(() =>
+  data.value?.population
+    ? `${data.value.population.year}年数据，已收录 ${data.value.population.covered}/${data.value.population.total} 市，来源：${data.value.population.source_name}`
+    : "暂无已收录的常住人口数据"
+);
 
 const TAG_LABEL: Record<string, string> = {
   municipality: "直辖市",
@@ -319,8 +335,21 @@ const metrics = computed(() => {
   } else if (s.share != null) {
     list.push({ label: "占全国", value: fmtShare(s.share) });
   }
+  if (showsPopulation.value) {
+    const population = data.value?.population;
+    list.push({
+      label: isCity.value ? "常住人口" : "已收录市人口合计",
+      value: population ? populationText(population.population) : "暂无数据",
+      tip: populationTip.value,
+    });
+  }
   return list;
 });
+
+function populationText(value: number) {
+  const wan = (value / 10000).toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
+  return `${wan} 万人`;
+}
 
 const shownHistory = computed(() => {
   const list = data.value?.history ?? [];
@@ -492,6 +521,9 @@ onShareTimeline(() => ({
   display: flex;
   flex-wrap: wrap;
   margin: 24rpx -8rpx 0;
+}
+.population-only {
+  width: 100%;
 }
 .metric {
   width: calc(50% - 16rpx);

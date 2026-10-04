@@ -44,6 +44,7 @@ function createSource(openid) {
       }),
     statsByPeriod: (level, year, period) => getAll("gdp_stats", { level, year, period }),
     statsByRegion: (code) => getAll("gdp_stats", { region_code: code }),
+    populationRows: () => cached("population", () => getAll("city_population")),
     async getUser() {
       const { data } = await db.collection("user_data").where({ _id: openid }).get();
       return data[0] ?? null;

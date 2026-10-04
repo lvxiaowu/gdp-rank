@@ -45,6 +45,10 @@ const emit = defineEmits<{ (e: "open"): void; (e: "compare"): void }>();
   align-items: center;
   padding: 28rpx 0;
   border-bottom: 1rpx solid $color-border;
+  transition: background-color 0.16s ease;
+  &:active {
+    background-color: rgba($color-primary, 0.035);
+  }
 }
 .rank {
   width: 72rpx;
@@ -121,10 +125,24 @@ const emit = defineEmits<{ (e: "open"): void; (e: "compare"): void }>();
   color: $color-primary;
   font-size: 32rpx;
   flex-shrink: 0;
+  transition:
+    background-color 0.18s ease,
+    color 0.18s ease,
+    transform 0.15s ease;
+  &:active {
+    transform: scale(0.9);
+  }
   &.added {
     background: $color-primary;
     color: #fff;
     font-size: 26rpx;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .row,
+  .cmp {
+    transition: none;
+    transform: none;
   }
 }
 </style>

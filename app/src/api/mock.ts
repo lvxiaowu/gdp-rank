@@ -4,11 +4,19 @@ import { handle } from "@core";
 import regionsData from "@data/regions.json";
 import compactStatsData from "@data/gdp_mock_compact.json";
 import periodsData from "@data/periods.json";
+import populationData from "@data/city_population.json";
 import type { AppConfig, Period, PeriodKey, Region, Stat, UserDoc } from "@/types";
 
 interface MockData {
   regions: Region[];
   stats: (Stat & { region_code: string })[];
+  population: {
+    region_code: string;
+    year: number;
+    population: number;
+    source_url: string;
+    source_name: string;
+  }[];
   periods: Period[];
 }
 
@@ -64,6 +72,7 @@ const mockData: MockData = {
   regions,
   stats: stats as unknown as MockData["stats"],
   periods: periodsData as unknown as Period[],
+  population: populationData as unknown as MockData["population"],
 };
 
 // 本地预览用的运营配置，线上在云数据库 app_config 集合里维护
@@ -92,6 +101,7 @@ export async function mockCall(action: string, data?: object) {
     statsByPeriod: async (level: string, year: number, period: string) =>
       db.stats.filter((s) => s.level === level && s.year === year && s.period === period),
     statsByRegion: async (code: string) => db.stats.filter((s) => s.region_code === code),
+    populationRows: async () => db.population,
     getUser: async () => (uni.getStorageSync(USER_KEY) || null) as UserDoc | null,
     saveUser: async (doc: UserDoc) => uni.setStorageSync(USER_KEY, doc),
   };

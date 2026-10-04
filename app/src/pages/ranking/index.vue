@@ -3,14 +3,42 @@
   <view class="wrap">
     <!-- 吸顶筛选区 -->
     <view class="filters">
-      <Segmented
-        :model-value="state.level"
-        :options="levelOptions"
-        @update:model-value="changeLevel"
-      />
+      <view class="metric-tabs">
+        <view
+          class="metric-indicator"
+          :class="{ 'is-population': state.metric === 'population' }"
+        />
+        <view
+          class="metric-tab"
+          :class="{ active: state.metric === 'gdp' }"
+          @tap="changeMetric('gdp')"
+        >
+          <text class="metric-name">GDP</text>
+          <text class="metric-caption">地区生产总值</text>
+        </view>
+        <view
+          class="metric-tab"
+          :class="{ active: state.metric === 'population' }"
+          @tap="changeMetric('population')"
+        >
+          <text class="metric-name">常住人口</text>
+          <text class="metric-caption">最新数据</text>
+        </view>
+      </view>
+      <view v-if="state.metric === 'gdp'" class="level-switch">
+        <view
+          v-for="option in levelOptions"
+          :key="option.value"
+          class="level-option"
+          :class="{ active: state.level === option.value }"
+          @tap="changeLevel(option.value)"
+        >
+          {{ option.label }}
+        </view>
+      </view>
       <view class="pickers">
         <PeriodPicker
-          v-if="state.year"
+          v-if="state.metric === 'gdp' && state.year"
           :level="state.level"
           :year="state.year"
           :period="state.period"
@@ -24,23 +52,27 @@
         />
       </view>
       <scroll-view scroll-x class="sorts">
-        <view
-          v-for="(label, key) in SORT_LABEL"
-          :key="key"
-          class="sort"
-          :class="{ active: state.sort === key }"
-          @tap="changeSort(key)"
-        >
-          {{ label
-          }}<text v-if="state.sort === key" class="dir">{{
-            state.order === "desc" ? "↓" : "↑"
-          }}</text>
-        </view>
+        <template v-if="state.metric === 'gdp'">
+          <view
+            v-for="(label, key) in SORT_LABEL"
+            :key="key"
+            class="sort"
+            :class="{ active: state.sort === key }"
+            @tap="changeSort(key)"
+          >
+            {{ label
+            }}<text v-if="state.sort === key" class="dir">{{
+              state.order === "desc" ? "↓" : "↑"
+            }}</text>
+          </view>
+        </template>
       </scroll-view>
       <view class="overview">
-        <text>{{ overview }}</text>
+        <text>{{ state.metric === "population" ? populationOverview : overview }}</text>
         <view class="tools">
-          <text class="tool" @tap="toggleView">{{ state.view === "card" ? "表格" : "卡片" }}</text>
+          <text v-if="state.metric === 'gdp'" class="tool" @tap="toggleView">{{
+            state.view === "card" ? "表格" : "卡片"
+          }}</text>
           <text class="tool" @tap="copy">复制</text>
         </view>
       </view>
@@ -55,6 +87,38 @@
         action-text="重新加载"
         @action="load"
       />
+      <view v-else-if="state.metric === 'population' && loading && !populationResult" class="card">
+        <SkeletonList :rows="10" />
+      </view>
+      <EmptyState
+        v-else-if="state.metric === 'population' && populationResult && !populationResult.published"
+        type="pending"
+        title="人口榜数据尚未导入"
+        desc="将核验后的全市常住人口数据导入 city_population 集合后即可显示。"
+      />
+      <view v-else-if="state.metric === 'population' && populationResult" class="card list">
+        <template v-for="s in populationResult.items" :key="s.code">
+          <RankRow
+            :rank="s.rank"
+            :rank-change="null"
+            :name="s.short_name"
+            :sub="parentName(s.parent_code)"
+            :main="populationText(s.population)"
+            :minor="'最新数据'"
+            :compared="userState.compare.includes(s.code)"
+            @open="open(s.code)"
+            @compare="toggleCompare(s.code)"
+          />
+        </template>
+        <view v-if="populationResult.pending.length" class="pending">
+          <view class="pending-title">暂无人口数据（{{ populationResult.pending.length }}）</view>
+          <view v-for="p in populationResult.pending" :key="p.code" class="pending-row">
+            <text>{{ p.short_name }}</text>
+            <text class="pending-sub">{{ parentName(p.parent_code) }}</text>
+            <text class="tag">暂无数据</text>
+          </view>
+        </view>
+      </view>
       <view v-else-if="loading && !result" class="card"><SkeletonList :rows="10" /></view>
       <EmptyState
         v-else-if="result && !result.items.length"
@@ -129,7 +193,11 @@
         </scroll-view>
       </view>
 
-      <SourceFooter v-if="result" />
+      <view v-if="state.metric === 'population' && populationResult" class="population-source">
+        数据口径：全市常住人口；当前数据年份为 {{ populationResult.year }} 年。数据整理自
+        {{ populationSource }}，该表为第三方汇编；未收录城市不作估算。
+      </view>
+      <SourceFooter v-if="state.metric === 'gdp' && result" />
     </view>
   </view>
 </template>
@@ -142,7 +210,6 @@ import EmptyState from "@/components/EmptyState.vue";
 import PeriodPicker from "@/components/PeriodPicker.vue";
 import RankRow from "@/components/RankRow.vue";
 import ScopePicker from "@/components/ScopePicker.vue";
-import Segmented from "@/components/Segmented.vue";
 import SkeletonList from "@/components/SkeletonList.vue";
 import SourceFooter from "@/components/SourceFooter.vue";
 import { api } from "@/api";
@@ -164,14 +231,21 @@ import {
 import { copyTable, goRegion, parentName } from "@/utils/misc";
 import { scopeLabel } from "@/utils/scope";
 import { shareMessage } from "@/utils/share";
-import type { Level, PeriodKey, RankingResult, SortKey, Stat } from "@/types";
+import type {
+  Level,
+  PeriodKey,
+  PopulationRankingResult,
+  RankingResult,
+  SortKey,
+  Stat,
+} from "@/types";
 
 const levelOptions = [
   { label: "省级", value: "province" },
   { label: "城市", value: "city" },
 ];
-
 const result = ref<RankingResult | null>(null);
+const populationResult = ref<PopulationRankingResult | null>(null);
 const loading = ref(false);
 const error = ref("");
 let loadedVersion = -1;
@@ -218,6 +292,21 @@ async function load() {
   }
 }
 
+async function loadPopulation() {
+  const my = ++seq;
+  loading.value = true;
+  error.value = "";
+  try {
+    await boot();
+    const res = await api.populationRanking({ scope: state.scope });
+    if (my === seq) populationResult.value = res;
+  } catch (err) {
+    if (my === seq) error.value = (err as Error).message;
+  } finally {
+    if (my === seq) loading.value = false;
+  }
+}
+
 onShow(() => {
   syncCompareBadge();
   if (loadedVersion !== state.version || !result.value) {
@@ -225,7 +314,8 @@ onShow(() => {
     result.value = null;
     // 从外部带层级进来但没指定期次时，按切换层级的规则选期次
     if (!state.year) ensurePeriod(true);
-    load();
+    if (state.metric === "population") loadPopulation();
+    else load();
   }
   if (leftForDetail) {
     leftForDetail = false;
@@ -233,17 +323,32 @@ onShow(() => {
   }
 });
 onPullDownRefresh(async () => {
-  await load();
+  if (state.metric === "population") await loadPopulation();
+  else await load();
   uni.stopPullDownRefresh();
 });
 
 function changeLevel(level: string) {
+  state.metric = "gdp";
   state.level = level as Level;
   state.sort = "gdp";
   state.order = "desc";
   result.value = null;
   ensurePeriod(true);
   load();
+}
+function changeMetric(metric: string) {
+  state.metric = metric as "gdp" | "population";
+  if (state.metric === "population") {
+    state.level = "city";
+    populationResult.value = null;
+    loadPopulation();
+  } else {
+    result.value = null;
+    state.year = 0;
+    ensurePeriod(true);
+    load();
+  }
 }
 function changePeriod(v: { year: number; period: PeriodKey }) {
   state.year = v.year;
@@ -252,7 +357,8 @@ function changePeriod(v: { year: number; period: PeriodKey }) {
 }
 function changeScope(scope: string) {
   state.scope = scope;
-  load();
+  if (state.metric === "population") loadPopulation();
+  else load();
 }
 function changeSort(key: string) {
   if (state.sort === key) state.order = state.order === "desc" ? "asc" : "desc";
@@ -281,6 +387,20 @@ const overview = computed(() => {
     state.level === "city" && state.scope !== "all" ? `${scopeLabel(state.scope)} · ` : "";
   return `${scope}共 ${result.value.total} ${unit} · 已收录 ${result.value.published}`;
 });
+const populationOverview = computed(() =>
+  populationResult.value
+    ? `最新全市常住人口 · 已收录 ${populationResult.value.published}/${populationResult.value.total} 市`
+    : "全市常住人口"
+);
+const populationSource = computed(() => {
+  const sources = new Set(populationResult.value?.items.map((item) => item.source_name) ?? []);
+  return [...sources].join("、") || "待补充";
+});
+
+function populationText(n: number) {
+  const value = (n / 10000).toFixed(2).replace(/0+$/, "").replace(/\.$/, "");
+  return `${value}万人`;
+}
 
 function subText(s: Stat) {
   if (s.level === "province") return s.share != null ? `占全国 ${fmtShare(s.share)}` : "";
@@ -343,6 +463,15 @@ const tableCols = computed(() => [
 ]);
 
 function copy() {
+  if (state.metric === "population") {
+    if (!populationResult.value) return;
+    copyTable([
+      [`${populationResult.value.year}年全市常住人口排名`],
+      ["名次", "城市", "全市常住人口（人）"],
+      ...populationResult.value.items.map((s) => [s.rank ?? "", s.short_name, s.population]),
+    ]);
+    return;
+  }
   if (!result.value) return;
   const title = `${periodLabel(state.year, state.period)} ${state.level === "province" ? "省级" : scopeLabel(state.scope) + "城市"} GDP 排名`;
   copyTable([
@@ -360,6 +489,7 @@ function copy() {
 }
 
 const shareTitle = () => {
+  if (state.metric === "population") return "各城市最新全市常住人口排名";
   const p = periodLabel(state.year, state.period);
   return state.level === "province"
     ? `${p}各省GDP排名出炉，看看你家排第几`
@@ -369,18 +499,20 @@ onShareAppMessage(() =>
   shareMessage(
     shareTitle(),
     "/pages/ranking/index",
-    result.value
-      ? {
-          kind: "rank",
-          title: `${periodLabel(state.year, state.period)} ${state.level === "province" ? "各省" : "城市"}GDP排名`,
-          rows: result.value.items.slice(0, 5).map((s) => ({
-            rank: s.rank ?? null,
-            name: s.short_name,
-            gdp: s.gdp,
-            growth: s.real_growth,
-          })),
-        }
-      : undefined
+    state.metric === "population"
+      ? undefined
+      : result.value
+        ? {
+            kind: "rank",
+            title: `${periodLabel(state.year, state.period)} ${state.level === "province" ? "各省" : "城市"}GDP排名`,
+            rows: result.value.items.slice(0, 5).map((s) => ({
+              rank: s.rank ?? null,
+              name: s.short_name,
+              gdp: s.gdp,
+              growth: s.real_growth,
+            })),
+          }
+        : undefined
   )
 );
 onShareTimeline(() => ({ title: shareTitle() }));
@@ -393,6 +525,102 @@ onShareTimeline(() => ({ title: shareTitle() }));
   z-index: 10;
   padding: 20rpx $page-gutter 0;
   background: $color-bg;
+}
+.metric-tabs {
+  position: relative;
+  display: flex;
+  padding: 8rpx;
+  border-radius: 20rpx;
+  background: #fff;
+  box-shadow: 0 4rpx 16rpx rgba(23, 37, 61, 0.04);
+}
+.metric-indicator {
+  position: absolute;
+  top: 8rpx;
+  bottom: 8rpx;
+  left: 8rpx;
+  width: calc((100% - 16rpx) / 2);
+  border-radius: 15rpx;
+  background: rgba($color-primary, 0.08);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+  &.is-population {
+    transform: translateX(100%);
+  }
+}
+.metric-tab {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  height: 88rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15rpx;
+  color: $color-text-2;
+  transition:
+    background-color 0.22s ease,
+    color 0.22s ease,
+    transform 0.18s ease;
+  &.active {
+    color: $color-primary;
+  }
+  &:active {
+    transform: scale(0.98);
+  }
+}
+.metric-name {
+  font-size: 29rpx;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: transform 0.22s ease;
+  .active & {
+    transform: translateY(-1rpx);
+  }
+}
+.metric-caption {
+  margin-top: 5rpx;
+  color: $color-text-3;
+  font-size: 21rpx;
+  line-height: 1.2;
+  .active & {
+    color: $color-primary;
+    opacity: 0.78;
+  }
+}
+.level-switch {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+  margin-top: 18rpx;
+}
+.level-option {
+  min-width: 112rpx;
+  height: 54rpx;
+  padding: 0 22rpx;
+  border: 1rpx solid $color-border;
+  border-radius: 28rpx;
+  background: #fff;
+  color: $color-text-2;
+  font-size: 24rpx;
+  line-height: 52rpx;
+  text-align: center;
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.15s ease;
+  &:active {
+    transform: scale(0.96);
+  }
+  &.active {
+    border-color: $color-primary;
+    background: $color-primary;
+    color: #fff;
+    font-weight: 600;
+  }
 }
 .pickers {
   display: flex;
@@ -416,6 +644,13 @@ onShareTimeline(() => ({ title: shareTitle() }));
   background: #fff;
   font-size: 26rpx;
   color: $color-text-2;
+  transition:
+    color 0.18s ease,
+    background-color 0.18s ease,
+    transform 0.15s ease;
+  &:active {
+    transform: scale(0.96);
+  }
   &.active {
     background: $color-primary;
     color: #fff;
@@ -432,9 +667,19 @@ onShareTimeline(() => ({ title: shareTitle() }));
   font-size: 24rpx;
   color: $color-text-3;
 }
+.population-source {
+  padding: 24rpx 8rpx 0;
+  color: $color-text-3;
+  font-size: 22rpx;
+  line-height: 1.6;
+}
 .tools .tool {
   margin-left: 28rpx;
   color: $color-primary;
+  transition: opacity 0.15s ease;
+  &:active {
+    opacity: 0.58;
+  }
 }
 .content {
   padding: 0 $page-gutter 48rpx;
@@ -514,5 +759,16 @@ onShareTimeline(() => ({ title: shareTitle() }));
 }
 .t-name {
   font-weight: 600;
+}
+@media (prefers-reduced-motion: reduce) {
+  .metric-indicator,
+  .metric-tab,
+  .metric-name,
+  .level-option,
+  .sort,
+  .tools .tool {
+    transition: none;
+    transform: none;
+  }
 }
 </style>

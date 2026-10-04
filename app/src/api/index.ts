@@ -7,6 +7,7 @@ import type {
   HomeResult,
   Level,
   PeriodKey,
+  PopulationRankingResult,
   RankingResult,
   RegionResult,
   SortKey,
@@ -50,6 +51,8 @@ export const api = {
     sort: SortKey;
     order: "asc" | "desc";
   }) => call<RankingResult>("ranking", q),
+  populationRanking: (q: { scope: string }) =>
+    call<PopulationRankingResult>("populationRanking", q),
   region: (code: string, year?: number, period?: PeriodKey) =>
     call<RegionResult>("region", { code, year, period }),
   compare: (codes: string[], period: PeriodKey) =>

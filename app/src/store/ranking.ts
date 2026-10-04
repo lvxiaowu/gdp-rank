@@ -3,6 +3,7 @@ import { reactive } from "vue";
 import type { Level, PeriodKey, SortKey } from "@/types";
 
 export const rankingState = reactive({
+  metric: "gdp" as "gdp" | "population",
   level: "province" as Level,
   year: 0,
   period: "FY" as PeriodKey,
@@ -21,6 +22,7 @@ export function openRanking(opts: {
   period?: PeriodKey;
   scope?: string;
 }) {
+  rankingState.metric = "gdp";
   rankingState.level = opts.level;
   // 不指定期次时由榜单页自动选该层级最新一期（year = 0）
   rankingState.year = opts.year ?? 0;

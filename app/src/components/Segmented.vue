@@ -36,11 +36,25 @@ const emit = defineEmits<{ (e: "update:modelValue", v: string): void }>();
   border-radius: 12rpx;
   font-size: 28rpx;
   color: $color-text-2;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+  &:active {
+    transform: scale(0.98);
+  }
   &.active {
     background: #fff;
     color: $color-primary;
     font-weight: 600;
     box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.06);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .item {
+    transition: none;
+    transform: none;
   }
 }
 .small .item {

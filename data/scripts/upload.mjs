@@ -17,7 +17,7 @@ const only = args
   .find((a) => a.startsWith("--only="))
   ?.slice(7)
   .split(",");
-const COLLECTIONS = ["regions", "gdp_records", "gdp_stats", "periods"].filter(
+const COLLECTIONS = ["regions", "gdp_records", "gdp_stats", "periods", "city_population"].filter(
   (c) => !only || only.includes(c)
 );
 const CONCURRENCY = 10;

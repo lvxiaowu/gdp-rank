@@ -56,7 +56,7 @@ data/
 ├── raw/city-gdp-quarterly-*.json # 历史城市季度榜单快照（按期次追加）
 ├── raw/city-gdp-ranking-2026-h1.json # 2026 年上半年已发布城市 GDP 汇总（多来源快照）
 ├── output/                 # 计算结果（build 生成）
-│   ├── *.json              # 四个集合
+│   ├── *.json              # GDP 集合及人口榜集合
 │   ├── jsonl/*.jsonl       # 同样的数据，用于云开发控制台手动导入
 │   └── .upload-cache.json  # 已上传文档的指纹，用于增量上传（不提交）
 ├── .env.example
@@ -199,6 +199,7 @@ npm run upload                           # 4. 上传，只传有变化的数据
 
 ```bash
 npm run upload -- --only=gdp_stats,periods   # 只上传指定集合
+npm run build:population                     # 生成七普人口榜数据集
 npm run upload -- --force                    # 忽略缓存，全部重新写入
 ```
 
@@ -210,6 +211,7 @@ npm run upload -- --force                    # 忽略缓存，全部重新写入
 | `gdp_records` | `区划代码_年份_期次`，如 `440000_2026_H1` | 原始值（只有公布值）                             |
 | `gdp_stats`   | 同上                                      | 原始值加上计算结果，小程序列表和详情直接读这张表 |
 | `periods`     | `年份_期次`，如 `2026_H1`                 | 每个期次的发布状态                               |
+| `city_population` | `区划代码_2020_census7` | 七普全市常住人口，单位为人；需逐条附来源链接和来源名称 |
 
 直辖市既是省也是城市：省级记录用 `110000`，城市记录用 `110100`（`xx0100`），避免冲突。
 

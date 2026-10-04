@@ -150,6 +150,50 @@ async function ranking(
   return { items, pending, total: regions.length, published: stats.length, period: periodDoc };
 }
 
+// 人口榜使用独立集合和全市口径；缺值城市保留在 pending 中，不用户籍人口或估算值填补。
+async function populationRanking(src, { scope = "all" } = {}) {
+  const regions = (await src.regions()).filter(
+    (r) => r.level === "city" && visible(r) && inScope(r, scope)
+  );
+  const regionByCode = new Map(regions.map((r) => [r.code, r]));
+  const allRows = await src.populationRows();
+  const year = Math.max(0, ...allRows.map((row) => Number(row.year) || 0));
+  const rows = allRows.filter((row) => Number(row.year) === year);
+  const items = rows
+    .filter((row) => regionByCode.has(row.region_code) && Number(row.population) > 0)
+    .map((row) => {
+      const region = regionByCode.get(row.region_code);
+      return {
+        code: region.code,
+        level: "city",
+        name: region.name,
+        short_name: region.short_name,
+        parent_code: region.parent_code,
+        year: row.year,
+        population: Number(row.population),
+        source_url: row.source_url,
+        source_name: row.source_name,
+      };
+    })
+    .sort((a, b) => b.population - a.population);
+  items.forEach((row, index) => {
+    row.rank =
+      index > 0 && items[index - 1].population === row.population
+        ? items[index - 1].rank
+        : index + 1;
+  });
+  const published = new Set(items.map((row) => row.code));
+  const pending = regions
+    .filter((region) => !published.has(region.code))
+    .map((region) => ({
+      code: region.code,
+      name: region.name,
+      short_name: region.short_name,
+      parent_code: region.parent_code,
+    }));
+  return { items, pending, total: regions.length, published: items.length, year };
+}
+
 async function region(src, { code, year, period }) {
   const regions = await src.regions();
   const info = regions.find((r) => r.code === code);
@@ -161,12 +205,42 @@ async function region(src, { code, year, period }) {
   }
   const current = history.find((s) => s.year === year && s.period === period) ?? null;
   const parent = info.parent_code ? regions.find((r) => r.code === info.parent_code) : null;
+  let population = null;
+  if (info.level === "city" || info.level === "province") {
+    const populationRows = await src.populationRows();
+    const latestPopulationYear = Math.max(0, ...populationRows.map((row) => Number(row.year) || 0));
+    const rows = populationRows.filter(
+      (row) => Number(row.year) === latestPopulationYear && Number(row.population) > 0
+    );
+    const populationCodes =
+      info.level === "city"
+        ? [code]
+        : isMunicipality(code)
+          ? [municipalityCityCode(code)]
+          : regions
+              .filter(
+                (region) =>
+                  region.level === "city" && region.parent_code === code && visible(region)
+              )
+              .map((region) => region.code);
+    const matched = rows.filter((row) => populationCodes.includes(row.region_code));
+    if (matched.length) {
+      population = {
+        year: latestPopulationYear,
+        population: matched.reduce((sum, row) => sum + Number(row.population), 0),
+        source_name: [...new Set(matched.map((row) => row.source_name).filter(Boolean))].join("、"),
+        covered: matched.length,
+        total: populationCodes.length,
+      };
+    }
+  }
   const result = {
     region: info,
     parent,
     year,
     period,
     current,
+    population,
     history,
     children: [],
     childrenTotal: 0,
@@ -320,7 +394,7 @@ async function user(src, { op, key, value } = {}) {
   return doc;
 }
 
-const actions = { boot, home, latest, ranking, region, compare, user };
+const actions = { boot, home, latest, ranking, populationRanking, region, compare, user };
 
 export async function handle(src, action, data) {
   const fn = actions[action];

@@ -79,12 +79,41 @@ export interface RankingResult {
   period: Period | null;
 }
 
+/** 全市常住人口（绝对人数）；与 GDP 期次数据分开存储。 */
+export interface PopulationStat {
+  code: string;
+  level: "city";
+  name: string;
+  short_name: string;
+  parent_code: string | null;
+  year: number;
+  population: number;
+  rank?: number | null;
+  source_url: string;
+  source_name: string;
+}
+
+export interface PopulationRankingResult {
+  items: PopulationStat[];
+  pending: PendingRegion[];
+  total: number;
+  published: number;
+  year: number;
+}
+
 export interface RegionResult {
   region: Region;
   parent: Region | null;
   year: number;
   period: PeriodKey;
   current: Stat | null;
+  population: {
+    year: number;
+    population: number;
+    source_name: string;
+    covered: number;
+    total: number;
+  } | null;
   history: Stat[];
   children: Stat[];
   childrenTotal: number;
