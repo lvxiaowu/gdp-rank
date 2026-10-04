@@ -70,6 +70,50 @@ npm run dev:h5                            # 浏览器打开终端里的地址，
 | 行政区划调整                       | 改`data` 后重新生成 regions 并上传，小程序启动时自动更新本地缓存 | 不需要     |
 | 改页面、改功能                     | 改`app` 代码，编译后上传审核                                     | 需要       |
 
+### 后续 GDP 数据怎么更新
+
+新一期 GDP 发布后，按“采集/补录 → 构建校验 → 上传数据库”的顺序更新。数据写入云数据库后，小程序下次打开或刷新即可读取，**不需要重新编译或发布小程序**。
+
+#### 一次性准备
+
+需要 Node.js 22 或以上版本。首次使用时：
+
+```bash
+cd data
+pnpm install
+cp .env.example .env
+```
+
+编辑 `data/.env`，填写微信云开发环境 ID 和腾讯云 API 密钥：
+
+```dotenv
+TCB_ENV=你的云开发环境ID
+TENCENTCLOUD_SECRETID=你的SecretId
+TENCENTCLOUD_SECRETKEY=你的SecretKey
+```
+
+密钥只保存在本地 `data/.env`，不要贴到聊天、提交到 Git 或放进小程序代码。环境 ID 必须与小程序 `app/src/config.ts` 中的 `CLOUD_ENV`、以及 `api` 云函数所在环境一致。
+
+#### 每次有新数据时
+
+```bash
+cd data
+# 1. 把官方发布但自动接口没有采到的数据补进 manual/gdp_manual.csv
+# 2. 重新抓取、构建并校验
+npm run all
+# 3. 查看各期城市数据覆盖情况，重点检查本次更新期次
+npm run audit
+# 4. 先预览预计写入量，再正式增量上传
+npm run upload:dry
+npm run upload
+```
+
+`npm run all` 会依次更新地区字典、抓取统计局数据、合并数据并运行校验；它**不会上传数据库**，上传需要单独执行 `npm run upload`。人工数据文件是 `data/manual/gdp_manual.csv`，请在现有 CSV 末尾追加记录并保留原表头；城市季度、城市年度数据以及接口缺失或需要修正的数据通常在这里维护。每条人工记录要带可靠的官方来源链接。
+
+季度期次使用累计口径：`Q1` 一季度、`H1` 上半年、`Q3` 前三季度、`FY` 全年。总量（亿元）和官方公布的实际增速按来源录入；增长量和名义增速由构建脚本根据上年同期数据计算，实际增速不要自行推算。新发布一期时追加新期次记录；官方修订旧数据时再更新对应旧记录。这样可以逐步补齐并维护历年数据，而不只更新最新一期。
+
+上传后可在云开发控制台检查 `gdp_stats` 和 `periods` 集合，再在小程序中刷新验证。上传脚本按文档 ID 增量写入，失败后重跑 `npm run upload` 会继续尝试未成功的记录；换环境或确实要全量重写时才使用 `npm run upload -- --force`。城市来源、CSV 字段、校验规则和覆盖审计说明见 [`data/README.md`](data/README.md)。
+
 ## 前端说明
 
 - 页面在 `app/src/pages/`，与原型编号对应：`home` P01、`ranking` P02、`region` P03/P04、`compare` P05、`search` P06、`mine` P07/P08。
