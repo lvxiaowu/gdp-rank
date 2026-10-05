@@ -24,6 +24,14 @@ export function fmtInt(n: number | null | undefined): string {
   return n < 0 ? MINUS + s : s;
 }
 
+/** GDP 详情金额：保留一位小数，去掉无意义的 .0。 */
+export function fmtGdpDecimal(n: number | null | undefined): string {
+  if (n == null || Number.isNaN(n)) return "—";
+  const [integer, decimal] = Math.abs(n).toFixed(1).split(".");
+  const grouped = integer.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  return `${n < 0 ? MINUS : ""}${grouped}${decimal === "0" ? "" : `.${decimal}`}`;
+}
+
 /** 列表里的总量：145,847 亿 */
 export const fmtGdp = (n: number | null | undefined) => (n == null ? "—" : `${fmtInt(n)} 亿`);
 
@@ -31,7 +39,7 @@ export const fmtGdp = (n: number | null | undefined) => (n == null ? "—" : `${
 export function fmtGdpBig(n: number | null | undefined): { value: string; unit: string } {
   if (n == null) return { value: "—", unit: "" };
   if (n >= 10000) return { value: (n / 10000).toFixed(2), unit: "万亿" };
-  return { value: fmtInt(n), unit: "亿" };
+  return { value: fmtGdpDecimal(n), unit: "亿" };
 }
 
 /** 增长量：+5,432 亿 */

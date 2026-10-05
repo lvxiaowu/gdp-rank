@@ -25,7 +25,7 @@
           <text v-if="data.parent" class="tag primary" @tap="goRegion(data.parent.code)"
             >{{ data.parent.name }} ›</text
           >
-          <text v-if="cur" class="tag">全国第 {{ cur.rank_national }}</text>
+          <text v-if="cur && isCity" class="tag">全国第 {{ cur.rank_national }}</text>
           <text v-if="cur && isCity && cur.rank_province" class="tag"
             >省内第 {{ cur.rank_province }}</text
           >
@@ -55,10 +55,9 @@
         <template v-if="cur">
           <text class="core-label">{{ periodLabel(cur.year, cur.period) }} GDP</text>
           <view class="core-big">
-            <text class="big num">{{ big.value }}</text>
-            <text class="unit">{{ big.unit }}</text>
+            <text class="big num">{{ fmtGdpDecimal(cur.gdp) }}</text>
+            <text class="unit">亿元</text>
           </view>
-          <text v-if="big.unit === '万亿'" class="core-raw num">{{ fmtInt(cur.gdp) }} 亿元</text>
           <view class="metrics">
             <view v-for="m in metrics" :key="m.label" class="metric" @tap="m.tip && showTip(m.tip)">
               <text class="m-label">{{ m.label }}</text>
@@ -133,11 +132,11 @@
           </view>
         </scroll-view>
         <view
-          v-if="data.history.length > 5"
+          v-if="data.history.length > annualHistory.length || annualHistory.length > 5"
           class="expand"
           @tap="historyExpanded = !historyExpanded"
         >
-          {{ historyExpanded ? "收起" : `展开全部（${data.history.length}）` }}
+          {{ historyExpanded ? "仅看每年一条" : `查看全部期次（${data.history.length}）` }}
         </view>
       </view>
 
@@ -172,26 +171,35 @@
           }}
           / {{ data.childrenTotal }} 个城市）
         </view>
-        <view v-if="data.children.length" class="child child-head" aria-hidden="true">
+        <view
+          v-if="data.children.length"
+          class="child child-head province-city-head"
+          aria-hidden="true"
+        >
           <text class="c-rank">排名</text>
-          <text class="c-name">城市</text>
-          <text class="c-gdp">GDP 总量</text>
-          <text class="c-growth">实际增速</text>
-          <text class="c-share">全国占比</text>
+          <text class="province-city-name-head">城市 / 全国排名</text>
+          <text class="province-city-values-head">总量 / 实际增速</text>
         </view>
         <view
           v-for="(s, i) in shownChildren"
           :key="s.code"
-          class="child"
+          class="child province-city-row"
           @tap="goRegion(s.code, data.childrenYear, data.childrenPeriod)"
         >
           <text class="c-rank num">{{ i + 1 }}</text>
-          <text class="c-name">{{ s.short_name }}</text>
-          <text class="c-gdp num">{{ fmtGdp(s.gdp) }}</text>
-          <text class="c-growth num" :class="trendClass(s.real_growth)">{{
-            fmtPct(s.real_growth)
-          }}</text>
-          <text class="c-share num">{{ fmtShare(s.share) }}</text>
+          <view class="province-city-name">
+            <text class="c-name">{{ s.short_name }}</text>
+            <text class="province-city-meta">
+              {{ periodLabel(data.childrenYear, data.childrenPeriod) }} · 全国第
+              {{ s.rank_national ?? "—" }}
+            </text>
+          </view>
+          <view class="province-city-values">
+            <text class="province-city-gdp num">{{ fmtGdp(s.gdp) }}</text>
+            <text class="province-city-growth num" :class="trendClass(s.real_growth)">
+              实际 {{ fmtPct(s.real_growth) }}
+            </text>
+          </view>
         </view>
         <view
           v-if="
@@ -262,12 +270,10 @@ import {
 import { unlockFeature } from "@/utils/ads";
 import {
   fmtGdp,
-  fmtGdpBig,
+  fmtGdpDecimal,
   fmtIncrement,
   fmtInt,
   fmtPct,
-  fmtRankChange,
-  fmtShare,
   PERIOD_LABEL,
   periodLabel,
   trendClass,
@@ -294,7 +300,6 @@ const showsPopulation = computed(
 );
 const favorite = computed(() => isFavorite(code.value));
 const compared = computed(() => inCompare(code.value));
-const big = computed(() => fmtGdpBig(cur.value?.gdp));
 const populationTip = computed(() =>
   data.value?.population
     ? `${data.value.population.year}年数据，已收录 ${data.value.population.covered}/${data.value.population.total} 市，来源：${data.value.population.source_name}`
@@ -316,24 +321,15 @@ const metrics = computed(() => {
   if (!s) return [];
   const list: { label: string; value: string; cls?: string; tip?: string }[] = [
     { label: "增长量", value: fmtIncrement(s.increment), cls: trendClass(s.increment) },
-    { label: "名义增速", value: fmtPct(s.nominal_growth), cls: trendClass(s.nominal_growth) },
     {
       label: "实际增速",
       value: fmtPct(s.real_growth),
       cls: trendClass(s.real_growth),
       tip: s.real_growth == null ? "该地区本期未公布实际增速" : "",
     },
-    {
-      label: "全国排名",
-      value: `第 ${s.rank_national}${s.rank_change ? ` ${fmtRankChange(s.rank_change)}` : ""}`,
-      cls: s.rank_change ? trendClass(s.rank_change) : "",
-    },
   ];
-  if (isCity.value) {
-    list.push({ label: "省内排名", value: s.rank_province ? `第 ${s.rank_province}` : "—" });
-    list.push({ label: "占全省", value: fmtShare(s.share) });
-  } else if (s.share != null) {
-    list.push({ label: "占全国", value: fmtShare(s.share) });
+  if (!isCity.value) {
+    list.push({ label: "全国排名", value: `第 ${s.rank_national}` });
   }
   if (showsPopulation.value) {
     const population = data.value?.population;
@@ -352,8 +348,15 @@ function populationText(value: number) {
 }
 
 const shownHistory = computed(() => {
-  const list = data.value?.history ?? [];
-  return historyExpanded.value ? list : list.slice(0, 5);
+  if (historyExpanded.value) return data.value?.history ?? [];
+  return annualHistory.value.slice(0, 5);
+});
+const annualHistory = computed(() => {
+  const byYear = new Map<number, RegionResult["history"][number]>();
+  for (const row of data.value?.history ?? []) {
+    if (!byYear.has(row.year)) byYear.set(row.year, row);
+  }
+  return [...byYear.values()];
 });
 const sortedChildren = computed(() => {
   const list = [...(data.value?.children ?? [])];
@@ -513,26 +516,28 @@ onShareTimeline(() => ({
     color: $color-primary;
   }
 }
-.core-raw {
-  font-size: 24rpx;
-  color: $color-text-3;
-}
 .metrics {
   display: flex;
   flex-wrap: wrap;
-  margin: 24rpx -8rpx 0;
+  margin: 24rpx 0 0;
+  border-top: 1rpx solid $color-border;
 }
 .population-only {
   width: 100%;
+  .metric {
+    width: 100%;
+    border-right: 0;
+  }
 }
 .metric {
-  width: calc(50% - 16rpx);
-  margin: 8rpx;
-  padding: 20rpx;
-  border-radius: 16rpx;
-  background: $color-bg;
+  width: 50%;
+  padding: 16rpx 12rpx;
   display: flex;
   flex-direction: column;
+  border-bottom: 1rpx solid $color-border;
+  &:nth-child(odd) {
+    border-right: 1rpx solid $color-border;
+  }
 }
 .m-label {
   font-size: 22rpx;
@@ -633,6 +638,63 @@ onShareTimeline(() => ({
     font-size: inherit;
     font-weight: inherit;
   }
+}
+.province-city-head {
+  .c-rank {
+    width: 56rpx;
+  }
+}
+.province-city-name-head {
+  flex: 1;
+  min-width: 0;
+  margin-left: 8rpx;
+}
+.province-city-values-head {
+  width: 220rpx;
+  flex-shrink: 0;
+  text-align: right;
+}
+.province-city-row {
+  min-height: 108rpx;
+  height: auto;
+  padding: 14rpx 0;
+  .c-rank {
+    width: 56rpx;
+  }
+  .c-name {
+    flex: none;
+    font-size: 28rpx;
+    font-weight: 600;
+  }
+}
+.province-city-name {
+  flex: 1;
+  min-width: 0;
+  margin-left: 8rpx;
+}
+.province-city-meta {
+  display: block;
+  margin-top: 6rpx;
+  color: $color-text-3;
+  font-size: 20rpx;
+  white-space: nowrap;
+}
+.province-city-values {
+  width: 220rpx;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.province-city-gdp {
+  font-size: 28rpx;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.province-city-growth {
+  margin-top: 6rpx;
+  font-size: 21rpx;
+  white-space: nowrap;
 }
 .c-rank {
   width: 56rpx;

@@ -41,23 +41,17 @@
         <text class="extra">›</text>
       </button>
     </view>
-
-    <view class="about">
-      <text>{{ APP_NAME }} v{{ version }}</text>
-    </view>
   </view>
 </template>
 
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import { onShareAppMessage, onShow } from "@dcloudio/uni-app";
-import { APP_NAME } from "@/config";
 import { appState, boot, getRegion } from "@/store/app";
 import { loadUser, syncCompareBadge, userState } from "@/store/user";
 import { goRegion } from "@/utils/misc";
 import type { Region } from "@/types";
 
-const version = "1.0.0";
 const historyShow = ref(false);
 const nextRelease = computed(() => appState.config.next_release_text ?? "");
 const history = computed(() =>
@@ -128,14 +122,5 @@ button.item {
 }
 .small {
   font-size: 24rpx;
-}
-.about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 48rpx;
-  font-size: 22rpx;
-  line-height: 1.8;
-  color: $color-text-3;
 }
 </style>
