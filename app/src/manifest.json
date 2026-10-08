@@ -1,12 +1,12 @@
 {
-  "name": "省市GDP排行",
+  "name": "城市发展指标",
   "appid": "wx34e0a8df30de80a4",
-  "description": "全国各省、各城市 GDP 排名与增速查询",
+  "description": "全国城市发展指标与经济数据查询",
   "versionName": "1.0.0",
   "versionCode": "100",
   "transformPx": false,
   "h5": {
-    "title": "省市GDP排行（本地预览）",
+    "title": "城市发展指标（本地预览）",
     "router": { "mode": "hash" }
   },
   "mp-weixin": {

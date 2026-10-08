@@ -1,0 +1,370 @@
+# 2020年第七次全国人口普查全市常住人口；原始城市普查表单位为“人”。未覆盖城市由二次汇编补齐，取整精度在来源名称中注明。
+# 2025年优先使用城市统计公报/统计局人口数据；暂时无法逐条核对原文的重点城市值采用注明“各市统计局”来源的公开汇编。
+code,year,population,source_url,source_name,source
+513200,2020,822587,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+652900,2020,2714422,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+152900,2020,262361,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+654300,2020,648173,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+542500,2020,123281,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610900,2020,2493436,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+340800,2020,4165284,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+210300,2020,3325372,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+520400,2020,2470630,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+410500,2020,5477614,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+220800,2020,1551378,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+451000,2020,3571505,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+220600,2020,968373,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620400,2020,1512110,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130600,2020,11544036,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610300,2020,3321853,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+530500,2020,2431211,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150200,2020,2709378,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150800,2020,1538715,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+652800,2020,1509233,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+511900,2020,2712894,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450500,2020,1853227,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+110100,2020,21893095,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+340300,2020,3296408,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+210500,2020,1326018,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+520500,2020,6899636,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+371600,2020,3928568,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+652700,2020,433467,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+341600,2020,4996844,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130900,2020,7300783,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+220100,2020,9066906,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+430700,2020,5279102,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+540300,2020,760966,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+652300,2020,1613585,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+430100,2020,10047914,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140400,2020,3180884,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+320400,2020,5278121,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+211300,2020,2872857,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130800,2020,3354444,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+510100,2020,20937757,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+431000,2020,4667134,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150400,2020,4035967,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+341700,2020,1342764,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+500100,2020,32054159,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+532300,2020,2416747,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+341100,2020,3987054,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+532900,2020,3337559,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+210200,2020,7450785,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+210600,2020,2188436,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230600,2020,2781562,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140200,2020,3105591,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+232700,2020,331276,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+511700,2020,5385422,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+533100,2020,1315709,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+510600,2020,3456161,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+371400,2020,5611194,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+621100,2020,2524097,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+533400,2020,387511,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+441900,2020,10466625,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+370500,2020,2193518,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150600,2020,2153638,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450600,2020,1046068,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+440600,2020,9498863,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+210400,2020,1861372,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+210900,2020,1647280,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+341200,2020,8200264,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+361000,2020,3614866,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350100,2020,8291268,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+623000,2020,691808,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360700,2020,8970014,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+513300,2020,1107431,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+511600,2020,3254883,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+510800,2020,2305657,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+440100,2020,18676605,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450800,2020,4316262,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450300,2020,4931137,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+520100,2020,5987018,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+632600,2020,215573,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230100,2020,10009854,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+632200,2020,265322,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+630200,2020,1358471,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+460100,2020,2873358,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+632500,2020,446996,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+632800,2020,468216,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+650500,2020,673383,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130400,2020,9413990,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+330100,2020,11936010,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610700,2020,3211462,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+410600,2020,1565973,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+451200,2020,3417945,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+340100,2020,9369881,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230400,2020,891271,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+231100,2020,1286401,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+131100,2020,4212933,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+430400,2020,6645243,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+653200,2020,2441231,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+441600,2020,2837686,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+371700,2020,8795939,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+451100,2020,2007858,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+532500,2020,4478422,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+340600,2020,1970265,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+431200,2020,4587594,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+340400,2020,3033528,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+421100,2020,5882719,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+632300,2020,276215,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+341000,2020,1330565,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+420200,2020,2469079,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150100,2020,3446100,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+441300,2020,6042852,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+211400,2020,2434194,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150700,2020,2242875,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+330500,2020,3367579,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360800,2020,4469176,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230800,2020,2156505,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+440700,2020,4798090,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+410800,2020,3521078,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+330400,2020,5400868,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620200,2020,312663,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+445200,2020,5577814,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+220200,2020,3623713,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620300,2020,438026,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140500,2020,2194545,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360200,2020,1618979,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+420800,2020,2596927,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+421000,2020,5231180,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+330700,2020,7050683,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+370800,2020,8357897,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140700,2020,3379498,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+210700,2020,2703853,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360400,2020,4600276,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620900,2020,1055706,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230300,2020,1502060,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+410200,2020,4824016,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+653100,2020,4496377,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+650200,2020,490348,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+653000,2020,622222,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+530100,2020,8460088,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+131000,2020,5464087,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620100,2020,4359446,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+540100,2020,867891,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+511100,2020,3160168,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+513400,2020,4858359,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+320700,2020,4599360,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+371500,2020,5952128,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+211000,2020,1604580,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+220400,2020,996903,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+530700,2020,1253878,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+530900,2020,2257991,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+141000,2020,3976481,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+622900,2020,2109750,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+371300,2020,11018365,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+540400,2020,238936,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+331100,2020,2507396,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+520200,2020,3031602,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450200,2020,4157934,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+621200,2020,2407272,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350800,2020,2723637,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+431300,2020,3826996,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+341500,2020,4393699,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+141100,2020,3398431,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+411100,2020,2367490,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+410300,2020,7056699,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+510500,2020,4254149,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+440900,2020,6174050,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+511400,2020,2955219,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+441400,2020,3873239,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+510700,2020,4868243,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+231000,2020,2290208,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360100,2020,6255007,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+511300,2020,5607565,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+320100,2020,9314685,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450100,2020,8741584,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350700,2020,2680645,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+320600,2020,7726635,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+411300,2020,9713112,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+540600,2020,504838,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+511000,2020,3140678,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+330200,2020,9404283,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350900,2020,3146789,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+533300,2020,552694,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+211100,2020,1389691,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+510400,2020,1212203,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+410400,2020,4987137,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620800,2020,1848607,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360300,2020,1804805,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350300,2020,3210714,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+410900,2020,3772088,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+522600,2020,3758622,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+522700,2020,3494385,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+522300,2020,3015112,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+621000,2020,2179716,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+441800,2020,3969473,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130300,2020,3136879,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450700,2020,3302238,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230200,2020,4067489,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230900,2020,689611,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350500,2020,8782285,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+530300,2020,5765775,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+330800,2020,2276184,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+540200,2020,798153,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+371100,2020,2968365,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+411200,2020,2034872,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350400,2020,2486450,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+310100,2020,24870895,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+611000,2020,2041231,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+411400,2020,7816831,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+361100,2020,6491088,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+540500,2020,354035,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+440500,2020,5502031,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+441500,2020,2738482,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+440200,2020,2855131,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+330600,2020,5270977,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+430500,2020,6563520,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+210100,2020,9070093,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+440300,2020,17494398,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130100,2020,11235086,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+420300,2020,3209004,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+640200,2020,751389,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230500,2020,1208803,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140600,2020,1593444,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+220300,2020,1814733,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+220700,2020,2252994,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+231200,2020,3756167,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+510900,2020,2814196,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+421300,2020,2047923,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+321300,2020,4986192,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+341300,2020,5324476,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+320500,2020,12748262,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+654200,2020,1108747,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+370900,2020,5472217,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140100,2020,5304061,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+321200,2020,4512762,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+331000,2020,6622888,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130200,2020,7717983,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+120100,2020,13866009,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620500,2020,2984659,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+211200,2020,2388294,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610200,2020,698322,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+220500,2020,1812114,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150500,2020,2873168,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+340700,2020,1311726,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+520600,2020,3298468,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+650400,2020,693988,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+370700,2020,9386705,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+371000,2020,2906548,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610500,2020,4688744,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+532600,2020,3503218,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150300,2020,556621,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+420100,2020,12447718,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+340200,2020,3644420,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+150900,2020,1706328,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+650100,2020,4054369,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620600,2020,1464955,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+320200,2020,7462135,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+640300,2020,1382713,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450400,2020,2820977,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610100,2020,12183280,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350200,2020,5163970,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+430300,2020,2726181,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+433100,2020,2488105,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+421200,2020,2658316,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610400,2020,4983340,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+420900,2020,4270371,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+152500,2020,1107075,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+152200,2020,1416929,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130500,2020,7111106,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+630100,2020,2467965,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+410700,2020,6251929,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+411500,2020,6234401,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360500,2020,1202499,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140900,2020,2689668,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+532800,2020,1301407,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+341800,2020,2500063,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+411000,2020,4379998,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+320300,2020,9083790,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+511800,2020,1434603,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610600,2020,2282581,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+222400,2020,1986339,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+320900,2020,6709629,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+441700,2020,2602959,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140300,2020,1318505,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+321000,2020,4559797,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+370600,2020,7102116,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+420500,2020,3762407,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+230700,2020,878881,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360900,2020,5007702,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+654000,2020,2778869,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+640100,2020,2859074,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+360600,2020,1154223,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+430900,2020,3851564,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+431100,2020,5289824,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+430600,2020,5051922,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+450900,2020,5796766,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+610800,2020,3624750,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+140800,2020,4774508,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+445300,2020,2383350,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+632700,2020,425199,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+530400,2020,2249502,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+370400,2020,3855601,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+430800,2020,1517027,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+130700,2020,4118908,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+620700,2020,1131016,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+350600,2020,5054328,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+440800,2020,6981236,https://www.geo-ref.net/pdf/china.pdf,geo-ref.net 2020 census prefecture table,census7
+110100,2025,21800000,https://www.beijing.gov.cn/renwen/bjgk/rk/rktj/202603/t20260327_4567368.html,北京市统计局 2025年统计公报,official-report
+120100,2025,13630000,https://www.tj.gov.cn/sq/tjgb/202603/t20260327_7271193.html,天津市统计局 2025年统计公报,official-report
+310100,2025,24854100,https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html,上海市统计局 2025年统计公报,official-report
+500100,2025,31872600,https://tjj.cq.gov.cn/zwgk_233/fdzdgknr/tjxx/sjjd_55469/202603/t20260326_15568538_wap.html,重庆市统计局 2025年统计公报,official-report
+320100,2024,9577000,https://tjj.nanjing.gov.cn/njstjj/202504/t20250401_5108470.html,南京市统计局 2024年统计公报,official-report
+440100,2025,19101000,https://tjj.gz.gov.cn/stats_newtjyw/tjsj/tjgb/qtgb/content/post_10802670.html,广州市统计局 2025年人口规模及分布情况,official-report
+440300,2025,18248500,https://www.sz.gov.cn/cn/xxgk/zfxxgj/zwdt/content/post_12806017.html,深圳市统计局 2025年统计公报,official-report
+510100,2025,21535000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+420100,2025,13861900,https://tjj.wuhan.gov.cn/tjfw/tjgb/202604/t20260408_2750693.shtml,武汉市统计局 2025年统计公报,compiled-2025
+610100,2025,13236300,https://www.xa.gov.cn/sq/csgk/rkzk/1.html,西安市统计局 2025年人口状况（1%人口抽样调查推算）,compiled-2025
+410100,2025,13138000,https://tjj.zhengzhou.gov.cn/tjgb/10017864.jhtml,郑州市统计局 2025年统计公报,compiled-2025
+330100,2025,12700000,https://hzdaily.hangzhou.com.cn/hzrb/2026/04/30/article_detail_1_20260430A065.html,杭州市2025年统计公报（杭州日报全文）,compiled-2025
+130100,2025,11246900,https://www.sjz.gov.cn/columns/3b027198-9da1-4d9f-90e5-278a79356d57/202605/26/ef0e7319-722e-4588-ad83-82a69809b9b7.html,石家庄市统计局 2025年统计公报,compiled-2025
+430100,2025,10721400,https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/szgb/zss_1/202605/t20260512_33975356.html,湖南省统计局发布长沙市2025年统计公报,compiled-2025
+370200,2025,10515500,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+330200,2025,9833000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+320100,2025,9638500,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+370100,2025,9616000,https://jntj.jinan.gov.cn/col/col18254/art/2026/art_7dc3135bb2209f961b3c65baa8ab3d2d.html,济南市统计局 2025年统计公报,compiled-2025
+210100,2025,9276000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+220100,2025,9105000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+450100,2025,9016600,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+530100,2025,8744000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+350100,2025,8521000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+210200,2025,7557000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+520100,2025,6668900,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+140100,2025,5526100,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+350200,2025,5365000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+650100,2025,4153900,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+150100,2025,3661000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+460100,2025,3056300,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+640100,2025,2942600,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+630100,2025,2475600,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+540100,2025,883000,https://population.gotohui.com/topic-5651,聚汇数据2025重点城市人口汇编（页面注明来源：各市统计局）,compiled-2025
+210800,2020,2329000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+320800,2020,4556000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+321100,2020,3210000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+330300,2020,9573000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+330900,2020,1158000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+340500,2020,2160000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+370300,2020,4704000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+411600,2020,9026000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+411700,2020,7008000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+420600,2020,5261000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+420700,2020,1079000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+422800,2020,3456000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+430200,2020,3903000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+440400,2020,2440000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+441200,2020,4114000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+442000,2020,4418000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+445100,2020,2568000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+451300,2020,2075000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+451400,2020,2089000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+460200,2020,1031000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+460300,2020,2333,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+460400,2020,954000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+510300,2020,2489000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+511500,2020,4589000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+512000,2020,2309000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+520300,2020,6607000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+530600,2020,5093000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+530800,2020,2405000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+640400,2020,1142000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census
+640500,2020,1067000,https://spark1.cn/china-cities,AI家园七普数据汇编（人口按0.1万人取整，三沙为精确值）,compiled-census

@@ -113,6 +113,7 @@ onLoad(async () => {
       scope: "all",
       sort: "gdp",
       order: "desc",
+      page_size: 500,
     });
     return res.items;
   });

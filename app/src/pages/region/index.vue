@@ -427,7 +427,7 @@ async function copyHistory() {
 
 const shareTitle = () => {
   const s = cur.value;
-  if (!data.value || !s) return "省市GDP排行";
+  if (!data.value || !s) return "城市发展指标";
   return `${data.value.region.short_name} ${periodLabel(s.year, s.period)} GDP ${fmtGdp(s.gdp)}，全国第 ${s.rank_national}`;
 };
 const sharePath = () =>

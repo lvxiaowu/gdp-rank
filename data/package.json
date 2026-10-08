@@ -2,7 +2,7 @@
   "name": "gdp-rank-data",
   "version": "1.0.0",
   "private": true,
-  "description": "省市GDP排行小程序的数据抓取、校验、计算与上传脚本",
+  "description": "城市发展指标小程序的数据抓取、校验、计算与上传脚本",
   "type": "module",
   "engines": {
     "node": ">=22"

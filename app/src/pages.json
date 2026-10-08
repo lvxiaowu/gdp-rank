@@ -3,7 +3,7 @@
     {
       "path": "pages/home/index",
       "style": {
-        "navigationBarTitleText": "省市GDP排行",
+        "navigationBarTitleText": "城市发展指标",
         "enablePullDownRefresh": true
       }
     },
@@ -54,7 +54,7 @@
   ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "省市GDP排行",
+    "navigationBarTitleText": "城市发展指标",
     "navigationBarBackgroundColor": "#FFFFFF",
     "backgroundColor": "#F5F6F7",
     "backgroundTextStyle": "dark"

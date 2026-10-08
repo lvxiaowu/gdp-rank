@@ -42,7 +42,10 @@ function createSource(openid) {
         const { data } = await db.collection("app_config").where({ _id: "main" }).get();
         return data[0] ?? {};
       }),
-    statsByPeriod: (level, year, period) => getAll("gdp_stats", { level, year, period }),
+    statsByPeriod: (level, year, period) =>
+      cached(`stats:${level}:${year}:${period}`, () =>
+        getAll("gdp_stats", { level, year, period })
+      ),
     statsByRegion: (code) => getAll("gdp_stats", { region_code: code }),
     populationRows: () => cached("population", () => getAll("city_population")),
     async getUser() {

@@ -22,7 +22,7 @@
           @tap="changeMetric('population')"
         >
           <text class="metric-name">常住人口</text>
-          <text class="metric-caption">最新数据</text>
+          <text class="metric-caption">各市最新统计</text>
         </view>
       </view>
       <view v-if="state.metric === 'gdp'" class="level-switch">
@@ -91,12 +91,15 @@
         <SkeletonList :rows="10" />
       </view>
       <EmptyState
-        v-else-if="state.metric === 'population' && populationResult && !populationResult.published"
+        v-else-if="state.metric === 'population' && populationResult && !populationResult.total"
         type="pending"
         title="人口榜数据尚未导入"
         desc="将核验后的全市常住人口数据导入 city_population 集合后即可显示。"
       />
-      <view v-else-if="state.metric === 'population' && populationResult" class="card list">
+      <view
+        v-else-if="state.metric === 'population' && populationResult?.items.length"
+        class="card list"
+      >
         <template v-for="s in populationResult.items" :key="s.code">
           <RankRow
             :rank="s.rank"
@@ -104,24 +107,21 @@
             :name="s.short_name"
             :sub="parentName(s.parent_code)"
             :main="populationText(s.population)"
-            :minor="'最新数据'"
+            :minor="`${s.year}年${(s.approximate ?? s.source_name.includes('取整')) ? '约' : ''}统计${s.year < populationResult.year ? ' · 待更新' : ''}`"
+            :minor-class="s.year < populationResult.year ? 'muted' : undefined"
             :compared="userState.compare.includes(s.code)"
             @open="open(s.code)"
             @compare="toggleCompare(s.code)"
           />
         </template>
-        <view v-if="populationResult.pending.length" class="pending">
-          <view class="pending-title">暂无人口数据（{{ populationResult.pending.length }}）</view>
-          <view v-for="p in populationResult.pending" :key="p.code" class="pending-row">
-            <text>{{ p.short_name }}</text>
-            <text class="pending-sub">{{ parentName(p.parent_code) }}</text>
-            <text class="tag">暂无数据</text>
-          </view>
-        </view>
       </view>
-      <view v-else-if="loading && !result" class="card"><SkeletonList :rows="10" /></view>
+      <view v-else-if="state.metric === 'gdp' && loading && !result" class="card">
+        <SkeletonList :rows="10" />
+      </view>
       <EmptyState
-        v-else-if="result && !result.items.length"
+        v-else-if="
+          state.metric === 'gdp' && result && !result.items.length && !result.pending.length
+        "
         type="pending"
         :title="`${periodLabel(state.year, state.period)}数据尚未发布`"
         desc="各地统计部门发布后会陆续更新"
@@ -130,7 +130,10 @@
       />
 
       <!-- 卡片视图 -->
-      <view v-else-if="result && state.view === 'card'" class="card list">
+      <view
+        v-else-if="state.metric === 'gdp' && result && result.items.length && state.view === 'card'"
+        class="card list"
+      >
         <template v-for="(s, i) in result.items" :key="s.code">
           <RankRow
             :rank="s.rank"
@@ -148,21 +151,10 @@
           <!-- AD-02：第 10 行后一条，之后每 15 行一条 -->
           <AdSlot v-if="showAdAfter(i)" slot-id="AD-02" class="list-ad" />
         </template>
-
-        <view v-if="result.pending.length" class="pending">
-          <view class="pending-title">本期暂无数据（{{ result.pending.length }}）</view>
-          <view v-for="p in result.pending" :key="p.code" class="pending-row" @tap="open(p.code)">
-            <text>{{ p.short_name }}</text>
-            <text class="pending-sub">{{
-              state.level === "city" ? parentName(p.parent_code) : ""
-            }}</text>
-            <text class="tag">暂无数据</text>
-          </view>
-        </view>
       </view>
 
       <!-- 表格视图：首列冻结，其余横向滚动 -->
-      <view v-else-if="result" class="card table">
+      <view v-else-if="state.metric === 'gdp' && result && result.items.length" class="card table">
         <view class="t-fixed">
           <view class="t-head">名次 地区</view>
           <view v-for="s in result.items" :key="s.code" class="t-cell fixed" @tap="open(s.code)">
@@ -193,18 +185,64 @@
         </scroll-view>
       </view>
 
+      <view v-if="pendingItems.length" class="card pending-card">
+        <view class="pending">
+          <view class="pending-title">
+            {{ state.metric === "population" ? "暂无人口数据" : "本期暂无数据" }}
+            （{{ pendingTotal }}）
+          </view>
+          <view
+            v-for="p in pendingItems"
+            :key="p.code"
+            class="pending-row"
+            @tap="state.metric === 'gdp' && open(p.code)"
+          >
+            <text>{{ p.short_name }}</text>
+            <text class="pending-sub">{{ parentName(p.parent_code) }}</text>
+            <text class="tag">{{ state.metric === "population" ? "待更新" : "暂无数据" }}</text>
+          </view>
+        </view>
+      </view>
+
+      <view v-if="state.level === 'city' && (canLoadMore || page > 1)" class="load-more">
+        {{ loading ? "正在加载…" : canLoadMore ? "上拉加载更多" : "没有更多了" }}
+      </view>
+
       <view v-if="state.metric === 'population' && populationResult" class="population-source">
-        数据口径：全市常住人口；当前数据年份为 {{ populationResult.year }} 年。数据整理自
-        {{ populationSource }}，该表为第三方汇编；未收录城市不作估算。
+        数据口径：全市常住人口；当前最新年份为 {{ populationResult.year }} 年，已更新
+        {{ populationResult.current_year_published ?? "待云函数刷新" }}/{{
+          populationResult.total
+        }}
+        市，其他 {{ populationResult.needs_update ?? "待云函数刷新" }} 市待更新。
+        旧年份数据仍参与排名并标明年份；无可用数据的城市列在待更新区。已收录年份
+        {{ populationYearsText }}。来源：{{ populationSource }}。
       </view>
       <SourceFooter v-if="state.metric === 'gdp' && result" />
+    </view>
+
+    <view
+      v-if="showBackToTop"
+      class="back-to-top"
+      role="button"
+      aria-label="返回顶部"
+      @tap="backToTop"
+    >
+      <text class="back-to-top-arrow">↑</text>
+      <text class="back-to-top-label">顶部</text>
     </view>
   </view>
 </template>
 
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import { onPullDownRefresh, onShareAppMessage, onShareTimeline, onShow } from "@dcloudio/uni-app";
+import {
+  onPageScroll,
+  onPullDownRefresh,
+  onReachBottom,
+  onShareAppMessage,
+  onShareTimeline,
+  onShow,
+} from "@dcloudio/uni-app";
 import AdSlot from "@/components/AdSlot.vue";
 import EmptyState from "@/components/EmptyState.vue";
 import PeriodPicker from "@/components/PeriodPicker.vue";
@@ -233,6 +271,7 @@ import { scopeLabel } from "@/utils/scope";
 import { shareMessage } from "@/utils/share";
 import type {
   Level,
+  PendingRegion,
   PeriodKey,
   PopulationRankingResult,
   RankingResult,
@@ -246,7 +285,27 @@ const levelOptions = [
 ];
 const result = ref<RankingResult | null>(null);
 const populationResult = ref<PopulationRankingResult | null>(null);
+const page = ref(1);
+const canLoadMore = computed(() => {
+  if (state.level !== "city") return false;
+  const pages =
+    state.metric === "population"
+      ? (populationResult.value?.pages ?? 1)
+      : (result.value?.pages ?? 1);
+  return page.value < pages;
+});
+const pendingItems = computed<PendingRegion[]>(() =>
+  state.metric === "population"
+    ? (populationResult.value?.pending ?? [])
+    : (result.value?.pending ?? [])
+);
+const pendingTotal = computed(() =>
+  state.metric === "population"
+    ? (populationResult.value?.pending_total ?? populationResult.value?.pending.length ?? 0)
+    : (result.value?.pending_total ?? result.value?.pending.length ?? 0)
+);
 const loading = ref(false);
+const showBackToTop = ref(false);
 const error = ref("");
 let loadedVersion = -1;
 let leftForDetail = false;
@@ -269,10 +328,13 @@ function ensurePeriod(strict = false) {
 }
 
 let seq = 0;
-async function load() {
+async function load(append = false) {
+  if (!append) page.value = 1;
+  const requestedPage = append ? page.value + 1 : 1;
+  const previous = result.value;
   const my = ++seq;
   loading.value = true;
-  error.value = "";
+  if (!append) error.value = "";
   try {
     await boot();
     ensurePeriod();
@@ -283,24 +345,41 @@ async function load() {
       scope: state.level === "city" ? state.scope : "all",
       sort: state.sort,
       order: state.order,
+      page: state.level === "city" ? requestedPage : 1,
+      page_size: state.level === "city" ? 30 : 500,
     });
-    if (my === seq) result.value = res;
+    if (my === seq) {
+      result.value =
+        append && previous
+          ? {
+              ...res,
+              items: [...previous.items, ...res.items],
+              pending: [...previous.pending, ...res.pending],
+            }
+          : res;
+      page.value = requestedPage;
+    }
   } catch (err) {
-    if (my === seq) error.value = (err as Error).message;
+    if (my === seq) {
+      if (append) uni.showToast({ title: "加载失败，请稍后重试", icon: "none" });
+      else error.value = (err as Error).message;
+    }
   } finally {
     if (my === seq) loading.value = false;
   }
 }
 
-async function loadPopulation() {
+async function loadPopulation(append = false) {
+  if (!append) page.value = 1;
+  const requestedPage = append ? page.value + 1 : 1;
+  const previous = populationResult.value;
   const my = ++seq;
   loading.value = true;
-  error.value = "";
+  if (!append) error.value = "";
   try {
     const request = async () => {
       await boot();
-      // 兼容尚未更新的云函数版本；新版服务端会忽略此参数并自动选择最新年份。
-      return api.populationRanking({ scope: state.scope, year: 2020 });
+      return api.populationRanking({ scope: state.scope, page: requestedPage, page_size: 30 });
     };
     let res: PopulationRankingResult;
     try {
@@ -312,9 +391,22 @@ async function loadPopulation() {
       if (my !== seq) return;
       res = await request();
     }
-    if (my === seq) populationResult.value = res;
+    if (my === seq) {
+      populationResult.value =
+        append && previous
+          ? {
+              ...res,
+              items: [...previous.items, ...res.items],
+              pending: [...previous.pending, ...res.pending],
+            }
+          : res;
+      page.value = requestedPage;
+    }
   } catch (err) {
-    if (my === seq) error.value = (err as Error).message;
+    if (my === seq) {
+      if (append) uni.showToast({ title: "加载失败，请稍后重试", icon: "none" });
+      else error.value = (err as Error).message;
+    }
   } finally {
     if (my === seq) loading.value = false;
   }
@@ -329,6 +421,7 @@ onShow(() => {
   syncCompareBadge();
   if (loadedVersion !== state.version || !result.value) {
     loadedVersion = state.version;
+    page.value = 1;
     result.value = null;
     // 从外部带层级进来但没指定期次时，按切换层级的规则选期次
     if (!state.year) ensurePeriod(true);
@@ -341,12 +434,26 @@ onShow(() => {
   }
 });
 onPullDownRefresh(async () => {
+  page.value = 1;
   if (state.metric === "population") await loadPopulation();
   else await load();
   uni.stopPullDownRefresh();
 });
+onReachBottom(() => {
+  if (loading.value || !canLoadMore.value) return;
+  if (state.metric === "population") loadPopulation(true);
+  else load(true);
+});
+onPageScroll(({ scrollTop }) => {
+  showBackToTop.value = scrollTop > 700;
+});
+
+function backToTop() {
+  uni.pageScrollTo({ scrollTop: 0, duration: 300 });
+}
 
 function changeLevel(level: string) {
+  page.value = 1;
   state.metric = "gdp";
   state.level = level as Level;
   state.sort = "gdp";
@@ -356,6 +463,7 @@ function changeLevel(level: string) {
   load();
 }
 function changeMetric(metric: string) {
+  page.value = 1;
   state.metric = metric as "gdp" | "population";
   if (state.metric === "population") {
     state.level = "city";
@@ -369,16 +477,19 @@ function changeMetric(metric: string) {
   }
 }
 function changePeriod(v: { year: number; period: PeriodKey }) {
+  page.value = 1;
   state.year = v.year;
   state.period = v.period;
   load();
 }
 function changeScope(scope: string) {
+  page.value = 1;
   state.scope = scope;
   if (state.metric === "population") loadPopulation();
   else load();
 }
 function changeSort(key: string) {
+  page.value = 1;
   if (state.sort === key) state.order = state.order === "desc" ? "asc" : "desc";
   else {
     state.sort = key as SortKey;
@@ -407,12 +518,20 @@ const overview = computed(() => {
 });
 const populationOverview = computed(() =>
   populationResult.value
-    ? `最新全市常住人口 · 已收录 ${populationResult.value.published}/${populationResult.value.total} 市`
+    ? populationResult.value.current_year_published == null
+      ? `各市最新常住人口 · 已收录 ${populationResult.value.published}/${populationResult.value.total} 市`
+      : `${populationResult.value.year}年人口已更新 ${populationResult.value.current_year_published}/${populationResult.value.total} 市 · ${populationResult.value.needs_update} 市待更新`
     : "全市常住人口"
 );
 const populationSource = computed(() => {
-  const sources = new Set(populationResult.value?.items.map((item) => item.source_name) ?? []);
-  return [...sources].join("、") || "待补充";
+  return populationResult.value?.sources?.join("、") || "待补充";
+});
+const populationYearsText = computed(() => {
+  const years =
+    populationResult.value?.years ??
+    (populationResult.value?.year ? [populationResult.value.year] : []);
+  if (!years.length) return "暂无";
+  return `${years.join("、")}年`;
 });
 
 function populationText(n: number) {
@@ -691,6 +810,15 @@ onShareTimeline(() => ({ title: shareTitle() }));
   font-size: 22rpx;
   line-height: 1.6;
 }
+.load-more {
+  padding: 28rpx 0;
+  color: $color-text-3;
+  font-size: 24rpx;
+  text-align: center;
+}
+.pending-card {
+  margin-top: 20rpx;
+}
 .tools .tool {
   margin-left: 28rpx;
   color: $color-primary;
@@ -701,6 +829,33 @@ onShareTimeline(() => ({ title: shareTitle() }));
 }
 .content {
   padding: 0 $page-gutter 48rpx;
+}
+.back-to-top {
+  position: fixed;
+  z-index: 20;
+  right: 28rpx;
+  bottom: calc(150rpx + env(safe-area-inset-bottom));
+  display: flex;
+  width: 88rpx;
+  height: 88rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 6rpx 24rpx rgba(31, 45, 61, 0.18);
+  color: $color-primary;
+}
+.back-to-top-arrow {
+  height: 38rpx;
+  font-size: 38rpx;
+  font-weight: 600;
+  line-height: 38rpx;
+}
+.back-to-top-label {
+  margin-top: 2rpx;
+  font-size: 19rpx;
+  line-height: 24rpx;
 }
 .list {
   padding-top: 0;

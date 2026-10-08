@@ -74,9 +74,13 @@ export interface PendingRegion {
 export interface RankingResult {
   items: Stat[];
   pending: PendingRegion[];
+  pending_total: number;
   total: number;
   published: number;
   period: Period | null;
+  page: number;
+  page_size: number;
+  pages: number;
 }
 
 /** 全市常住人口（绝对人数）；与 GDP 期次数据分开存储。 */
@@ -88,6 +92,7 @@ export interface PopulationStat {
   parent_code: string | null;
   year: number;
   population: number;
+  approximate?: boolean;
   rank?: number | null;
   source_url: string;
   source_name: string;
@@ -96,9 +101,17 @@ export interface PopulationStat {
 export interface PopulationRankingResult {
   items: PopulationStat[];
   pending: PendingRegion[];
+  pending_total: number;
   total: number;
   published: number;
   year: number;
+  current_year_published: number;
+  needs_update: number;
+  years: number[];
+  sources: string[];
+  page: number;
+  page_size: number;
+  pages: number;
 }
 
 export interface RegionResult {

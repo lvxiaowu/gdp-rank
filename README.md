@@ -2,9 +2,9 @@
 
 ·
 
-# 省市GDP排行 · 微信小程序
+# 城市发展指标 · 微信小程序
 
-查全国各省、各城市 GDP 排名和增速的微信小程序。产品原型见飞书文档《省市GDP排行 · 微信小程序产品原型文档》。
+查询全国各省、各城市 GDP 与常住人口等发展指标的微信小程序。产品原型见飞书文档《省市GDP排行 · 微信小程序产品原型文档》。
 
 ```
 gdp-rank/
@@ -53,11 +53,11 @@ npm run dev:h5                            # 浏览器打开终端里的地址，
    | `periods`         | 期次发布状态                        | —                                                             |
    | `gdp_records`     | 原始数据                            | —                                                             |
    | `gdp_stats`       | 计算后的数据                        | `level + year + period` 组合索引；`region_code` 单字段索引 |
-   | `city_population` | 七普全市常住人口（与 GDP 数据分开） | `year` 单字段索引                                            |
+   | `city_population` | 分年份的全市常住人口（与 GDP 数据分开） | `year` 单字段索引                                            |
    | `user_data`       | 用户收藏、对比篮等                  | —                                                             |
    | `app_config`      | 运营配置                            | —                                                             |
 8. **导入运营配置**：在 `app_config` 集合里新增一条文档，内容参考 `cloudfunctions/app_config.example.json`（`_id` 必须是 `main`）。
-9. **上传数据**：按 `data/README.md` 配置密钥后执行 `npm run upload`，或在控制台手动导入 `data/output/jsonl/` 下的文件。人口榜按 2020 年七普口径整理至 `data/manual/city_population_2020.csv`，再运行 `npm run build:population`；当前为第三方汇编数据，页面会展示来源和未收录城市。
+9. **上传数据**：按 `data/README.md` 配置密钥后执行 `npm run upload`，或在控制台手动导入 `data/output/jsonl/` 下的文件。人口榜记录维护在 `data/manual/city_population.csv`，每条记录注明年份、来源和来源链接；运行 `npm run build:population` 后一并上传。
 10. **隐私保护指引**：在公众平台「设置 → 服务内容声明 → 用户隐私保护指引」中声明：剪贴板（复制数据）、相册（保存海报，V1.1）。
 11. 开发者工具里预览、真机调试没问题后，上传代码提交审核。
 

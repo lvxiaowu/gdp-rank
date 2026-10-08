@@ -121,7 +121,16 @@ async function latest(src, { codes = [] } = {}) {
 
 async function ranking(
   src,
-  { level = "province", year, period, scope = "all", sort = "gdp", order = "desc" }
+  {
+    level = "province",
+    year,
+    period,
+    scope = "all",
+    sort = "gdp",
+    order = "desc",
+    page = 1,
+    page_size = 30,
+  }
 ) {
   if (!SORT_KEYS.includes(sort)) sort = "gdp";
   const regions = (await src.regions()).filter(
@@ -136,7 +145,10 @@ async function ranking(
   // 名次变化只在「全国范围 + 按总量排序」时有意义
   const showRankChange =
     (scope === "all" || level === "province") && sort === "gdp" && order === "desc";
-  const items = ranked.map((s) => ({ ...s, rank_change: showRankChange ? s.rank_change : null }));
+  const allItems = ranked.map((s) => ({
+    ...s,
+    rank_change: showRankChange ? s.rank_change : null,
+  }));
   const pending = regions
     .filter((r) => !published.has(r.code))
     .map((r) => ({
@@ -147,20 +159,51 @@ async function ranking(
     }));
   const periodDoc =
     (await src.periods()).find((p) => p.year === year && p.period === period) ?? null;
-  return { items, pending, total: regions.length, published: stats.length, period: periodDoc };
+  const size = Math.max(1, Math.min(500, Number(page_size) || 30));
+  const currentPage = Math.max(1, Number(page) || 1);
+  const publishedPages = Math.ceil(allItems.length / size);
+  const pages = Math.max(1, publishedPages + Math.ceil(pending.length / size));
+  const items =
+    currentPage <= publishedPages
+      ? allItems.slice((currentPage - 1) * size, currentPage * size)
+      : [];
+  const pendingPage = currentPage - publishedPages - 1;
+  const pendingItems =
+    pendingPage >= 0 ? pending.slice(pendingPage * size, (pendingPage + 1) * size) : [];
+  return {
+    items,
+    pending: pendingItems,
+    pending_total: pending.length,
+    total: regions.length,
+    published: stats.length,
+    period: periodDoc,
+    page: currentPage,
+    page_size: size,
+    pages,
+  };
 }
 
 // 人口榜使用独立集合和全市口径；缺值城市保留在 pending 中，不用户籍人口或估算值填补。
-async function populationRanking(src, { scope = "all" } = {}) {
+async function populationRanking(src, { scope = "all", page = 1, page_size = 30 } = {}) {
   const regions = (await src.regions()).filter(
     (r) => r.level === "city" && visible(r) && inScope(r, scope)
   );
   const regionByCode = new Map(regions.map((r) => [r.code, r]));
   const allRows = await src.populationRows();
-  const year = Math.max(0, ...allRows.map((row) => Number(row.year) || 0));
-  const rows = allRows.filter((row) => Number(row.year) === year);
-  const items = rows
-    .filter((row) => regionByCode.has(row.region_code) && Number(row.population) > 0)
+  const latestByRegion = new Map();
+  for (const row of allRows) {
+    const year = Number(row.year) || 0;
+    const current = latestByRegion.get(row.region_code);
+    if (
+      regionByCode.has(row.region_code) &&
+      Number(row.population) > 0 &&
+      year > (Number(current?.year) || 0)
+    ) {
+      latestByRegion.set(row.region_code, row);
+    }
+  }
+  const latestRows = [...latestByRegion.values()];
+  const items = latestRows
     .map((row) => {
       const region = regionByCode.get(row.region_code);
       return {
@@ -171,6 +214,7 @@ async function populationRanking(src, { scope = "all" } = {}) {
         parent_code: region.parent_code,
         year: row.year,
         population: Number(row.population),
+        approximate: row.source === "compiled-census" && row.region_code !== "460300",
         source_url: row.source_url,
         source_name: row.source_name,
       };
@@ -191,7 +235,33 @@ async function populationRanking(src, { scope = "all" } = {}) {
       short_name: region.short_name,
       parent_code: region.parent_code,
     }));
-  return { items, pending, total: regions.length, published: items.length, year };
+  const years = [...new Set(items.map((row) => Number(row.year)))].sort((a, b) => a - b);
+  const current_year = Math.max(0, ...allRows.map((row) => Number(row.year) || 0));
+  const current_year_published = items.filter((row) => Number(row.year) === current_year).length;
+  const sources = [...new Set(items.map((row) => row.source_name).filter(Boolean))].sort();
+  const size = Math.max(1, Math.min(500, Number(page_size) || 30));
+  const currentPage = Math.max(1, Number(page) || 1);
+  const publishedPages = Math.ceil(items.length / size);
+  const pages = Math.max(1, publishedPages + Math.ceil(pending.length / size));
+  const pendingPage = currentPage - publishedPages - 1;
+  return {
+    items:
+      currentPage <= publishedPages
+        ? items.slice((currentPage - 1) * size, currentPage * size)
+        : [],
+    pending: pendingPage >= 0 ? pending.slice(pendingPage * size, (pendingPage + 1) * size) : [],
+    pending_total: pending.length,
+    total: regions.length,
+    published: items.length,
+    year: current_year,
+    current_year_published,
+    needs_update: Math.max(0, regions.length - current_year_published),
+    years,
+    sources,
+    page: currentPage,
+    page_size: size,
+    pages,
+  };
 }
 
 async function region(src, { code, year, period }) {
@@ -208,10 +278,11 @@ async function region(src, { code, year, period }) {
   let population = null;
   if (info.level === "city" || info.level === "province") {
     const populationRows = await src.populationRows();
-    const latestPopulationYear = Math.max(0, ...populationRows.map((row) => Number(row.year) || 0));
-    const rows = populationRows.filter(
-      (row) => Number(row.year) === latestPopulationYear && Number(row.population) > 0
+    const eligibleRows = populationRows.filter(
+      (row) => Number(row.population) > 0 && (info.level !== "city" || row.region_code === code)
     );
+    const latestPopulationYear = Math.max(0, ...eligibleRows.map((row) => Number(row.year) || 0));
+    const rows = eligibleRows.filter((row) => Number(row.year) === latestPopulationYear);
     const populationCodes =
       info.level === "city"
         ? [code]

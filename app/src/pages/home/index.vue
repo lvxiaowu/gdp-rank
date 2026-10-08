@@ -180,7 +180,7 @@ function shareSpec() {
   };
 }
 const shareTitle = () =>
-  latest.value ? `${latest.value.label}各省GDP排名出炉，看看你家排第几` : "省市GDP排行";
+  latest.value ? `${latest.value.label}各省GDP排名出炉，看看你家排第几` : "城市发展指标";
 onShareAppMessage(() => shareMessage(shareTitle(), "/pages/home/index", shareSpec()));
 onShareTimeline(() => ({ title: shareTitle() }));
 </script>
